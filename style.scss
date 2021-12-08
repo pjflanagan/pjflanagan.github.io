@@ -1,15 +1,23 @@
 @keyframes float {
   0% {
-    transform: translateY(4px) rotate(-4deg);
+    transform: translateY(4px) rotate(-4deg) scale(1.5);
   }
 
   50% {
-    transform: translateY(-12px) rotate(-2deg);
+    transform: translateY(-12px) rotate(-2deg) scale(1.5);
   }
 
   100% {
-    transform: translateY(4px) rotate(-4deg);
+    transform: translateY(4px) rotate(-4deg) scale(1.5);
   }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #112a32;
+  box-shadow: inset 0 0 200px #0006;
 }
 
 .multipass {
@@ -22,7 +30,6 @@
   left: 50%;
   top: 50%;
   margin: -104px -134px;
-  transform: rotate(-4deg);
   animation: float 6s infinite;
 
   .stripes {
@@ -55,12 +62,12 @@
         rgba(215, 215, 65, 1) 10%,
         rgba(250, 250, 102, 1) 100%);
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     top: 100%;
     left: 0;
-    margin: -66px -36px;
+    margin: -70px -38px;
     border: 14px solid #555;
     z-index: 8;
     box-shadow: 2px -1px 0 #0003;
@@ -160,7 +167,7 @@
       font-family: "Arial Black", "Arial", sans-serif;
       font-weight: bold;
       width: 100%;
-      padding: 5px 10px;
+      margin-left: 16px;
       text-align: right;
       font-size: 25px;
       color: #6f46e6;
@@ -187,7 +194,7 @@
 
       &.picture-left {
         filter: invert(1);
-        left: 18px;
+        left: 2px;
         border: 2px solid #ddd;
 
         .number {
@@ -198,7 +205,7 @@
       }
 
       &.picture-right {
-        left: 74px;
+        left: 63px;
         border: 2px solid #111;
 
         .number {
@@ -227,7 +234,7 @@
       .yellow {
         width: 100%;
         background: #ff0c;
-        font-size: 6px;
+        font-size: 7px;
         line-height: 8px;
         padding: 4px;
         color: #e671c2;
@@ -236,7 +243,7 @@
       }
 
       .address {
-        height: 32px;
+        height: 24px;
       }
 
       .traits {
@@ -247,7 +254,7 @@
       }
 
       .occupation {
-        height: 18px;
+        height: 8px;
         bottom: 0;
         position: absolute;
       }
