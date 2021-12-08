@@ -14,8 +14,10 @@
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
   background: #112a32;
   box-shadow: inset 0 0 200px #0006;
 }
@@ -31,6 +33,15 @@ body {
   top: 50%;
   margin: -104px -134px;
   animation: float 6s infinite;
+
+  &:hover {
+    .bottom-square {
+      .bottom-square-white {
+        background: #f00;
+        box-shadow: 0px 0px 20px #f00;
+      }
+    }
+  }
 
   .stripes {
     background: repeating-linear-gradient(#555, #555 3px, #444 3px, #444 6px);
@@ -183,7 +194,7 @@ body {
       background-position: top;
 
       .number {
-        font-family: monospace;
+        font-family: 'Electrolize', monospace;
         font-size: 8px;
         width: 100%;
         position: absolute;
@@ -222,7 +233,7 @@ body {
       top: 32px;
       width: 96px;
       height: 95px;
-      font-family: monospace;
+      font-family: 'Electrolize', monospace;
 
       .name {
         font-size: 11px;
@@ -267,15 +278,6 @@ body {
       right: 5px;
       height: 32px;
       width: 170px;
-    }
-  }
-}
-
-.multipass.light {
-  .bottom-square {
-    .bottom-square-white {
-      background: #f00;
-      box-shadow: 0px 0px 20px #f00;
     }
   }
 }
