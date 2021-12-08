@@ -1,10 +1,10 @@
-# pjflanagan.github.io
+# Flanny Apps
 
-- This will be the page that hosts Flanny Apps with links to the other apps eventully
-- Use the public URL's of all the social media share cards for images
+This is my digital business card, with links to my digital resume, and project portfolio.
+
+## Serve Dev
 
 ```zsh
-sass --watch ./style.scss ./style.css
-python -m SimpleHTTPServer 8000 
+sass --watch ./main.scss ./style.css & python -m SimpleHTTPServer 8000 
 ```
 
