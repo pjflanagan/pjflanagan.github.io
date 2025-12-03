@@ -1,78 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://pjflanagan.me/img/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://pjflanagan.me/img/icon/favicon-16x16.png"
+    />
+    <title>Flanny Apps</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Electrolize"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://pjflanagan.me/img/icon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://pjflanagan.me/img/icon/favicon-16x16.png">
-  <title>Flanny Apps</title>
-  <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/style.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
-     crossorigin="anonymous"></script>
-</head>
+    <style>
+      div {
+        box-sizing: border-box;
+      }
 
-<body>
+      html,
+      body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background: #020519;
+        color: #fff;
+        font-family: sans-serif;
+      }
 
-  <div class="links">
-    <a href="//ohword.flanny.app">OhWord!?</a>
-    <a href="//runcalculator.flanny.app">Run Calculator</a>
-    <a href="//canvas.flanny.app">Art</a>
-  </div>
+      #content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1080px;
+        min-width: 320px;
+        height: 100%;
+        padding: 20px;
+      }
 
-  <div class="multipass">
-    <div class="white-card">
-      <div class="multipass-title">MULTI PASS</div>
-      <div class="picture picture-left">
-        <div class="number">A120NI18</div>
-      </div>
-      <div class="picture picture-right">
-        <div class="number">15ES15NY</div>
-      </div>
-      <div class="bio">
-        <div class="name">Peter Flanagan</div>
-        <div class="address yellow">
-          New York . NY . USA
-          <br />
-          Planet Earth
-          <br />
-          Orion Arm . Milky Way
-        </div>
-        <div class="traits">
-          Species: Human
-          <br />
-          Speed: Moderate <br />
-          Strength: Reasonable <br />
-          Looks: Adequate
-        </div>
-        <div class="occupation yellow"></div>
-      </div>
-      <div class="blue-bar"></div>
+      h1 {
+        font-family: "Electrolize", sans-serif;
+      }
+
+      h2 {
+        font-family: "Electrolize", sans-serif;
+      }
+
+      p {
+        font-family: "Electrolize", sans-serif;
+        color: #e4f03c;
+      }
+
+      #links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+        padding: 0 0 40px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .link {
+        width: fit-content;
+        min-width: 280px;
+        height: 220px;
+        background: #111;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+        -webkit-clip-path: polygon(
+          0 0,
+          calc(100% - 20px) 0,
+          100% 20px,
+          100% 100%,
+          0 100%
+        );
+        clip-path: polygon(
+          0 0,
+          calc(100% - 20px) 0,
+          100% 20px,
+          100% 100%,
+          0 100%
+        );
+      }
+
+      .link:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      }
+
+      .overlay {
+        width: 100%;
+        background: #1c1c1ccc;
+        padding: 10px;
+      }
+
+      .title {
+        font-family: "Electrolize", sans-serif;
+        font-size: 1.2em;
+        margin: 0;
+        color: #1fcfcc;
+      }
+
+      .subtitle {
+        font-size: 0.9em;
+        margin: 0;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+      <h1>Flanny Apps</h1>
+      <p>
+        Please enjoy a collection of websites and apps I've made over the years!
+      </p>
+      <div id="links"></div>
     </div>
-    <div class="top-square">
-      <div class="top-square-bar"></div>
-    </div>
-    <div class="bottom-square">
-      <div class="bottom-square-white"></div>
-    </div>
-    <div class="bottom-left-circle-grey"></div>
-    <div class="bottom-left-circle-yellow">
-      <div class="bottom-left-circle-shine"></div>
-    </div>
-    <div class="stripes"></div>
-  </div>
+    <script>
+      const LINKS = [
+        {
+          href: "https://ohword.flanny.app",
+          title: "OhWord!?",
+          subtitle: "A daily word game",
+          image: "https://ohword.flanny.app/img/social/card.webp",
+        },
+        {
+          href: "https://runcalculator.flanny.app",
+          title: "Run Calculator",
+          subtitle: "A running pace calculator",
+          image: "https://runcalculator.flanny.app/img/social/share-card.png",
+        },
+        {
+          href: "https://canvas.flanny.app",
+          title: "HTML5 Canvas Art 2",
+          subtitle: "Programmatic art",
+          image:
+            "https://pjflanagan.me/blog/2023/html5-canvas-animations-v2.png",
+        },
+        {
+          href: "https://drunkweatherchannel.flanny.app",
+          title: "Drunk Weather Channel",
+          subtitle: "A weather app for party people",
+          image: "https://drunkweatherchannel.flanny.app/img/social/social.png",
+        },
+        {
+          href: "/gom-jabbar",
+          title: "Gom Jabbar",
+          subtitle: "A Dune video game",
+          image: "https://www.flanny.app/gom-jabbar/img/social/social-fb.png",
+        },
+        {
+          href: "/wordle-photo",
+          title: "Wordle Photo",
+          subtitle: `Create an image with today's Wordle`,
+          image: "https://www.flanny.app/wordle-photo/img/social/fb.png",
+        },
+        {
+          href: "/colors-of-pi",
+          title: "Colors of Pi",
+          subtitle: "Pi in hexadecimal colors",
+          image:
+            "https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png",
+        },
+        {
+          href: "/HTML5Canvas",
+          title: "HTML5 Canvas Art",
+          subtitle: "Programmatic art",
+          image: "https://pjflanagan.me/blog/2012/animations.png",
+        },
+      ];
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNFGV4ZHRG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      (function () {
+        const container = document.getElementById("links");
+        LINKS.forEach((link) => {
+          container.innerHTML += `
+          <a href="${link.href}">
+            <div class="link" style="background-image: url('${link.image}')">
+                <div class="overlay">  
+                  <div class="title">${link.title}</div>
+                  <div class="subtitle">${link.subtitle}</div>
+                </div>
+              </div>
+            </a>
+        `;
+        });
+      })();
+    </script>
 
-    gtag('config', 'G-CNFGV4ZHRG');
-  </script>
-</body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CNFGV4ZHRG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-CNFGV4ZHRG");
+    </script>
+  </body>
 </html>
