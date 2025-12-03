@@ -9,60 +9,124 @@
   <link rel="icon" type="image/png" sizes="16x16" href="https://pjflanagan.me/img/icon/favicon-16x16.png">
   <title>Flanny Apps</title>
   <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
      crossorigin="anonymous"></script>
+
+    <style>
+
+      div {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      #sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 42%;
+        max-width: 620px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+      }
+
+      #background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+      }
+
+
+    </style>
 </head>
 
 <body>
-
-  <div class="links">
-    <a href="//ohword.flanny.app">OhWord!?</a>
-    <a href="//runcalculator.flanny.app">Run Calculator</a>
-    <a href="//canvas.flanny.app">Art</a>
+  <div id="sidebar">
+    <h1>Flanny Apps</h1>
+    <div id="links">
+    </div>
   </div>
+  <div id="background"></div>
+  <script>
+    const LINKS = [
+      {
+        href: '//ohword.flanny.app',
+        title: 'OhWord!?',
+        subtitle: 'A daily word game',
+        image: 'https://ohword.flanny.app/img/social/card.webp'
+      },
+      {
+        href: '//runcalculator.flanny.app',
+        title: 'Run Calculator',
+        subtitle: 'A running pace calculator',
+        image: ''
+      },
+      {
+        href: '//canvas.flanny.app',
+        title: 'HTML5 Canvas Art 2',
+        subtitle: 'Programmatic art',
+        image: ''
+      },
+      {
+        href: '//drunkweatherchannel.flanny.app',
+        title: 'Drunk Weather Channel',
+        subtitle: 'A weather app for party people',
+        image: ''
+      },
+      {
+        href: '/gom-jabbar',
+        title: 'Gom Jabbar',
+        subtitle: 'A Dune video game',
+        image: ''
+      },
+      {
+        href: '/wordle-photo',
+        title: 'Wordle Photo',
+        subtitle: `Create an image with today's Wordle`,
+        image: ''
+      },
+      {
+        href: '/colors-of-pi',
+        title: 'Colors of Pi',
+        subtitle: 'Pi in hexadecimal colors',
+        image: ''
+      },
+      {
+        href: '/HTML5Canvas',
+        title: 'HTML5 Canvas Art',
+        subtitle: 'Programmatic art',
+        image: ''
+      }
+    ];
 
-  <div class="multipass">
-    <div class="white-card">
-      <div class="multipass-title">MULTI PASS</div>
-      <div class="picture picture-left">
-        <div class="number">A120NI18</div>
-      </div>
-      <div class="picture picture-right">
-        <div class="number">15ES15NY</div>
-      </div>
-      <div class="bio">
-        <div class="name">Peter Flanagan</div>
-        <div class="address yellow">
-          New York . NY . USA
-          <br />
-          Planet Earth
-          <br />
-          Orion Arm . Milky Way
-        </div>
-        <div class="traits">
-          Species: Human
-          <br />
-          Speed: Moderate <br />
-          Strength: Reasonable <br />
-          Looks: Adequate
-        </div>
-        <div class="occupation yellow"></div>
-      </div>
-      <div class="blue-bar"></div>
-    </div>
-    <div class="top-square">
-      <div class="top-square-bar"></div>
-    </div>
-    <div class="bottom-square">
-      <div class="bottom-square-white"></div>
-    </div>
-    <div class="bottom-left-circle-grey"></div>
-    <div class="bottom-left-circle-yellow">
-      <div class="bottom-left-circle-shine"></div>
-    </div>
-    <div class="stripes"></div>
-  </div>
+    (function () {
+      const container = document.querySelector('#links');
+      LINKS.forEach(link => {
+        container.appendChild(`
+          <a href="${link.href}">
+            <div class="link" style="background-image: url('${link.image}')">
+                <div class="title">${link.title}</div>
+                <div class="subtitle">${link.subtitle}</div>
+              </div>
+            </a>
+        `);
+      });
+    })
+
+  </script>
+  <script src="script.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNFGV4ZHRG"></script>
