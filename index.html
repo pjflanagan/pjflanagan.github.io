@@ -1,142 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://pjflanagan.me/img/icon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://pjflanagan.me/img/icon/favicon-16x16.png">
-  <title>Flanny Apps</title>
-  <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
-     crossorigin="anonymous"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://pjflanagan.me/img/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://pjflanagan.me/img/icon/favicon-16x16.png"
+    />
+    <title>Flanny Apps</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Electrolize"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
+      crossorigin="anonymous"
+    ></script>
 
     <style>
-
       div {
         box-sizing: border-box;
       }
 
-      html, body {
+      html,
+      body {
         width: 100vw;
         height: 100vh;
         margin: 0;
         padding: 0;
+        background: #020519;
+        color: #fff;
+        font-family: sans-serif;
       }
 
-      #sidebar {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 42%;
-        max-width: 620px;
+      #content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 820px;
+        min-width: 320px;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
         padding: 20px;
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
-        z-index: 1000;
       }
 
-      #background {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: -1;
+      h1 {
+        font-family: "Electrolize", sans-serif;
       }
 
+      h2 {
+        font-family: "Electrolize", sans-serif;
+      }
 
+      p {
+        font-family: "Electrolize", sans-serif;
+        color: #e4f03c;
+      }
+
+      #links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .link {
+        width: fit-content;
+        min-width: 280px;
+        height: 220px;
+        background: #111;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+        margin: 0 0 40px;
+        -webkit-clip-path: polygon(
+          0 0,
+          calc(100% - 20px) 0,
+          100% 20px,
+          100% 100%,
+          0 100%
+        );
+        clip-path: polygon(
+          0 0,
+          calc(100% - 20px) 0,
+          100% 20px,
+          100% 100%,
+          0 100%
+        );
+      }
+
+      .link:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      }
+
+      .overlay {
+        width: 100%;
+        background: #1c1c1ccc;
+        padding: 10px;
+      }
+
+      .title {
+        font-family: "Electrolize", sans-serif;
+        font-size: 1.2em;
+        margin: 0;
+        color: #1fcfcc;
+      }
+
+      .subtitle {
+        font-size: 0.9em;
+        margin: 0;
+        opacity: 0.8;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-  <div id="sidebar">
-    <h1>Flanny Apps</h1>
-    <div id="links">
+  <body>
+    <div id="content">
+      <h1>Flanny Apps</h1>
+      <p>
+        Please enjoy a collection of websites and apps I've made over the years!
+      </p>
+      <div id="links"></div>
     </div>
-  </div>
-  <div id="background"></div>
-  <script>
-    const LINKS = [
-      {
-        href: '//ohword.flanny.app',
-        title: 'OhWord!?',
-        subtitle: 'A daily word game',
-        image: 'https://ohword.flanny.app/img/social/card.webp'
-      },
-      {
-        href: '//runcalculator.flanny.app',
-        title: 'Run Calculator',
-        subtitle: 'A running pace calculator',
-        image: ''
-      },
-      {
-        href: '//canvas.flanny.app',
-        title: 'HTML5 Canvas Art 2',
-        subtitle: 'Programmatic art',
-        image: ''
-      },
-      {
-        href: '//drunkweatherchannel.flanny.app',
-        title: 'Drunk Weather Channel',
-        subtitle: 'A weather app for party people',
-        image: ''
-      },
-      {
-        href: '/gom-jabbar',
-        title: 'Gom Jabbar',
-        subtitle: 'A Dune video game',
-        image: ''
-      },
-      {
-        href: '/wordle-photo',
-        title: 'Wordle Photo',
-        subtitle: `Create an image with today's Wordle`,
-        image: ''
-      },
-      {
-        href: '/colors-of-pi',
-        title: 'Colors of Pi',
-        subtitle: 'Pi in hexadecimal colors',
-        image: ''
-      },
-      {
-        href: '/HTML5Canvas',
-        title: 'HTML5 Canvas Art',
-        subtitle: 'Programmatic art',
-        image: ''
-      }
-    ];
+    <script>
+      const LINKS = [
+        {
+          href: "https://ohword.flanny.app",
+          title: "OhWord!?",
+          subtitle: "A daily word game",
+          image: "https://ohword.flanny.app/img/social/card.webp",
+        },
+        {
+          href: "https://runcalculator.flanny.app",
+          title: "Run Calculator",
+          subtitle: "A running pace calculator",
+          image: "https://runcalculator.flanny.app/img/social/share-card.png",
+        },
+        {
+          href: "https://canvas.flanny.app",
+          title: "HTML5 Canvas Art 2",
+          subtitle: "Programmatic art",
+          image:
+            "https://pjflanagan.me/blog/2023/html5-canvas-animations-v2.png",
+        },
+        {
+          href: "https://drunkweatherchannel.flanny.app",
+          title: "Drunk Weather Channel",
+          subtitle: "A weather app for party people",
+          image: "https://drunkweatherchannel.flanny.app/img/social/social.png",
+        },
+        {
+          href: "/gom-jabbar",
+          title: "Gom Jabbar",
+          subtitle: "A Dune video game",
+          image: "https://www.flanny.app/gom-jabbar/img/social/social-fb.png",
+        },
+        {
+          href: "/wordle-photo",
+          title: "Wordle Photo",
+          subtitle: `Create an image with today's Wordle`,
+          image: "https://www.flanny.app/wordle-photo/img/social/fb.png",
+        },
+        {
+          href: "/colors-of-pi",
+          title: "Colors of Pi",
+          subtitle: "Pi in hexadecimal colors",
+          image:
+            "https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png",
+        },
+        {
+          href: "/HTML5Canvas",
+          title: "HTML5 Canvas Art",
+          subtitle: "Programmatic art",
+          image: "https://pjflanagan.me/blog/2012/animations.png",
+        },
+      ];
 
-    (function () {
-      const container = document.querySelector('#links');
-      LINKS.forEach(link => {
-        container.appendChild(`
+      (function () {
+        const container = document.getElementById("links");
+        LINKS.forEach((link) => {
+          container.innerHTML += `
           <a href="${link.href}">
             <div class="link" style="background-image: url('${link.image}')">
-                <div class="title">${link.title}</div>
-                <div class="subtitle">${link.subtitle}</div>
+                <div class="overlay">  
+                  <div class="title">${link.title}</div>
+                  <div class="subtitle">${link.subtitle}</div>
+                </div>
               </div>
             </a>
-        `);
-      });
-    })
+        `;
+        });
+      })();
+    </script>
 
-  </script>
-  <script src="script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CNFGV4ZHRG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNFGV4ZHRG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-CNFGV4ZHRG');
-  </script>
-</body>
-
+      gtag("config", "G-CNFGV4ZHRG");
+    </script>
+  </body>
 </html>
