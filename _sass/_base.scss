@@ -1,0 +1,229 @@
+@import "./reset.scss";
+@import "./variables.scss";
+
+@font-face {
+  font-family: AmericanCaptain;
+  src: url("/font/AmericanCaptain-MdEY.otf");
+}
+
+::selection {
+  color: $backgroundDark2;
+  background: $accentYellow;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+
+  body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: $ubuntu;
+    font-weight: 300;
+    background: $backgroundDark;
+  }
+}
+
+h1 {
+  font-family: $americanCaptain;
+  color: #fff;
+  text-shadow: 1px 2px 0 #000a;
+  font-size: 3em;
+  text-align: left;
+}
+
+h2 {
+  color: #fff;
+  font-family: $ubuntu;
+  font-size: 1.4em;
+  padding: 1em 0 0.4em;
+  margin-bottom: 6px;
+
+  &:after {
+    content: '';
+    width: 32%;
+    background: $accentCyan;
+    height: 1px;
+    position: absolute;
+    margin: 15px 0 0 20px;
+  }
+}
+
+h3 {
+  color: $accentYellow;
+  font-family: $ubuntu;
+  font-size: 1.2em;
+  padding: 1em 0 0.4em;
+
+  a {
+    &:after {
+      content: '';
+      position: absolute;
+      margin-left: 6px;
+      margin-top: -5px;
+      width: 10px;
+      height: 10px;
+      background: $accentYellowTransparent2;
+      border-right: 1px solid $accentYellow;
+      border-top: 1px solid $accentYellow;
+      transition: 0.2s;
+      clip-path: polygon(0 0, 100% 0, 100% 100%);
+    }
+
+    &:hover {
+      &:after {
+        background: $accentYellowTransparent;
+        transform: translate(2px, -2px);
+      }
+    }
+  }
+}
+
+h4 {
+  color: $accentCyan;
+  font-family: $ubuntu;
+  font-size: 1em;
+  padding: 0.6em 0;
+}
+
+h5 {
+  color: $accentYellow;
+  font-family: $ubuntu;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 1em 0;
+}
+
+p {
+  font-family: $ubuntu;
+  padding: 0.4em 0 0.8em;
+  line-height: 1.6em;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+
+  code {
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    background: $backgroundLightTransparent2;
+    font-size: 1.2em;
+  }
+}
+
+// TODO: use the jekyll syntax highlighter to style code blocks
+code {
+  color: $accentYellowHover;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+  color: $accentYellow;
+  box-shadow: inset 0px -6px $accentYellowTransparent2;
+  transition: 0.2s;
+
+  &:hover {
+    color: $accentYellowHover;
+    box-shadow: inset 0px -10px $accentYellowTransparent;
+  }
+}
+
+ul,
+ol {
+  padding: 0.2em 0 0.2em 2em;
+
+  li {
+    color: $white;
+    padding: 0.3em 0;
+    line-height: 1.2em;
+
+    ul,
+    ol {
+      padding: 0.2em 0 0 2em;
+    }
+  }
+}
+
+ul li:before {
+  content: '—'; // &#8212;
+  position: absolute;
+  margin-left: -1.6em;
+  margin-top: -2px;
+  color: $accentCyan;
+}
+
+ol {
+  list-style: none;
+  counter-reset: customCounter;
+
+  li {
+    counter-increment: customCounter;
+
+    &::before {
+      content: counter(customCounter) ". ";
+      position: absolute;
+      margin-left: -1.6em;
+      margin-top: -2px;
+      color: $accentCyan;
+    }
+  }
+}
+
+pre {
+  margin: 0.8em 0;
+  padding: 1em;
+  overflow: auto;
+  max-height: 780px;
+  font-size: 1.1em;
+  border: 1px solid $backgroundLightTransparent2;
+  box-shadow: inset 0 0 100px #0008, -2px -2px 8px #0004;
+  background: $backgroundDark;
+  background-image: radial-gradient($backgroundLightTransparent 1px, transparent 0);
+  background-size: 20px 20px;
+  transition: background-position 0.2s;
+}
+
+blockquote {
+  margin: 1em 2em;
+  padding: 2em;
+  clip-path: $polygon;
+  background: $backgroundLightTransparent2;
+  text-align: center;
+
+  p {
+    padding: 0;
+    color: $accentYellow;
+    font-size: 1.6em;
+    font-style: italic;
+
+    &:before,
+    &:after {
+      content: '"';
+      position: absolute;
+      margin-top: 0.1em;
+      color: $backgroundLight;
+      font-size: 2em;
+      font-style: normal;
+    }
+
+    &:before {
+      margin-left: -0.4em;
+    }
+  }
+
+}
+
+hr {
+  width: 100%;
+  border-top: 1px solid $accentCyan;
+  height: 1px;
+  border-bottom: none;
+}
+
+@media only screen and (min-width: $md) {
+  h1 {
+    font-size: 4em;
+  }
+}

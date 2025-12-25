@@ -1,7 +1,6 @@
 
-- [ ] Move blog to here
-  - [ ] Add Jekyll - https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
-  - [ ] Reconfigure styles
+- [ ] Reconfigure styles
+  - https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 - [ ] Add a sitemap
 

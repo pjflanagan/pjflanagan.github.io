@@ -1,6 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout:      home
+title:       Flanny Apps
+description: A collection of apps I've worked on
+image:       ""
 ---
+
+## Apps
+
+<!-- TODO: large apps -->
+
+<!-- TODO: small apps -->
+
+## Blog Posts
+
+<!-- Blog posts -->
+
+- Blog post, like top 5
+
+<!-- TODO: more posts -->
