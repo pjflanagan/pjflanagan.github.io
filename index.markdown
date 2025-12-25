@@ -5,6 +5,8 @@ description: A collection of apps I've worked on
 image:       ""
 ---
 
+# Flanny Apps
+
 ## Apps
 
 ### Most Popular
@@ -20,4 +22,4 @@ image:       ""
 
 - Blog post, like top 5
 
-See all
+[See all](/blog)

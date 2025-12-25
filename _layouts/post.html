@@ -1,22 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     {% include head.html %}
   </head>
   <body>
+    <!-- TODO: blur cover -->
     {% include header.html %}
-    <h1>{{ page.title }}</h1>
-    <div>
-      {% if page.website %}
-        {% include button.html url=page.website text="Website" %}
-      {% endif %}
-      {% if page.github %}
-        {% include button.html url=page.github text="Github" %}
-      {% endif %}
-    </div>
-    <div id="content">
+    {%capture postContent %}
+      <h1>{{ page.title }}</h1>
+      <div>
+        {% if page.website %}
+          {% include button.html url=page.website text="Website" %}
+        {% endif %}
+        {% if page.github %}
+          {% include button.html url=page.github text="Github" %}
+        {% endif %}
+      </div>
       {{ content }}
-    </div>
+    {% endcapture %}
+    {% include content.html content=postContent%}
     {% include footer.html %}
   </body>
 </html>
