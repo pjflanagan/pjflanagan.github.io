@@ -12,6 +12,6 @@ The Flanny Apps home page
 
 ### Run
 
-```
+```sh
 bundle exec jekyll serve
 ```
