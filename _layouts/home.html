@@ -7,12 +7,7 @@
     <!-- TODO: blur cover -->
     {% include header.html %}
     <!-- TODO: content is min height full page, footer lives behind fixed bottom -->
-    <div id="content-container">
-      <div id="content-holder">
-        {{ content }}
-      </div>
-      <div id="content-gap"></div>
-    </div>
+    {% include content.html content=content %}
     {% include footer.html %}
   </body>
 </html>
