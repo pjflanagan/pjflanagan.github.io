@@ -19,7 +19,7 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 
 <!-- app-link-small -->
 
-## Blog Posts
+## Blog
 
 <!-- post-link-large my favorite 3 -->
 

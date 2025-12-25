@@ -2,7 +2,7 @@
 slug: arcade-cabinets
 date: "2024-01-02"
 title: Arcade Cabinets
-image: /blog/2024/arcade-cabinets.png
+image: /assets/posts/2024/arcade-cabinets.png
 blurb: A showcase of my favorite games
 github: https://github.com/pjflanagan/arcade
 website: https://www.flanny.app/arcade/

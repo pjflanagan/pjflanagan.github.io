@@ -2,7 +2,7 @@
 slug: witebord
 date: "2018-04-01"
 title: Witebord
-image: /blog/2018/witebord.png
+image: /assets/posts/2018/witebord.png
 blurb: "An socket whiteboard"
 github: https://github.com/pjflanagan/witebord
 website: https://witebord.herokuapp.com

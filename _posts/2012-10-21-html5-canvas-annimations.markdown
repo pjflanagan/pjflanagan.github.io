@@ -10,6 +10,5 @@ github: https://github.com/pjflanagan/HTML5Canvas
 website: https://www.flanny.app/HTML5Canvas/
 ---
 
-One of the first tutorials I ever followed and understood was this [Glazing ribbon screensaver effect in HTML5 canvas](screensaver-tutorial) on Codepen. I used this as a jumping off point to create many other animations.
+One of the first tutorials I ever followed and understood was this <a href="https://codepen.io/quatmo/pen/uFqoi" target="_blank">Glazing ribbon screensaver effect in HTML5 canvas</a> on Codepen. I used this as a jumping off point to create many other animations.
 
-[screensaver-tutorial]: https://codepen.io/quatmo/pen/uFqoi

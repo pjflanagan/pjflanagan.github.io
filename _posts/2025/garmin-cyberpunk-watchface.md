@@ -2,7 +2,7 @@
 slug: garmin-cyberpunk-watchface
 date: "2025-11-17"
 title: Garmin Cyberpunk Watch Face
-image: /blog/2025/garmin-cyberpunk-watchface.png
+image: /assets/posts/2025/garmin-cyberpunk-watchface.png
 blurb: Preem Cyberware
 github: 
 website: https://apps.garmin.com/apps/2b923217-1208-41bb-be4e-67b09f7835c3

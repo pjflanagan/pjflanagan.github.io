@@ -2,7 +2,7 @@
 slug: cat-laser
 date: "2020-05-13"
 title: Cat Laser
-image: /blog/2020/cat-laser/charlotte.jpg
+image: /assets/posts/2020/cat-laser/charlotte.jpg
 blurb: An Arduino laser pointer cat toy
 github: https://github.com/pjflanagan/cat-laser
 website: ''
@@ -20,7 +20,7 @@ Within a week, she pushed it off the edge of the table when I wasn't paying atte
 
 For a project of this simplicity, I didn't want to have to break out a soldering iron. I felt like I might eventually expand the project with a nice housing or additional buzzers or sensors, so I wanted it to be de-constructable. Instead I used a mini breadboard and an `Atmega Nano`. 
 
-![Cat Laser General Schema](/blog/2020/cat-laser/schema.png)
+![Cat Laser General Schema](/assets/posts/2020/cat-laser/schema.png)
 
 ### Program
 
@@ -43,4 +43,4 @@ void toRandom() {
 
 I purchased a kit for building turrets like this one that houses two servo motors. The final build was screwed and stickered into a scrap piece of wood and plugged into an outlet or portable charger. 
 
-![Final Build](/blog/2020/cat-laser/laser.jpg)
+![Final Build](/assets/posts/2020/cat-laser/laser.jpg)

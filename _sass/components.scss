@@ -1,0 +1,27 @@
+@import 'variables.scss';
+
+.button-row {
+  display: flex;
+  gap: 16px;
+  margin: 14px 0;
+}
+
+.button-holder a {
+  text-decoration: none;
+}
+
+.button {
+  cursor: pointer;
+  font-family: $ubuntu;
+  min-width: 124px;
+  width: fit-content;
+  background: $backgroundLight;
+  text-align: center;
+  padding: 12px 24px;
+  clip-path: $polygonSmall;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background: $backgroundLightHover;
+  }
+}

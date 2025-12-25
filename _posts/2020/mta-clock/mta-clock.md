@@ -19,30 +19,30 @@ I found a cheap circuit board online called the `Wemos D1 R2 with ESP8266 WiFi`.
 
 The board was simply cut out of cardboard with parts slotted into them.
 
-![Board 1](/blog/2020/mta-clock/1-board1.jpeg)
+![Board 1](/assets/posts/2020/mta-clock/1-board1.jpeg)
 
-![Board 2](/blog/2020/mta-clock/1-board2.jpeg)
+![Board 2](/assets/posts/2020/mta-clock/1-board2.jpeg)
 
 ### Decoration
 
 I used a Dollar Shave Club box to house the circuit board and painted the outside to match MTA signage, including arrows for up and downtown, the G for the train line, and a thin white line because that's what the MTA signs have.
 
-![Paint 1](/blog/2020/mta-clock/2-paint1.jpeg)
+![Paint 1](/assets/posts/2020/mta-clock/2-paint1.jpeg)
 
 For the back, I planned on making a mini subway line with stops to mark how far away a train is. I also grabbed a map from a subway info booth to use as a backdrop.
 
-![Decoration 1](/blog/2020/mta-clock/2-decoration1.jpeg)
+![Decoration 1](/assets/posts/2020/mta-clock/2-decoration1.jpeg)
 
 ### Assembly
 
 
 I fit the circut board into the box using extra cardboard and glue. Notice the way the box is cut on the bottom flap to allow it to close properly.
 
-![Assembly 2](/blog/2020/mta-clock/3-assembly2.jpeg)
+![Assembly 2](/assets/posts/2020/mta-clock/3-assembly2.jpeg)
 
 I added straws to allow the string to slide up and down more easily.
 
-![Assembly 3](/blog/2020/mta-clock/3-assembly3.jpeg)
+![Assembly 3](/assets/posts/2020/mta-clock/3-assembly3.jpeg)
 
 ## Code
 
@@ -110,7 +110,7 @@ void loop() {
 
 The final clock looked like this.
 
-![Final Build](/blog/2020/mta-clock/4-final.jpeg)
+![Final Build](/assets/posts/2020/mta-clock/4-final.jpeg)
 
 And would look like this if wall mounted with backing and toy subway cars.
 

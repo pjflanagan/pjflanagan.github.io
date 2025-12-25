@@ -2,7 +2,7 @@
 slug: html5-canvas-animations-tutorial
 date: "2023-01-01"
 title: HTML5 Canvas Tutorial
-image: /blog/2012/animations.png
+image: /assets/posts/2012/animations.png
 blurb: 
 github: https://github.com/pjflanagan/HTML5Canvas
 website: https://www.flanny.app/HTML5Canvas/

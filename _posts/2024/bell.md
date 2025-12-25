@@ -2,7 +2,7 @@
 slug: bell
 date: "2024-01-22"
 title: Bell
-image: /blog/2024/bell.png
+image: /assets/posts/2024/bell.png
 blurb: A REST scripting language
 github: https://github.com/pjflanagan/bell
 website: 

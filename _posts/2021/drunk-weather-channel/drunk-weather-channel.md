@@ -25,7 +25,7 @@ function calculateDrunkFeelsLikeF(actualFeelsLikeF: Fahrenheit, drinkCount: numb
 
 It results in a chart that looks like this:
 
-![Drunk Feels Like Chart](/blog/2021/drunk-weather-channel/feels-like-chart.png)
+![Drunk Feels Like Chart](/assets/posts/2021/drunk-weather-channel/feels-like-chart.png)
 
 In this example `minDrinksToStartFeelingWarm` is 4. This would be for a mildly cold day, if it was 0F out we would need more drinks to start feeling warm, and if it was 68F out we would probably only need 2. The `allowableTempDelta` is charted on the x-axis. If it was 0F out, we would be able to drink a lot, and would probably only feel 4 degrees warmer, same for if it was already hot out. But if it was 43F out and we had 12 drinks, then we would probably feel as warm as we could, and drinking more wouldn't change that.
 

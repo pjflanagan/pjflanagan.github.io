@@ -2,7 +2,7 @@
 slug: julian-wittich-music
 date: "2024-06-07"
 title: Julian Wittich Musician Website
-image: /blog/2024/julian-wittich-music.jpg
+image: /assets/posts/2024/julian-wittich-music.jpg
 blurb: A based site
 github: https://github.com/pjflanagan/julianwittichmusic
 website: https://julianwittich.com

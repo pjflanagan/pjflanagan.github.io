@@ -2,7 +2,7 @@
 slug: react-google-maps
 date: "2022-10-07"
 title: Google Maps API and React
-image: /blog/2022/google-maps.png
+image: /assets/posts/2022/google-maps.png
 blurb: A quick tutorial for using React with Google Maps API
 github: https://gist.github.com/pjflanagan/ca1339f4be5432b97f4ddee5f4371642
 website: 
