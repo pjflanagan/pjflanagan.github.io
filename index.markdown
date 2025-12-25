@@ -7,14 +7,17 @@ image:       ""
 
 ## Apps
 
-<!-- TODO: large apps -->
+### Most Popular
 
-<!-- TODO: small apps -->
+<!-- large icons -->
+
+### More Apps
+
+<!-- small icons -->
 
 ## Blog Posts
 
-<!-- Blog posts -->
 
 - Blog post, like top 5
 
-<!-- TODO: more posts -->
+See all
