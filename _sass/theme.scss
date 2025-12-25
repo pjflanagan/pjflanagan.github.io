@@ -1,11 +1,9 @@
 
 @import "./variables.scss";
 
-$baseUrl: "{{ site.baseurl }}";
-
 @font-face {
   font-family: "American Captain";
-  src: url(#{$baseUrl}/assets/AmericanCaptain.otf)
+  src: url(/assets/AmericanCaptain.otf)
 }
 
 ::selection {

@@ -1,6 +1,17 @@
-
 $headerHeight: 64px;
 $footerHeight: 80px;
+
+#noise {
+  background: url(/assets/noise.png);
+  height: 100%;
+  max-width: 100%;
+  opacity: .6;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 201;
+}
 
 header {
   position: fixed;
