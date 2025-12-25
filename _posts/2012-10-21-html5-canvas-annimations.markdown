@@ -1,9 +1,11 @@
 ---
-title: HTML5 Canvas Animations
-image: /blog/2012/animations.png
-description: Some visuals programmed in JS
+layout: post
 date: 2012-10-21
+title: "HTML5 Canvas Animations"
+description: "Some visuals programmed in JS"
+categories: html5 animations
 
+image: /assets/posts/2012/animations.png
 github: https://github.com/pjflanagan/HTML5Canvas
 website: https://www.flanny.app/HTML5Canvas/
 ---

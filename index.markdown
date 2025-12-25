@@ -7,19 +7,22 @@ image:       ""
 
 # Flanny Apps
 
+Please enjoy a collection of websites and apps I've made over the years! If you want to know more about me check out my [portfolio](https://pjflanagan.me).
+
 ## Apps
 
 ### Most Popular
 
-<!-- large icons -->
+<!-- app-link-large -->
 
 ### More Apps
 
-<!-- small icons -->
+<!-- app-link-small -->
 
 ## Blog Posts
 
+<!-- post-link-large my favorite 3 -->
 
-- Blog post, like top 5
+<!-- list of 5 more posts -->
 
 [See all](/blog)
