@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     {% include head.html %}
+  <link rel="stylesheet" href="{{ "/css/post.css" | relative_url }}">
   </head>
   <body>
     {% include noise.html %}
@@ -18,7 +19,18 @@
       </div>
       {{ content }}
     {% endcapture %}
-    {% include content.html content=postContent%}
+    <span id="post">
+      <div id="background-image" style="background-image: url('{{ page.image }}');"></div>
+      {% include content.html content=postContent%}
+    </span>
     {% include footer.html %}
+
+    <script>
+      window.addEventListener('scroll', function() {
+        const scrolled = window.pageYOffset;
+        const backgroundImage = document.getElementById('background-image');
+        backgroundImage.style.transform = 'translateY(' + (-scrolled * 0.5) + 'px)';
+      });
+    </script>
   </body>
 </html>
