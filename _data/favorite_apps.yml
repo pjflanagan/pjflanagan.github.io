@@ -1,0 +1,27 @@
+
+- name: OhWord!?
+  description: A daily word game
+  image: https://ohword.flanny.app/img/social/card.webp
+  url: https://ohword.flanny.app
+
+- name: Run Calculator
+  description: A running pace calculator
+  image: https://runcalculator.flanny.app/img/social/share-card.png
+  url: https://runcalculator.flanny.app
+
+- name: Yes Chef!
+  description: A text based adventure game
+  image: 
+  url: https://wake.flanny.app/peterjflan/yes-chef
+
+- name: Drunk Weather Channel
+  description: A weather app for party people
+  image: https://drunkweatherchannel.flanny.app/img/social/social.png
+  url: https://drunkweatherchannel.flanny.app
+
+- name: Canvas
+  description: HTML5 Canvas experiments
+  image: /assets/posts/2023/html5-canvas-animations-v2.png
+  url: https://canvas.flanny.app
+
+

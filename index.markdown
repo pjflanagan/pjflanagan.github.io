@@ -13,11 +13,26 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 
 ### Favorites
 
-<!-- app-link-large -->
+<ul>
+{% for app in site.data.favorite_apps %}
+  <li>
+    <a href="{{ app.url }}" target="_blank">
+      {{ app.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
-### All Apps
-
-<!-- app-link-small -->
+### More
+<ul>
+{% for app in site.data.other_apps %}
+  <li>
+    <a href="{{ app.url }}" target="_blank">
+      {{ app.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 ## Blog
 
