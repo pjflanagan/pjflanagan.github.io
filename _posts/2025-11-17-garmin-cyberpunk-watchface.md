@@ -1,4 +1,5 @@
 ---
+slug: garmin-cyberpunk-watchface
 layout: post
 date: 2025-11-17
 title: Garmin Cyberpunk Watch Face
