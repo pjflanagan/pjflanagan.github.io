@@ -7,12 +7,27 @@ image: ""
 
 # Blog
 
-## Top Posts
+## Featured
+
+### Live Apps
 
 <div class="post-link-large-holder">
 {% include post-link-large.html slug=garmin-cyberpunk-watchface %}
 {% include post-link-large.html slug="ohword" %}
+</div>
+
+### Past Projects
+
+<div class="post-link-large-holder">
+{% include post-link-large.html slug="nuclear-codes" %}
+{% include post-link-large.html slug="bamboo" %}
+</div>
+
+### Thoughts and Tutorials
+
+<div class="post-link-large-holder">
 {% include post-link-large.html slug="gen-ai" %}
+{% include post-link-large.html slug="simple-socket-games" %}
 </div>
 
 ## All Posts

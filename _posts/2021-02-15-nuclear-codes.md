@@ -1,4 +1,5 @@
 ---
+slug: nuclear-codes
 layout: post
 date: 2021-02-15
 title: Nuclear Codes

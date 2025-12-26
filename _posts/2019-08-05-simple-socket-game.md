@@ -1,4 +1,5 @@
 ---
+slug: simple-socket-games
 layout: post
 date: 2019-08-05
 title: Simple Socket Games
