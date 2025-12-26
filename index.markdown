@@ -31,9 +31,18 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 {% endfor %}
 </ul>
 
-<!-- ### Other Apps -->
+### Non-Web Apps
 
-<!-- TODO: app store apps (Garmin) -->
+<ul>
+{% for app in site.data.non_web_apps %}
+  <li>
+    <a href="{{ app.url }}" target="_blank">
+      {{ app.name }}
+    </a> - {{ app.description }}
+  </li>
+{% endfor %}
+</ul>
+
 
 ## Blog
 
