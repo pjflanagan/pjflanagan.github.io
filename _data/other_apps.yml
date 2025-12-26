@@ -1,0 +1,35 @@
+
+- name: Study Mandarin
+  description: 我的學校
+  image: https://www.flanny.app/study-mandarin/src/img/banner.png
+  url: https://flanny.app/study-mandarin/
+
+- name: 6-Bit Color Wheel
+  description: More like a cube
+  image: https://raw.githubusercontent.com/pjflanagan/6-bit-color-wheel/refs/heads/gh-pages/screenshot.png
+  url: http://flanny.app/6-bit-color-wheel/
+
+- name: Gom Jabbar
+  description: A Dune video game
+  image: https://www.flanny.app/gom-jabbar/img/social/social-fb.png
+  url: https://flanny.app/gom-jabbar/
+
+- name: Wordle Photo
+  description: Create an image with today's Wordle
+  image: https://www.flanny.app/wordle-photo/img/social/fb.png
+  url: https://www.flanny.app/wordle-photo/
+
+- name: Arcade
+  description: Some favorite games
+  image: https://raw.githubusercontent.com/pjflanagan/arcade/main/arcade-cabinets.png
+  url: https://flanny.app/arcade/
+
+- name: Colors of Pi
+  description: Pi in hexadecimal colors
+  image: https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png
+  url: https://flanny.app/colors-of-pi/
+
+- name: HTML5 Canvas Art
+  description: Programmatic art
+  image: /assets/posts/2012/animations.png
+  url: https://flanny.app/HTML5Canvas/

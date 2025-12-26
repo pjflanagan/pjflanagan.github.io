@@ -1,0 +1,70 @@
+
+// Colors
+
+$backgroundDark: #112a32;
+$backgroundDarkTransparent: #112a32dd;
+
+$backgroundDark2: #113f54;
+$backgroundDark2Transparent: #113f54dd;
+
+$backgroundDark3Transparent: #1c1c1cf0;
+
+$backgroundLight: #157270;
+$backgroundLightTransparent: #15727088;
+$backgroundLightTransparent2: #15727044;
+$backgroundLightHover: #159997;
+
+$accentYellow: #e4f03c;
+$accentYellowTransparent: #e4f03c88;
+$accentYellowTransparent2: #e4f03c33;
+$accentYellowHover: #e4ef50;
+
+$accentCyan: #1fcfcc;
+$accentCyanHover: #1cbebc;
+
+$white: #fff;
+$whiteTransparent: #eaf4f488;
+$black: #1c1c1c;
+$blackTransparent: #1c1c1c44;
+
+$warnOrange: #e4400f;
+$warnLightTransparent: #a0534854;
+
+// Fonts
+
+$ubuntu: "Ubuntu", sans-serif;
+$americanCaptain: "American Captain", sans-serif;
+
+// Shapes
+
+$polygon: polygon(0 0,
+    calc(100% - 20px) 0,
+    100% 20px,
+    100% 100%,
+    20px 100%,
+    0 calc(100% - 20px));
+
+$polygonSmall: polygon(0 0,
+    calc(100% - 10px) 0,
+    100% 10px,
+    100% 100%,
+    10px 100%,
+    0 calc(100% - 10px));
+
+$polygonRight: polygon(0 0,
+    calc(100% - 20px) 0,
+    100% 20px,
+    100% 100%,
+    0 100%);
+
+$polygonLeft: polygon(0 0,
+    100% 0,
+    100% 100%,
+    20px 100%,
+    0 calc(100% - 20px));
+
+// Sizes
+
+$md: 576px;
+$lg: 768px;
+$xl: 960px;

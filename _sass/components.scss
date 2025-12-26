@@ -1,0 +1,79 @@
+@import 'variables.scss';
+
+.button-row {
+  display: flex;
+  gap: 16px;
+  margin: 14px 0;
+}
+
+.button-holder a {
+  text-decoration: none;
+}
+
+.button {
+  cursor: pointer;
+  font-family: $ubuntu;
+  min-width: 124px;
+  width: fit-content;
+  background: $backgroundLight;
+  text-align: center;
+  padding: 12px 24px;
+  clip-path: $polygonSmall;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background: $backgroundLightHover;
+  }
+}
+
+.post-link-large-holder {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  a {
+    box-shadow: none;
+  }
+}
+
+$description-height: 46px;
+
+.post-link-large {
+  min-width: 320px;
+  max-width: 560px;
+  width: 30%;
+  height: 184px;
+  clip-path: $polygon;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &:hover {
+    .card {
+      transform: translateY(-$description-height);
+    }
+  }
+
+  .card {
+    position: absolute;
+    bottom: -$description-height;
+    background: $backgroundDark2Transparent;
+    width: 100%;
+    padding: 0 24px;
+    transition: 0.2s transform;
+
+    .title {
+      color: #fff;
+      font-family: $americanCaptain;
+      font-size: 1.6em;
+      padding: 16px 0 8px;
+    }
+
+    .description {
+      color: $accentYellow;
+      font-size: 0.8em;
+      height: $description-height;
+    }
+  }
+}

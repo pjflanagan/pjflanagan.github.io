@@ -1,0 +1,11 @@
+{% assign post_slug = include.slug %}
+<!-- {{ post_slug }} -->
+{% assign selected_post = site.posts | where: "slug", post_slug | first %}
+{% if selected_post %}
+<li>
+  <a href="{{ selected_post.url | relative_url }}">{{ selected_post.title }}</a>
+  - {{ selected_post.description }}
+</li>
+{% else %}
+<!-- POST NOT FOUND {{ post_slug }} -->
+{% endif %}

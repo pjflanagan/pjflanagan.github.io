@@ -1,0 +1,14 @@
+{% assign post_slug = include.slug %}
+{% assign selected_post = site.posts | where: "slug", post_slug | first %}
+{% if selected_post %}
+<a href="{{ selected_post.url | prepend: site.baseurl }}">
+  <div class="post-link-large" style="background-image: url({{ selected_post.image }})">
+    <div class="card">
+      <div class="title">{{ selected_post.title }}</div>
+      <div class="description">{{ selected_post.description }}</div>
+    </div>
+  </div>
+</a>
+{% else %}
+<!-- POST NOT FOUND {{ post_slug }} -->
+{% endif %}
