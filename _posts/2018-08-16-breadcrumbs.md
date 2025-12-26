@@ -1,4 +1,5 @@
 ---
+slug: breadcrumbs
 layout: post
 date: 2018-08-16
 title: Breadcrumbs

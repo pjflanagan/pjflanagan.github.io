@@ -11,18 +11,33 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 
 ## Apps
 
-### Most Popular
+### Favorites
 
 <!-- app-link-large -->
 
-### More Apps
+### All Apps
 
 <!-- app-link-small -->
 
 ## Blog
 
-<!-- post-link-large my favorite 3 -->
+### Favorites
 
-<!-- list of 5 more posts -->
+<div class="post-link-large-holder">
+{% include post-link-large.html slug="garmin-cyberpunk-watchface" %}
+{% include post-link-large.html slug="ohword" %}
+{% include post-link-large.html slug="gen-ai" %}
+{% include post-link-large.html slug="pacpuf" %}
+</div>
+
+### More Posts
+
+<ul>
+{% include post-link-li.html slug="breadcrumbs" %}
+{% include post-link-li.html slug="haiku-bot" %}
+{% include post-link-li.html slug="mta-clock" %}
+{% include post-link-li.html slug="wake" %}
+{% include post-link-li.html slug="cat-laser" %}
+</ul>
 
 [See all](/blog)
