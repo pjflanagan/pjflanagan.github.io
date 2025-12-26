@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Flanny Apps Blog
+title: "Flanny Apps: Blog"
 description: Thoughts on things I've made
 image: ""
 ---
 
-# Posts
+# Blog
 
 ## Top Posts
 

@@ -21,6 +21,8 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 
 ## Blog
 
+My blog is primarily afterthoughts on projects I've completed with a few tutorials and musings on the state of tech thrown in.
+
 ### Favorites
 
 <div class="post-link-large-holder">

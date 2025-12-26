@@ -37,6 +37,8 @@
   }
 }
 
+$description-height: 46px;
+
 .post-link-large {
   min-width: 320px;
   max-width: 560px;
@@ -47,22 +49,31 @@
   background-position: center;
   position: relative;
 
+  &:hover {
+    .card {
+      transform: translateY(-$description-height);
+    }
+  }
+
   .card {
     position: absolute;
-    bottom: 0;
+    bottom: -$description-height;
     background: $backgroundDark2Transparent;
     width: 100%;
-    padding: 16px;
+    padding: 0 24px;
+    transition: 0.2s transform;
 
     .title {
       color: #fff;
       font-family: $americanCaptain;
       font-size: 1.6em;
+      padding: 16px 0 8px;
     }
 
     .description {
       color: $accentYellow;
       font-size: 0.8em;
+      height: $description-height;
     }
   }
 }
