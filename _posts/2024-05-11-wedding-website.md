@@ -16,9 +16,11 @@ Some of my favorite components/features are:
 - The "See more" buttons
 - The slideshow that changes based on markers
 - The scroll to a point
-- The footer that is tucked behind the sidebar body
+- The footer that is tucked behind the sidebar body (much like this blog has)
 
 I don't often program websites with this much information, its amazing how good a full bodied website can look.
+
+## Google Icons
 
 I used Google Icons from Google Fonts, which are incredibly interesting. They sub in a font that looks like a section of an icon
 so that the whole word look like the font. You can tell because you can copy an icon and it will paste as the word. For example,

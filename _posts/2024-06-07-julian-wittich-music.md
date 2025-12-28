@@ -12,7 +12,7 @@ My brother-in-law needed a musician website to be more findable. Rather than him
 
 Since the website is relatively simple, I wanted there to be a fun interactive feature. I decided the divider between the main photo and the sidebar would be a set of 4 pluckable bass strings.
 
-Try moving your mouse across the strings to see them vibrate. The algorithm is simple but effective. We create a `pullPoint` at where the mouse is and calculate a `to` point on the opposite end of the guitar string and slightly towards the center. When we release the `pullPoint` moves towards the `to` point until it reaches it, then a new `to` point is created on the opposite end and slightly down. The process repeats until we are at equilibrium. 
+Try moving your mouse across the strings to see them vibrate. The algorithm is simple but effective. We create a `pullPoint` at where the mouse is and calculate a `to` point on the opposite end of the guitar string and slightly towards the center. Once the string is pulled "too far," we release the string and the `pullPoint` moves towards the `to` point until it reaches it. Then a new `to` point is created on the opposite end and slightly down. The process repeats until we are at equilibrium. 
 
 <iframe src="https://giphy.com/embed/MDjTQ9jRJbocyl3pew" width="480" height="438" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/programming-canvas-html5-MDjTQ9jRJbocyl3pew">via GIPHY</a></p>
 

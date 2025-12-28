@@ -14,3 +14,5 @@ time in Chinese.
 
 Drawing with the Garmin SDK is a lot like the HTML5 Canvas, so I felt like I could add some decorations to the watch face I already liked. 
 
+I added waves, in the style of how clouds are often drawn in Asian art to the background. It is reminiscent of how dive watches often have wave backgrounds too. I also added a seconds hand ring to give the watch some motion.
+

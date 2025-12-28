@@ -14,7 +14,23 @@ I have a love/hate relationship with smart watches. I think that having notifica
 I wouldn't want the watch to be more powerful than this (like an Apple Watch). I typically use a very minimal watch face.
 
 At the same time, I think data can be pretty. Most watch faces that show a lot of data are overloaded with labels and icons.
-They Cyberpunk aesthetic makes data overload fun. So that's what I made.
+The Cyberpunk aesthetic makes data overload fun. So that's what I made.
+
+## Garmin ConnectIQ Store Description
+
+Hey choom, get a load of this preem watch face. Your cyberware'll be lookin' nova with this HUD straight from the streets of Night City.
+
+Detes:
+
+- Flatline: check your health bar and don't get zeroed, featuring daily goal tracking, body battery, and heart rate with hr zone.
+
+- Chippin' in: keep your fixer happy and see your latest activity and training status in the mission section.
+
+- Riders on the Storm: see the weather for the day with this custom HUD, featuring UV index, precip chance, humidity, and the high/low.
+
+- Who's Ready for Tomorrow: a 24 hour bezel shows the time of day and a second hand. Also shown are the time, date, and day of week.
+
+Enjoy the new chrome Rockerboy, this netrunner's gotta delta.
 
 ## Features
 
@@ -46,3 +62,13 @@ Activity
 - Training status
 - Last activity (green or yellow)
 
+## Plans
+
+This watch has had plenty of feedback online, so I want to keep working on it. But a lot of the work can be tedious. Looking forward, I will keep the current version online as a free tier. When I get around to making changes, like:
+- support for more watches
+- moon phase
+- more settings
+- battery and bluetooth indicator (which I personally dislike)
+- more weather icons
+- use the actual Cyberpunk font
+I'll make that new version a paid version.

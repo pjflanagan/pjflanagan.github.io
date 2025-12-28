@@ -11,6 +11,14 @@
 <title>{{ page.title }}</title>
 <link rel="icon" type="image/png" href="" sizes="16x16" />
 
+<!-- Style -->
+<link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
+
+<!-- Preconnect Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 <!-- Social -->
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{ page.description }}" />
@@ -28,16 +36,9 @@
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image" content="{{ page.image }}" />
 
-<!-- Preconnect Font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
 <!-- Advertisement -->
 <script
   async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
   crossorigin="anonymous"
 ></script>
-
-<link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
