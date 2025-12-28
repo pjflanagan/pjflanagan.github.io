@@ -12,7 +12,7 @@ image: ""
 ### Live Apps
 
 <div class="post-link-large-holder">
-{% include post-link-large.html slug=garmin-cyberpunk-watchface %}
+{% include post-link-large.html slug="garmin-cyberpunk-watchface" %}
 {% include post-link-large.html slug="ohword" %}
 </div>
 
