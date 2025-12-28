@@ -23,4 +23,4 @@ After some copy pasting, frontmatter editing, and custom component building, the
 
 Now that there is a home page for all Flanny apps, it was natural to want to add a way to get to that home page. To do this I thought it would be neat to make a simple script that can be pasted into any existing app (like adding a jQuery or a Google Font). The home button is a simple html element that looks like a planet. It takes minimal configuration (if any) and only needs a `script` tag to implement.
 
-Check out the (Github repo)[https://github.com/pjflanagan/flanny-app-home-button] and (examples)[https://www.flanny.app/flanny-app-home-button/] 
+Check out the [Github repo](https://github.com/pjflanagan/flanny-app-home-button) and [examples](https://www.flanny.app/flanny-app-home-button/) 
