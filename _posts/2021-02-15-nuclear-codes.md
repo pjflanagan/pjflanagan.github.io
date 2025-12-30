@@ -7,7 +7,7 @@ description: A Socket.io game
 image: https://raw.githubusercontent.com/pjflanagan/nuclear-codes/master/media/social.png
 github: https://github.com/pjflanagan/nuclearcodes
 website: https://nuclearcodes.flanny.app/
-highlight: true
+# highlight: true
 ---
 
 My friends and I play a lot of games when we get together. A favorite of ours is Spies, a simple game about trying to figure out who the spies are. Innocent villagers try and get the group to play black cards and the spies play red cards and try to trick the group into believing someone else did. 

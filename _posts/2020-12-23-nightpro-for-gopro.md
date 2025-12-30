@@ -16,12 +16,12 @@ I purchased a GoPro to film myself rollerblading, but found that I also really e
 
 GoPro nightlapses are wonderful. But they save oddly. Rather than saving as a single video, the way other GoPro timelapses do, they save as a series of individual photos. Merging them all into one required a tedious ffmpeg command:
 
-```bash
-$ ffmpeg -r 32 -start_number <number> -i ./<folder>/G00%d.JPG -vcodec libx264 -pix_fmt yuv420p <name>.mp4
-```
+{% highlight bash %}
+ffmpeg -r 32 -start_number <number> -i ./<folder>/G00%d.JPG -vcodec libx264 -pix_fmt yuv420p <name>.mp4
+{% endhighlight %}
 
 I decided to make NightPro as a Python package to automatically find all the sets of files that can be turned into nightlapes videos and run this command on them. After installation, it can be run using:
 
-```bash
-$ nightpro
-```
+{% highlight bash %}
+nightpro
+{% endhighlight %}

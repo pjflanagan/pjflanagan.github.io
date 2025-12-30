@@ -24,7 +24,7 @@ Using Python and `instaloader` downloading software, I created a system to creat
 
 The main function of step 2 looks like this:
 
-```python
+{% highlight python %}
 # crop.py
   for f in all_in_files:
     split = f.split(".", 1)
@@ -44,7 +44,7 @@ The main function of step 2 looks like this:
       log(f)
 
       break
-```
+{% endhighlight %}
 
 ## Results
 

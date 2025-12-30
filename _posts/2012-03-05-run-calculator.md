@@ -44,9 +44,9 @@ I experimented with a very lightweight framework called Svelte and realized that
 
 Svelte feels like a return back to early web development, before Webpack and React. I like how Svelte allows you to bind variables, a feature I miss from when I used Angular. I also like the syntax for component props.
 
-```svelte
+{% highlight svelte %}
 <Component {prop1} bind:value={prop2} />
-```
+{% endhighlight %}
 
 #### Cons
 

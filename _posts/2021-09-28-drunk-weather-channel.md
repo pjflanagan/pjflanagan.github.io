@@ -14,14 +14,14 @@ This is a website that I've had an idea for since college in Michigan. I finally
 
 The app finds the weather at your location and reads the "feels like" data. It then takes the number of drinks you've had, and calculates what it feels like to you. I wanted the temp to kick in as you start to feel drunk and then plateau once you are drunk. To do that we needed an `atan` graph with constants that change based on the weather outside. This is the function that does that calculation:
 
-```ts
+{% highlight typescript %}
 function calculateDrunkFeelsLikeF(actualFeelsLikeF: Fahrenheit, drinkCount: number): Fahrenheit {
   const [minDrinksToStartFeelingWarm, allowableTempDelta] = getDrunkFeelsLikeFormulaConstants(actualFeelsLikeF); 
   const multiplier = allowableTempDelta / Math.PI;
   const constant = allowableTempDelta / 2 + actualFeelsLikeF; 
   return Math.floor(multiplier * Math.atan(drinkCount - minDrinksToStartFeelingWarm) + constant); 
 }
-```
+{% endhighlight %}
 
 It results in a chart that looks like this:
 

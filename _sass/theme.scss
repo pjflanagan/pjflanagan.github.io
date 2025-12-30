@@ -56,30 +56,6 @@ h3 {
   font-family: $ubuntu;
   font-size: 1.2em;
   padding: 1em 0 0.4em;
-
-  // TODO: I like this but idk where I should use it
-  // a {
-  //   &:after {
-  //     content: '';
-  //     position: absolute;
-  //     margin-left: 6px;
-  //     margin-top: -5px;
-  //     width: 10px;
-  //     height: 10px;
-  //     background: $accentYellowTransparent2;
-  //     border-right: 1px solid $accentYellow;
-  //     border-top: 1px solid $accentYellow;
-  //     transition: 0.2s;
-  //     clip-path: polygon(0 0, 100% 0, 100% 100%);
-  //   }
-
-  //   &:hover {
-  //     &:after {
-  //       background: $accentYellowTransparent;
-  //       transform: translate(2px, -2px);
-  //     }
-  //   }
-  // }
 }
 
 h4 {
@@ -105,18 +81,17 @@ p {
   color: #fff;
   font-weight: 300;
 
-  code {
-    padding: 0.2em 0.6em;
-    border-radius: 3px;
-    background: $backgroundLightTransparent2;
-    font-size: 1.2em;
-  }
+
 }
 
-// TODO: use the jekyll syntax highlighter to style code blocks
-code {
-  color: $accentYellowHover;
-  font-family: monospace;
+p, li {
+  code {
+    padding: 0.2em 0.28em;
+    border-radius: 3px;
+    background: $backgroundLightTransparent2;
+    color: $accentYellowHover;
+    font-family: monospace;
+  }
 }
 
 a {
@@ -177,13 +152,16 @@ pre {
   padding: 1em;
   overflow: auto;
   max-height: 780px;
-  font-size: 1.1em;
+  font-size: 0.96em;
+  line-height: 1.08em;
+  font-family: monospace;
   border: 1px solid $backgroundLightTransparent2;
   box-shadow: inset 0 0 100px #0008, -2px -2px 8px #0004;
   background: $backgroundDark;
   background-image: radial-gradient($backgroundLightTransparent 1px, transparent 0);
   background-size: 20px 20px;
   transition: background-position 0.2s;
+  color: $accentYellow;
 }
 
 blockquote {
@@ -228,3 +206,27 @@ hr {
     font-size: 4em;
   }
 }
+
+  // TODO: I like this but idk where I should use it
+  // a {
+  //   &:after {
+  //     content: '';
+  //     position: absolute;
+  //     margin-left: 6px;
+  //     margin-top: -5px;
+  //     width: 10px;
+  //     height: 10px;
+  //     background: $accentYellowTransparent2;
+  //     border-right: 1px solid $accentYellow;
+  //     border-top: 1px solid $accentYellow;
+  //     transition: 0.2s;
+  //     clip-path: polygon(0 0, 100% 0, 100% 100%);
+  //   }
+
+  //   &:hover {
+  //     &:after {
+  //       background: $accentYellowTransparent;
+  //       transform: translate(2px, -2px);
+  //     }
+  //   }
+  // }

@@ -16,7 +16,7 @@ In the constructor, create a `container` that will be:
 - passed to Google Maps in the `onAdd` function
 - and will render our React `content` in the `draw` function
 
-```ts
+{% highlight typescript %}
 class Popup extends google.maps.OverlayView {
     constructor({ content }) {
         super();
@@ -36,7 +36,7 @@ class Popup extends google.maps.OverlayView {
         React.render(this.content, this.container);
     }
 }
-```
+{% endhighlight %}
 
 This is all it takes, now when we go to render a Popup on our map, we can pass React JSX as our content. A more complete version of the code can be found on [Github](https://gist.github.com/pjflanagan/ca1339f4be5432b97f4ddee5f4371642).
 
