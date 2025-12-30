@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: $accentYellow;
   font-family: $ubuntu;
   font-size: 1.4em;
   padding: 1em 0 0.4em;
@@ -52,33 +52,34 @@ h2 {
 }
 
 h3 {
-  color: $accentYellow;
+  color: $accentCyan;
   font-family: $ubuntu;
   font-size: 1.2em;
   padding: 1em 0 0.4em;
 
-  a {
-    &:after {
-      content: '';
-      position: absolute;
-      margin-left: 6px;
-      margin-top: -5px;
-      width: 10px;
-      height: 10px;
-      background: $accentYellowTransparent2;
-      border-right: 1px solid $accentYellow;
-      border-top: 1px solid $accentYellow;
-      transition: 0.2s;
-      clip-path: polygon(0 0, 100% 0, 100% 100%);
-    }
+  // TODO: I like this but idk where I should use it
+  // a {
+  //   &:after {
+  //     content: '';
+  //     position: absolute;
+  //     margin-left: 6px;
+  //     margin-top: -5px;
+  //     width: 10px;
+  //     height: 10px;
+  //     background: $accentYellowTransparent2;
+  //     border-right: 1px solid $accentYellow;
+  //     border-top: 1px solid $accentYellow;
+  //     transition: 0.2s;
+  //     clip-path: polygon(0 0, 100% 0, 100% 100%);
+  //   }
 
-    &:hover {
-      &:after {
-        background: $accentYellowTransparent;
-        transform: translate(2px, -2px);
-      }
-    }
-  }
+  //   &:hover {
+  //     &:after {
+  //       background: $accentYellowTransparent;
+  //       transform: translate(2px, -2px);
+  //     }
+  //   }
+  // }
 }
 
 h4 {

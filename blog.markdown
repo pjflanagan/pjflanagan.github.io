@@ -32,9 +32,14 @@ image: ""
 
 ## All Posts
 
+<!-- CONSIDER: -->
+  <!-- {% for post in year.items %}
+    {% if post.highlight == true %}
+      {% include post-link-large.html slug=post.slug %}
+    {% endif %}
+  {% endfor %} -->
 {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year in years %}
-
   <h3>{{ year.name }}</h3>
   <ul>
     {% for post in year.items %}

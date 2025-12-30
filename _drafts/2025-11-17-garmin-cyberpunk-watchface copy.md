@@ -1,10 +1,11 @@
 ---
-slug: garmin-watch-face
+slug: garmin-asset-generator
 layout: post
 date: 2025-11-17
-title: How to make a Garmin Watch Face
+title: Garmin Asset Generator
 description: 
 image: 
 github: 
 website: 
 ---
+

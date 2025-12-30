@@ -10,7 +10,7 @@ website: https://www.flanny.app/colors-of-pi/
 
 ## Version 1
 
-### [Visit the Site](https://www.flanny.app/colors-of-pi/archive/v1/)
+{% include button.html text="Visit the Site" url="https://www.flanny.app/colors-of-pi/archive/v1/" %}
 
 ![Code](/assets/posts/2015/colors-of-pi/pi-code.jpg)
 
@@ -32,6 +32,6 @@ I am convinced that SNL used my website as a background during their sketch "Mee
 
 ## Version 2 
 
-### [Visit the Site](https://www.flanny.app/colors-of-pi/)
+{% include button.html text="Visit the Site" url="https://www.flanny.app/colors-of-pi/" %}
 
 Years later, I felt compelled to rebuild the site so that it wasn't just one huge html file. 

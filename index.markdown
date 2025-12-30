@@ -63,6 +63,6 @@ My blog is primarily afterthoughts on projects I've completed with a few tutoria
   {% include post-link-li.html slug="breadcrumbs" %}
   {% include post-link-li.html slug="haiku-bot" %}
   {% include post-link-li.html slug="mta-clock" %}
-  {% include post-link-li.html slug="wake" %}
+  {% include post-link-li.html slug="yes-chef" %}
   {% include post-link-li.html slug="cat-laser" %}
 </ul>

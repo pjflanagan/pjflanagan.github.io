@@ -7,15 +7,16 @@ description: A Socket.io game
 image: https://raw.githubusercontent.com/pjflanagan/nuclear-codes/master/media/social.png
 github: https://github.com/pjflanagan/nuclearcodes
 website: https://nuclearcodes.flanny.app/
+highlight: true
 ---
 
-My friends and I play a lot of games when we get together. A favorite of ours is Spies, a simple game about trying to figure out who the spies are. Innocent villagers try and get the group to play black cards and the spies try and trick the group into playing red cards. 
+My friends and I play a lot of games when we get together. A favorite of ours is Spies, a simple game about trying to figure out who the spies are. Innocent villagers try and get the group to play black cards and the spies play red cards and try to trick the group into believing someone else did. 
 
-During the lockdown my family and friends played moved our games to be over Zoom. We invented a few (call out an object and everyone has to run and find that object in their house was always exciting). And we played a few, for instance, an online version of Codewords which we really enjoyed. Codewords was a socket game, and unlike the dynamic birds-eye-view canvas games like Slither.io and Paper.io, codewords was more like an HTML based chat app.
+During the lockdown my family and friends played moved our games to be over Zoom. We invented a few like: "call out an object and everyone has to run and find that object in their house." And we played a few, like an online version of Codewords which we really enjoyed. Codewords was a socket game, and unlike the dynamic birds-eye-view canvas games like Slither.io and Paper.io, codewords was more like an HTML based chat app.
 
-So I felt like I could make one too. I had previous experience with creating [socket games](/assets/posts/simple-socket-game) so I was sure I could apply it in a React app. I came up with Nuclear Codes, a game where federal agents try to recover a code while spies try and stop them.
+So I felt like I could make one too. I had previous experience with creating [socket games](/blog/2019/simple-socket-game) so I was sure I could apply it in a React app. I came up with Nuclear Codes, a game where federal agents try to recover a code while spies try and stop them.
 
-<!-- I sat on this idea for a long time and didn't act on it, but when TODO: QUARANTINE -->
+I sat on this idea for a long time and didn't act on it, but when I went to visit Taiwan in the spring of 2021, I was required to do a full two week quarantine. With plenty of time alone in a small hotel room, I preoccupied myself by programming Nuclear Codes. By the end of the two week quarantine the game was ready to play.
 
 ## Gameplay
 
@@ -70,3 +71,9 @@ This was a very interesting project to test. Because it requires at least five p
 From the test page, I can create rooms, add players, choose the players actions like room selection and code entry, or even disconnect them mid game. This way, after creating a test game with test players, I can join the room myself and play using the UI. I also created modes where the players would automatically respond to the socket, so I wouldn't need to go back to the test interface at all once the game was started.
 
 ![Test Game Start Screen](/assets/posts/2021/nuclear-codes/test-game.png)
+
+## The End
+
+Unfortunately, Heroku has since shut down, and with it, so has Nuclear Codes. With the COVID-19 pandemic over as well, I find myself playing less online games of this sort. So for now, there is no plan to bring Nuclear Codes back online.
+
+Although, I did enjoy the aesthetic, and I like the feel of the scrolling game, so I used that again in [another game](/blog/2025/yes-chef).
