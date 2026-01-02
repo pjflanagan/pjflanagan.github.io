@@ -10,10 +10,15 @@ github: https://github.com/pjflanagan/TwitterFollowBot
 website: 
 ---
 
-This was my first time using an API. I was and still am a big Twitter user, although before I was only trying to be funny.
+I was once a big Twitter user, trying to get popular for being funny. Of course, that meant I wanted a following. And what better way to get that than to use my newfound programming skills than to trick people into following me.
 
-Of course, that meant I wanted a following. And what better way to get that than to use my newfound programming skills than to trick people into following me.
+This was my first time using the Twitter API, and any API for that matter. I wrote a program and ran it on an old computer at home all day while I was at school. I'd enter a celebrity account, then from their list of followers, I would follow and then later unfollow them, in hopes of them following me back. 
 
-I wrote a code that would run on my computer all day while I was at school, that would follow and then unfollow people in hopes of them following me back. It worked somewhat well, but twitter would frequently shut it down.
+![Server](/assets/posts/2014/twitter-follow-bot/twitter-server.jpg)
 
-![The server](/assets/posts/2014/twitter-follow-bot/twitter-server.jpg)
+It worked somewhat well, and after a while I got up to 1000 unearned followers. But Twitter shut it down.
+
+Later, I'd improve the program, in hopes of minimizing API abuse, but it was still pretty ineffective.
+
+![Output](/assets/posts/2014/twitter-follow-bot/twitter-output.jpg)
+

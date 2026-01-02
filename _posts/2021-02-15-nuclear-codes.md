@@ -77,3 +77,9 @@ From the test page, I can create rooms, add players, choose the players actions 
 Unfortunately, Heroku has since shut down, and with it, so has Nuclear Codes. With the COVID-19 pandemic over as well, I find myself playing less online games of this sort. So for now, there is no plan to bring Nuclear Codes back online.
 
 Although, I did enjoy the aesthetic, and I like the feel of the scrolling game, so I used that again in [another game](/blog/2025/yes-chef).
+
+## Bonus
+
+This is a photograph of an early UI for the game. I originally thought the room would be more "physical" feeling, and agents would have an icon on screen representing them. I'm glad I went for a more noir look.
+
+![Test Game Start Screen](/assets/posts/2021/nuclear-codes/early-ui.jpg)
