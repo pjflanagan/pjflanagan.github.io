@@ -3,6 +3,7 @@
   - [ ] color wheel
   - [ ] 2020 - pjflanagan.me -> inspiration, screenshots, reasoning
   - [ ] how to make a garmin watch face
+  - [x] split RunCalculator
   - [x] Tyrannosaurus text
   - [x] Keyboards
   - [x] Flanny app redesign
@@ -13,8 +14,9 @@
   - [ ] Yes, Chef -> screenshots
   - [ ] MRun -> screenshots
   - [ ] Earlybird -> screenshots?
-  - [ ] Blackjack simulator
   - [ ] Witebord -> screenshots if possible
+  - [x] split run calculator
+  - [x] Blackjack simulator
   - [x] NYT Crossword Plus -> screenshots
   - [x] Merge Reminders
   - [x] Shodobot -> a few more photos of the build

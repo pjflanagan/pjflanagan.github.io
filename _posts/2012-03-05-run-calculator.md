@@ -20,43 +20,14 @@ In the first version, I wrote all the code in DreamWeaver in one single `Index.h
 
 ## v2: Bootstrap
 
-After learning more web development skills, I broke the code out into `css` and `js` files with different functions. I also used Bootstrap, which was all the rage at the time, although I didn't use it well, and jQuery, which I did use pretty well. The code was cleaner and readable, but the app was more or less the same.
+After learning more web development skills, I broke the code out into `css` and `js` files with different functions. I also used Bootstrap, which was all the rage at the time. I didn't truly understand what it was for, so I didn't use it properly. I also added jQuery, which had use cases I immediately recognized and took advantage of. The code was cleaner and readable, but the app was more or less the same.
 
 ![Version 2](/assets/posts/2012/run-calculator/v2.jpg)
 
-## v3: Svelte PWA
+## Advertising
 
-In the most up to date version, I got the app to be where I always wanted it to be: as an installable app (thanks PWA's). The changes in this version include:
+I wanted to put advertisements on this website. In order to do that I needed to add content. Google Adsense doesn't recognize web apps as "high value content" because there is no content there. 
 
-- Installable as a PWA
-- Animations where I always felt they should have gone
-- Sizing for various screens
-- Making the website keyboard friendly, so users don't have to use the mouse 
-- The ability to share what you've entered into the calculator just by copying the URL
+So, I started a blog. I wrote about a bunch of different high school events, I wrote my thoughts on different shoe brands, I wrote plans for my future. I've never really kept a journal, but I liked writing these memories down.
 
-![Version 3](/assets/posts/2012/run-calculator/v3.png)
-
-### Thoughts on Svelte
-
-I experimented with a very lightweight framework called Svelte and realized that I don't prefer it, but found it interesting. 
-
-#### Pros
-
-Svelte feels like a return back to early web development, before Webpack and React. I like how Svelte allows you to bind variables, a feature I miss from when I used Angular. I also like the syntax for component props.
-
-{% highlight svelte %}
-<Component {prop1} bind:value={prop2} />
-{% endhighlight %}
-
-#### Cons
-
-But the rest of `.svelte` file syntax I can't say the same for:
-
-- I don't miss adding `<style>` and `<script>` tags, and greatly prefer importing modules
-- I don't like being required to name my files as the their component name
-- I kinda like `{#if}{:else}` and `{#each}` blocks, but not as much as conditional rendering and `.map()`
-- I couldn't stand state updates with `$: variableName`, many times it didn't seem to fire and I couldn't tell why
-
-I understand what they were going for by having these files feel like simple little html pages, but the result feels very loose, like the variables are just floating around. It's very different from the sense of security that using Immutable variables in React affords.
-
-Because Svelte is new, there are not a whole lot of packages available for it, so when developing you are kinda on your own. But it's also exciting that Svelte is new. It'll be exciting to see what happens to Svelte in later versions. I did enjoy using it for this project, and might use it again for other simple projects in the future.
+Eventually I had enough content that Google recognized the website as worthwhile. Over the course of several years online, I probably only made about $100.

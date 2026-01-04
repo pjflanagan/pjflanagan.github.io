@@ -6,7 +6,7 @@ title: Digial Resume
 description: "A Mandarin learning tool"
 image: 
 github: 
-website: 
+website: https://pjflanagan.me
 ---
 
 <!-- TODO: -->
