@@ -16,4 +16,6 @@ Color is 3 dimensional, so I put them into a cube.
 
 ![6-Bit Color Cube](https://github.com/pjflanagan/6-bit-color-wheel/raw/gh-pages/screenshot.png)
 
-Hovering over a color reveals that layer of colors.
+Hovering over a color reveals that layer of colors. This makes it much easier to find adjacent colors and see what my Garmin is capable of displaying while designing watch faces.
+
+![Garmin watch faces](https://github.com/pjflanagan/garmin-chinese-watchface/raw/main/images/HeroImage.jpg)
