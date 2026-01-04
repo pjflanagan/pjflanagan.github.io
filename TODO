@@ -1,35 +1,41 @@
 
-- [ ] Write NEW articles (12/12)
-  - [ ] 2020 - pjflanagan.me -> inspiration, screenshots, reasoning
-  - [ ] how to make a garmin watch face
-  - [ ] multipass
-  - [x] 5x - Split PACPUF into 5 articles
-  - [x] 2x - split RunCalculator
-  - [x] color wheel
-  - [x] espn college conference
-  - [x] Tyrannosaurus text
-  - [x] Keyboards
-  - [x] Flanny app redesign
+# Priority Articles
+- [ ] OhWord -> needs MASSIVE expand
+- [ ] Yes, Chef -> screenshots
+- [ ] 2020 - pjflanagan.me -> inspiration, screenshots, reasoning
+- [ ] how to make a garmin watch face
+- [ ] multipass
 
-- [ ] Improve old articles (4/8)
-  - [ ] OhWord -> needs MASSIVE expand
-  - [ ] Yes, Chef -> screenshots
-  - [ ] MRun -> screenshots
-  - [ ] Earlybird -> screenshots?
-  - [ ] Witebord -> screenshots if possible
-  - [x] Blackjack simulator
-  - [x] NYT Crossword Plus -> screenshots
-  - [x] Merge Reminders
-  - [x] Shodobot -> a few more photos of the build
+Then: - [ ] Reapply for ads
 
-- [ ] Add home button to easiest apps:
-    - [ ] Study mandarin -> bottom right
-    - [ ] Gom Jabbar -> top left
-    - [ ] WorldPhoto -> top left
-    - [ ] ColorsOfPi -> ?
-    - [ ] Canvas Art -> top right
-    - [x] Multipass
-    - [x] Color Wheel
-    - [x] Arcade
+# Home Button
+- [ ] Gom Jabbar -> top left
+- [ ] ColorsOfPi -> bottom left
+- [ ] WorldPhoto -> top left
+- [ ] Canvas Art -> top right
+- [ ] Study mandarin -> bottom right
+- [x] Multipass
+- [x] Color Wheel
+- [x] Arcade
 
-- [ ] Reapply for ads
+# Secondary Articles
+- [ ] MRun -> screenshots
+- [ ] Earlybird -> screenshots?
+- [ ] Witebord -> screenshots if possible
+- [ ] GomJabar -> Gif screenshot
+
+# Completed Articles
+- [x] 5x - Split PACPUF into 5 articles
+- [x] split RunCalculator
+- [x] split colors of pi
+- [x] color wheel
+- [x] espn college conference
+- [x] Tyrannosaurus text
+- [x] Keyboards
+- [x] Flanny app redesign
+- [x] Blackjack simulator
+- [x] NYT Crossword Plus -> screenshots
+- [x] Merge Reminders
+- [x] Shodobot -> a few more photos of the build
+
+

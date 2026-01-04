@@ -51,7 +51,7 @@ I found this at a yard sale for only $5 and didn't hesitate to buy it. It's a 60
 
 ![TKMB](/assets/posts/2024/keyboards/3-tmkb-og.jpg)
 
-I swapped the keys to these decorative ones I picked up in Taiwan.
+I swapped the keys to these decorative ones I picked up at [my favorite keyboard shop in Taipei](https://maps.app.goo.gl/6WiXyCWueDbZZaXV8) as a souvenir.
 
 ![TKMB Zhuyin](/assets/posts/2024/keyboards/3-tmkb-zhuyin.jpg)
 

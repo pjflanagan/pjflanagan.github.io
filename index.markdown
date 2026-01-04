@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Flanny Apps
+title: Home
 description: A collection of apps I've worked on
 image: ""
 ---

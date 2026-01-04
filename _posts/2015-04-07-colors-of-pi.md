@@ -5,16 +5,12 @@ title: Colors of Pi
 description: A visualization of Pi
 image: https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png
 github: https://github.com/pjflanagan/colors-of-pi/
-website: https://www.flanny.app/colors-of-pi/
+website: https://www.flanny.app/colors-of-pi/archive/v1/
 ---
-
-## Version 1
-
-{% include button.html text="Visit the Site" url="https://www.flanny.app/colors-of-pi/archive/v1/" %}
 
 ![Code](/assets/posts/2015/colors-of-pi/pi-code.jpg)
 
-The first version of this site was made in Python. The code would parse a text file containing pi, and then insert styled `<div>` tags into an html page.
+The first version of this site was made using a Python script. The code would parse a text file containing pi, and then insert styled `<div>` tags into an html page.
 
 ![Webpage](/assets/posts/2015/colors-of-pi/pi-webpage.jpg)
 
@@ -22,16 +18,14 @@ The result was pretty. Since, I was using hexadecimal colors, all of the colors 
 
 ![Host65](/assets/posts/2015/colors-of-pi/pi-hosted.jpg)
 
-I was thrilled with the results, so I had to host it online somewhere. I found a site that gave me a very untrustworthy looking url.
+I was thrilled with the results, so I had to host it online somewhere. I found a site that gave me a very untrustworthy looking url. Later I would move it to Github pages.
 
-### SNL Appearance
+## SNL Appearance
 
 I am convinced that SNL used my website as a background during their sketch "Meet Your Second Wife." Take a look for yourself:
 
 ![Meet Your Second Wife](/assets/posts/2015/colors-of-pi/meet-your-second-wife.png)
 
-## Version 2 
+## Version 2
 
-{% include button.html text="Visit the Site" url="https://www.flanny.app/colors-of-pi/" %}
-
-Years later, I felt compelled to rebuild the site so that it wasn't just one huge html file. 
+Years later, I felt compelled to [rebuild the site](/blog/2020/colors-of-pi-v2) so that it wasn't just one huge html file. 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Flanny Apps: Blog"
+title: "Blog"
 description: Thoughts on things I've made
 image: ""
 ---
