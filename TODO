@@ -1,31 +1,31 @@
 
-- [ ] Write NEW articles (0/6)
-  - [ ] Tyrannosaurus text
+- [ ] Write NEW articles (7/12)
+  - [ ] color wheel
+  - [ ] 2020 - pjflanagan.me -> inspiration, screenshots, reasoning
+  - [x] Tyrannosaurus text
+  - [ ] how to make a garmin watch face
   - [x] Keyboards
   - [x] Flanny app redesign
-  - [ ] pjflanagan.me -> inspiration, screenshots, reasoning
-  - [ ] how to make a garmin watch face
-  - [ ] color wheel
   - [x] Split PACPUF into 5 articles
 
-- [ ] Improve old articles (0/8)
-  - [x] Merge Reminders
+- [ ] Improve old articles (2/8)
   - [ ] OhWord -> needs massive expand
   - [ ] Yes, Chef -> screenshots
   - [ ] MRun -> screenshots
   - [ ] Earlybird -> screenshots?
   - [ ] Blackjack simulator
-  - [x] Shodobot
   - [ ] Witebord -> screenshots if possible
   - [ ] NYT Crossword Plus -> screenshots
+  - [x] Merge Reminders
+  - [ ] Shodobot -> a few more photos of the build
 
 - [ ] Add home button to easiest apps:
-    - [ ] Study mandarin
-    - [ ] Gom Jabbar
-    - [ ] WorldPhoto
-    - [ ] ColorsOfPi
-    - [ ] Canvas Art
-    - [ ] Multipass
+    - [ ] Study mandarin -> bottom right
+    - [ ] Gom Jabbar -> top left
+    - [ ] WorldPhoto -> top left
+    - [ ] ColorsOfPi -> ?
+    - [ ] Canvas Art -> top right
+    - [x] Multipass
     - [x] Color Wheel
     - [x] Arcade
 
