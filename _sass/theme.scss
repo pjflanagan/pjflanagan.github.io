@@ -168,7 +168,7 @@ blockquote {
   margin: 1em 2em;
   padding: 2em;
   clip-path: $polygon;
-  background: $backgroundLightTransparent2;
+  background: $backgroundLightTransparent3;
   text-align: center;
 
   p {
@@ -185,6 +185,7 @@ blockquote {
       color: $backgroundLight;
       font-size: 2em;
       font-style: normal;
+      font-family: $americanCaptain;
     }
 
     &:before {

@@ -4,7 +4,7 @@ layout: post
 date: 2025-11-17
 title: Garmin Cyberpunk Watch Face
 description: Preem Cyberware
-image: /assets/posts/2025/garmin-cyberpunk-watchface.png
+image: /assets/posts/2025/cyberpunk/promo-image.png
 github: 
 website: https://apps.garmin.com/apps/2b923217-1208-41bb-be4e-67b09f7835c3
 ---
@@ -18,23 +18,39 @@ The Cyberpunk aesthetic makes data overload fun. So that's what I made.
 
 ## Garmin ConnectIQ Store Description
 
+![Promo Image](/assets/posts/2025/cyberpunk/promo-image.png)
+
 Hey choom, get a load of this preem watch face. Your cyberware'll be lookin' nova with this HUD straight from the streets of Night City.
 
 Detes:
 
-- Flatline: check your health bar and don't get zeroed, featuring daily goal tracking, body battery, and heart rate with hr zone.
-- Chippin' in: keep your fixer happy and see your latest activity and training status in the mission section.
-- Riders on the Storm: see the weather for the day with this custom HUD, featuring UV index, precip chance, humidity, and the high/low.
-- Who's Ready for Tomorrow: a 24 hour bezel shows the time of day and a second hand. Also shown are the time, date, and day of week.
+- `Flatline` - check your health bar and don't get zeroed, featuring daily goal tracking, body battery, and heart rate with hr zone.
+- `Chippin' in` - keep your fixer happy and see your latest activity and training status in the mission section.
+- `Riders on the Storm` - see the weather for the day with this custom HUD, featuring UV index, precip chance, humidity, and the high/low.
+- `Who's Ready for Tomorrow` - a 24 hour bezel shows the time of day and a second hand. Also shown are the time, date, and day of week.
 
-Enjoy the new chrome Rockerboy, this netrunner's gotta delta.
+> Enjoy the new chrome Rockerboy, this netrunner's gotta delta.
+
+## Inspiration and Mockup
+
+Cyberpunk has a pretty informative HUD (which fits the vibe of the game). The most obvious thing to replicate from the HUD is the health bar, as you're also tracking health with a Garmin. I also wanted to replicate the mission progress / current task UI.
+
+![Gameplay Screenshot](/assets/posts/2025/cyberpunk/gameplay-screenshot-hud.jpg)
+
+For the health bar, I felt body battery was a good match, the yellow stamina bar would track your daily goal, and the slots that usually represent your CPU usage would be used for heart rate. The active mission would be your training status, and the current task would be whatever activity you did last.
+
+The rest of the screen I would have to come up with components of my own. But I kept with the color format, that yellow was actionable and green was complete. Red and blue kind of get used interchangeably.
+
+![Concept Art](/assets/posts/2025/cyberpunk/concept-art.png)
+
 
 ## Features
 
-- Yellow indicates actionable information (daily goal progress, current activity, weather alerts)
-- The second hand and hour indicator start from the bottom (midnight) to reflect the sun's position (although the watch does maintain clockwise movement rather than east-west movement)
+I ended up managing to fit a lot of information into this watch face.
 
-Weather
+![Details](/assets/posts/2025/cyberpunk/screenshot-details.jpg)
+
+#### Weather
 - weather condition (blue or yellow)
 - uv index (blue or yellow)
 - precipitation chance (blue or yellow)
@@ -43,21 +59,32 @@ Weather
 - high / low temp
 - wind speed and direction
 
-Time
+#### Time
 - time of day (am/pm or 24 hours)
 - day of week (starting Sunday or Monday)
 - date
 
-Health bar
+#### Health bar
 - daily goal number (number, green or yellow)
 - heart rate
 - daily goal percent (bar, green or yellow)
 - body battery, with current and max
 - current heart rate zone
 
-Activity
+#### Activity
 - Training status
 - Last activity (green or yellow)
+
+I also made the choice to start the second hand, and hour indicators from the bottom center. This better reflects the sun's position (although the watch does maintain clockwise movement rather than east-west movement).
+
+I think the watch is very rewarding when you complete your daily goals and exercise.
+
+![Complete](/assets/posts/2025/cyberpunk/screenshot-complete.jpg)
+
+
+It was also important for this watch to be available for Europeans.
+
+![Settings](/assets/posts/2025/cyberpunk/screenshot-settings.jpg)
 
 ## Plans
 
@@ -68,4 +95,5 @@ This watch has had plenty of feedback online, so I want to keep working on it. B
 - battery and bluetooth indicator (which I personally dislike)
 - more weather icons
 - use the actual Cyberpunk font
-I'll make that new version a paid version.
+
+When I get around to making these changes, I'll make that new version a paid version.

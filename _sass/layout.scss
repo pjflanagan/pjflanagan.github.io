@@ -80,12 +80,12 @@ footer {
   background: $black;
 
   .content {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    height: $footerHeight;
     width: 100vw;
     text-align: center;
-    line-height: $footerHeight;
     color: $whiteTransparent;
+    padding: 20px 12px;
+    line-height: 22px;
   }
 }
