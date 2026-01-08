@@ -11,8 +11,8 @@
 
 - name: Yes, Chef!
   description: A text based adventure game
-  image: https://wake.flanny.app/img/social/wake-social.jpg
-  url: https://wake.flanny.app/peterjflan/yes-chef
+  image: /assets/posts/2025/yes-chef/yes-chef.webp
+  url: https://yes-chef.flanny.app/
 
 - name: Drunk Weather Channel
   description: A weather app for party people
