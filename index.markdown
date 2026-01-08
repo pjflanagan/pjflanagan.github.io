@@ -24,9 +24,7 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 <ul>
 {% for app in site.data.other_apps %}
   <li>
-    <a href="{{ app.url }}" target="_blank">
-      {{ app.name }}
-    </a> - {{ app.description }}
+    <a href="{{ app.url }}" target="_blank">{{ app.name }}</a> - {{ app.description }}
   </li>
 {% endfor %}
 </ul>
@@ -36,13 +34,10 @@ Please enjoy a collection of websites and apps I've made over the years! If you 
 <ul>
 {% for app in site.data.non_web_apps %}
   <li>
-    <a href="{{ app.url }}" target="_blank">
-      {{ app.name }}
-    </a> - {{ app.description }}
+    <a href="{{ app.url }}" target="_blank">{{ app.name }}</a> - {{ app.description }}
   </li>
 {% endfor %}
 </ul>
-
 
 ## Blog
 
