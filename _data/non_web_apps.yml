@@ -2,11 +2,11 @@
 - name: Garmin Cyberpunk Watch Face
   description: Based on Cyberpunk 2077
   image: /assets/posts/2025/garmin-cyberpunk-watchface.png
-  website: https://apps.garmin.com/apps/2b923217-1208-41bb-be4e-67b09f7835c3
+  url: https://apps.garmin.com/apps/2b923217-1208-41bb-be4e-67b09f7835c3
 
 - name: Garmin Chinese Watch Face
   description: 現在是幾點
   image: https://github.com/pjflanagan/garmin-chinese-watchface/raw/main/images/HeroImage.jpg
-  website: https://apps.garmin.com/apps/c0748c90-06ef-4a73-94c5-4d2e51b02659
+  url: https://apps.garmin.com/apps/c0748c90-06ef-4a73-94c5-4d2e51b02659
 
 # TODO: can include Chrome Extensions (if I have any worth mentioning)
