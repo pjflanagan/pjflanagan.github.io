@@ -9,24 +9,34 @@ github:
 website: 
 ---
 
-Making a Garmin Watch Face can be very fun. I love wearing something I programmed around on my wrist.
+Making a Garmin Watch Face can be very rewarding because you get to wear something you programmed around on your wrist. In that sense it's much closer to the physical world than building a website.
 
-## Monkey C Setup
+In this tutorial I'm going to explain (or link to other tutorials that explain), everything you need to know to set up a Garmin Watch Face.
 
-## Repository Guide
+## Setup
 
-## Running the App
+### Monkey C Setup
 
-## Error Monitoring
+### Repository Guide
 
-## Helpful Tools and Guides
+### Running the App
 
-### Image resizer
+### Helpful Tools and Guides
 
-### Device Sizes
+#### Image Resize Tool
 
-### Colors
+#### Device Sizes
 
-### Fonts
+#### Colors
+
+#### Fonts
 
 Fonts for your watch face need to be explicitly defined in Bitmap format. They cannot be resized live.
+
+## Live
+
+### Releasing
+
+### Error Monitoring
+
+

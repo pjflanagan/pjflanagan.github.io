@@ -24,4 +24,7 @@
   image: /assets/posts/2023/html5-canvas-animations-v2.png
   url: https://canvas.flanny.app
 
-
+- name: Study Mandarin
+  description: 我的學校
+  image: https://www.flanny.app/study-mandarin/src/img/banner.png
+  url: https://flanny.app/study-mandarin/
