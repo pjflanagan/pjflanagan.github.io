@@ -8,7 +8,7 @@ github: https://github.com/pjflanagan/JacquelineAndPeter
 website: https://www.flanny.app/JacquelineAndPeter/
 ---
 
-For my wedding I wanted to program the website myself. It was nice to return to building a website just using css and jQuery.
+For my wedding I wanted to program the website myself. It was nice to return to building a website just using CSS and jQuery.
 
 I went for a simple one page scrolling sidebar slideshow, similar to an example I found elsewhere. I picked a red and gold theme.
 
