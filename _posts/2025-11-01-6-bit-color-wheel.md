@@ -6,6 +6,7 @@ description: A color picker
 image: https://github.com/pjflanagan/6-bit-color-wheel/raw/gh-pages/screenshot.png
 github: https://github.com/pjflanagan/6-bit-color-wheel
 website: https://www.flanny.app/6-bit-color-wheel/
+sitemap: false
 ---
 
 The Garmin (at least my Garmin) is only capable of displaying 6-bit colors.

@@ -6,6 +6,7 @@ description: A Wordle expansion pack
 image: https://www.flanny.app/wordle-photo/img/social/fb.png
 github: 
 website: https://www.flanny.app/wordle-photo/
+sitemap: false
 ---
 
 I once played the Wordle and saw that my share emoji's drew a picture. After that I started playing a reverse-Wordle, where I knew the word, and saw if I could draw a picture using it.

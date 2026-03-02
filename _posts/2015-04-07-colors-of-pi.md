@@ -6,6 +6,7 @@ description: A visualization of Pi
 image: https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png
 github: https://github.com/pjflanagan/colors-of-pi/
 website: https://www.flanny.app/colors-of-pi/archive/v1/
+sitemap: false
 ---
 
 ![Code](/assets/posts/2015/colors-of-pi/pi-code.jpg)

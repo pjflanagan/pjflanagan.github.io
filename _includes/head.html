@@ -36,9 +36,15 @@
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image" content="{{ page.image }}" />
 
+{% if page.sitemap == false %}
+<meta name="robots" content="noindex" />
+{% endif %}
+
 <!-- Advertisement -->
+{% if page.sitemap != false %}
 <script
   async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8781416766784863"
   crossorigin="anonymous"
 ></script>
+{% endif %}

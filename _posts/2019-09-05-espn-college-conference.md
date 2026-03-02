@@ -7,6 +7,7 @@ description: "A Chrome extension"
 image: https://github.com/pjflanagan/espn-college-conference/blob/master/img/example.png?raw=true
 github: https://github.com/pjflanagan/espn-college-conference/tree/master
 website: https://pjflanagan.me
+sitemap: false
 ---
 
 It's a tale as old as time that the SEC is the best at College Football. Or are they so I (along with everyone in the BIG10) asked? 

@@ -7,6 +7,7 @@ categories:
 image: https://github.com/pjflanagan/tyrannosaurusText/raw/gh-pages/tText.png
 github: https://github.com/pjflanagan/tyrannosaurusText
 website:
+sitemap: false
 ---
 
 This project was a simple attempt at a plugin. I'm not sure if there was a simple way to make long and short text occupy the same width (or if there is one now). But I felt it would be a useful feature to be able to do easily.

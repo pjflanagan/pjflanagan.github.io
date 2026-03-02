@@ -6,6 +6,7 @@ description: "For free: Chrome Extension, never installed"
 image: https://raw.githubusercontent.com/pjflanagan/tragedize/master/img/promo_tile.png
 github: https://github.com/pjflanagan/tragedize
 website: https://chrome.google.com/webstore/detail/tragedize/indpmljpafokipipkgblbjbdmdfiboje
+sitemap: false
 ---
 
 For a fun little Chrome Extension experiment, I took the saddest six word story, commonly attributed to Ernest Hemingway, and added it to Zappos. Users with the extension installed would see a more poetic product title.

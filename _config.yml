@@ -31,6 +31,7 @@ github_username: pjflanagan1
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Posts settings
 permalink: /blog/:year/:title/

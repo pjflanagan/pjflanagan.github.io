@@ -7,7 +7,8 @@ categories: api twitter
 
 image: /assets/posts/2014/twitter-follow-bot/twitter-code.jpg
 github: https://github.com/pjflanagan/TwitterFollowBot
-website: 
+website:
+sitemap: false
 ---
 
 I was once a big Twitter user, trying to get popular for being funny. Of course, that meant I wanted a following. And what better way to get that than to use my newfound programming skills than to trick people into following me.
