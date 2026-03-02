@@ -6,27 +6,30 @@ description: A visualization of Pi
 image: https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png
 github: https://github.com/pjflanagan/colors-of-pi/
 website: https://www.flanny.app/colors-of-pi/archive/v1/
-sitemap: false
 ---
+
+The first version of **Colors of Pi** was born from a simple curiosity: what would it look like if we treated the infinite digits of Pi as a visual palette? I wanted to see if there were any hidden patterns or "colors" that emerged from the mathematical constant. 
+
+## Technical Beginnings
+
+The initial version of this site was created using a relatively straightforward Python script. The script would parse a large text file containing the first few thousand digits of Pi. For every six digits, it would generate a hexadecimal color code (e.g., `#314159`) and then programmatically insert a styled `<div>` tag with that background color into an HTML page. 
 
 ![Code](/assets/posts/2015/colors-of-pi/pi-code.jpg)
 
-The first version of this site was made using a Python script. The code would parse a text file containing pi, and then insert styled `<div>` tags into an html page.
+The resulting visualization was surprisingly beautiful, though it had a distinct aesthetic. Because Pi only contains digits 0-9, my hex codes were limited to those characters. This meant the colors were skewed toward the darker end of the spectrum, as I couldn't generate any "bright" colors that required the letters A-F. The brightest possible color was `#999999`, giving the entire page a moody, subterranean feel.
 
 ![Webpage](/assets/posts/2015/colors-of-pi/pi-webpage.jpg)
 
-The result was pretty. Since, I was using hexadecimal colors, all of the colors ended up being dark. This was because pi never contained any `A-F` characters and couldn't make a color brighter than `#999999`. 
-
 ![Host65](/assets/posts/2015/colors-of-pi/pi-hosted.jpg)
 
-I was thrilled with the results, so I had to host it online somewhere. I found a site that gave me a very untrustworthy looking url. Later I would move it to Github pages.
+I was so thrilled with the results that I knew I had to host it online. At the time, I didn't have much experience with web hosting, so I ended up using a free service that gave me a very untrustworthy-looking URL. Eventually, I discovered the power of GitHub Pages and moved the project there for a more permanent home. 
 
-## SNL Appearance
+## SNL Appearance?
 
-I am convinced that SNL used my website as a background during their sketch "Meet Your Second Wife." Take a look for yourself:
+A few months after I launched the site, I was watching *Saturday Night Live* and was shocked to see a background that looked identical to my visualization in the "Meet Your Second Wife" sketch. While I have no way of proving it, I am absolutely convinced that someone on the SNL production team found my site screenshot it for the background of a graphic. Take a look for yourself:
 
 ![Meet Your Second Wife](/assets/posts/2015/colors-of-pi/meet-your-second-wife.png)
 
-## Version 2
+## Looking Ahead
 
-Years later, I felt compelled to [rebuild the site](/blog/2020/colors-of-pi-v2) so that it wasn't just one huge html file. 
+Years later, I would eventually [rebuild the site](/blog/2020/colors-of-pi-v2), moving away from the static, pre-rendered HTML approach and towards a more modern, client-side rendering method. This allowed me to expand the visualization to include millions of digits of Pi  as well as other irrational numbers. 

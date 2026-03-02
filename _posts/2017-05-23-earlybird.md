@@ -20,6 +20,7 @@ I was familiar with Flask and Angular, so I decided to use those to make Earlybi
 - I used a Heroku web dyno for the website and backend.
 - I also used a Heroku dyno for a function to check for tweets to send every minute.
 - I considered a UI framework, but decided against it.
+- I had to navigate OAuth 1.0 (which was a nightmare for a beginner).
 
 ## Project Conclusions
 
