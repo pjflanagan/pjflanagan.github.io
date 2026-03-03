@@ -48,27 +48,17 @@ My blog is primarily afterthoughts on projects I've completed with a few tutoria
 <div class="post-link-large-holder">
   {% include post-link-large.html slug="garmin-cyberpunk-watchface" %}
   {% include post-link-large.html slug="ohword" %}
-  {% include post-link-large.html slug="hanafuda" %}
-  {% include post-link-large.html slug="rollerblade-bag" %}
+  {% include post-link-large.html slug="yes-chef" %}
+  {% include post-link-large.html slug="mta-clock" %}
 </div>
 
 ### More Posts
 
 <ul>
   {% include post-link-li.html slug="garmin-asset-generator" %}
-  {% include post-link-li.html slug="yes-chef" %}
-  {% include post-link-li.html slug="mta-clock" %}
-  {% include post-link-li.html slug="arcade-cabinets" %}
-  {% include post-link-li.html slug="blackjack-simulator-go" %}
+  {% include post-link-li.html slug="simple-socket-games" %}
+  {% include post-link-li.html slug="merge-reminders" %}
+  {% include post-link-li.html slug="nyt-crossword-plus" %}
+  {% include post-link-li.html slug="cat-laser" %}
+  {% include post-link-li.html slug="metrocard-phone-charger" %}
 </ul>
-
-<hr />
-
-## Tools & Tech
-
-While I love building things for the web, I also enjoy exploring different platforms and tools. Here are some of the technologies I've been working with lately:
-
-- **Languages:** TypeScript, Python, Go, Swift, Monkey C (for Garmin)
-- **Frameworks:** React, Svelte, Express, FastAPI
-- **Creative Tools:** HTML5 Canvas, Three.js, Figma
-- **Hardware:** Arduino, Raspberry Pi, Custom Arcade Cabinets

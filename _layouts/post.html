@@ -33,6 +33,18 @@
         const backgroundImage = document.getElementById('background-image');
         backgroundImage.style.transform = 'translateY(' + (-scrolled * 0.5) + 'px)';
       });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('#content-holder img');
+        images.forEach(img => {
+          if (img.alt) {
+            const caption = document.createElement('span');
+            caption.classList.add('image-caption');
+            caption.innerText = img.alt;
+            img.parentNode.insertBefore(caption, img.nextSibling);
+          }
+        });
+      });
     </script>
   </body>
 </html>
