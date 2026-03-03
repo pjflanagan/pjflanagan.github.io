@@ -3,6 +3,7 @@ layout: post
 date: 2024-05-11
 title: Wedding Website
 description: An event site for my wife and I
+category: web
 image: https://www.flanny.app/JacquelineAndPeter/img/intro_engagement.jpg
 github: https://github.com/pjflanagan/JacquelineAndPeter
 website: https://www.flanny.app/JacquelineAndPeter/

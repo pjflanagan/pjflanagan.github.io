@@ -3,6 +3,7 @@ layout: post
 date: 2021-09-28
 title: The Drunk Weather Channel
 description: "A weather channel for your night out"
+category: web
 image: https://drunkweatherchannel.flanny.app/img/social/social.png
 github: https://github.com/pjflanagan/drunkweatherchannel
 website: https://drunkweatherchannel.flanny.app/

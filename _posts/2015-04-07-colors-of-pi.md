@@ -3,6 +3,7 @@ layout: post
 date: 2015-04-07
 title: Colors of Pi
 description: A visualization of Pi
+category: art
 image: https://raw.githubusercontent.com/pjflanagan/colors-of-pi/gh-pages/src/img/social-tw.png
 github: https://github.com/pjflanagan/colors-of-pi/
 website: https://www.flanny.app/colors-of-pi/archive/v1/

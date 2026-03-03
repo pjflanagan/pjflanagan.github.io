@@ -4,9 +4,8 @@ layout: post
 date: 2025-11-17
 title: Garmin Asset Generator
 description: Automating background generation for all Garmin screen sizes
+category: garmin
 image: /assets/posts/2025/cyberpunk/promo-image.png
-github: https://github.com/pjflanagan/garmin-asset-generator
-website: 
 ---
 
 Building watch faces like my [Chinese](/blog/2025/garmin-chinese-watchface/) and [Cyberpunk](/blog/2025/garmin-cyberpunk-watchface/) designs is a lot of fun, but also very tedious. One of the biggest challenges is Garmin's many screen sizes and resolutions.

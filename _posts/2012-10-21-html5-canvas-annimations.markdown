@@ -3,7 +3,7 @@ layout: post
 date: 2012-10-21
 title: "HTML5 Canvas Animations"
 description: "Some visuals programmed in JS"
-categories: html5 animations
+category: art
 
 image: /assets/posts/2012/animations.png
 github: https://github.com/pjflanagan/HTML5Canvas

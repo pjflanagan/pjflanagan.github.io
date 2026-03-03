@@ -4,6 +4,7 @@ layout: post
 date: 2022-07-01
 title: Rollerblade Bag
 description: Custom mods for a blading backpack
+category: art
 image: /assets/posts/2022/blade-bag/v2-front.jpeg
 github: 
 website: 

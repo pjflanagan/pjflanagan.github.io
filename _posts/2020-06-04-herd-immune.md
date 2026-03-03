@@ -2,6 +2,7 @@
 date: 2020-06-04
 title: Herd Immune
 description: A short story about tech and the pandemic
+category: story
 image: /assets/posts/2020/herd-immune/header.png
 github: 
 website: 

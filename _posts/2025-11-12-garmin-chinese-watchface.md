@@ -3,6 +3,7 @@ layout: post
 date: 2025-11-12
 title: Garmin Chinese Watch Face
 description: 現在是幾點
+category: garmin
 image: https://github.com/pjflanagan/garmin-chinese-watchface/raw/main/images/HeroImage.jpg
 github: https://github.com/pjflanagan/garmin-chinese-watchface
 website: https://apps.garmin.com/apps/c0748c90-06ef-4a73-94c5-4d2e51b02659

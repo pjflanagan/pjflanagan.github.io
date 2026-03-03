@@ -3,7 +3,7 @@ layout: post
 date: 2014-01-21
 title: Twitter Follow Bot
 description: "A violation of Twitter's API use policy"
-categories: api twitter
+category: tool
 
 image: /assets/posts/2014/twitter-follow-bot/twitter-code.jpg
 github: https://github.com/pjflanagan/TwitterFollowBot

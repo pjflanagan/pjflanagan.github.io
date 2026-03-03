@@ -4,6 +4,7 @@ layout: post
 date: 2019-09-05
 title: ESPN College Conference
 description: "A Chrome extension"
+category: tool
 image: https://github.com/pjflanagan/espn-college-conference/blob/master/img/example.png?raw=true
 github: https://github.com/pjflanagan/espn-college-conference/tree/master
 website: https://pjflanagan.me

@@ -3,6 +3,7 @@ layout: post
 date: 2024-01-02
 title: Arcade Cabinets
 description: A showcase of my favorite games
+category: art
 image: /assets/posts/2024/arcade-cabinets.png
 github: https://github.com/pjflanagan/arcade
 website: https://www.flanny.app/arcade/

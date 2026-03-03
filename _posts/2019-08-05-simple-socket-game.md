@@ -4,6 +4,7 @@ layout: post
 date: 2019-08-05
 title: Simple Socket Games
 description: "Fun to program and play"
+category: web
 image: https://raw.githubusercontent.com/pjflanagan/simple-socket-game/master/assets/logo.jpg
 github: https://github.com/pjflanagan/simple-socket-game
 website: http://simple-socket-game.herokuapp.com

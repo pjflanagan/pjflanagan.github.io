@@ -3,7 +3,7 @@ layout: post
 date: 2024-10-01
 title: Mechanical Keyboards
 description: A brief foray into the mechanical keyboard hobby
-categories:
+category: art
 image: /assets/posts/2024/keyboards/1-keychron-disassembly.jpg
 github: 
 website: 

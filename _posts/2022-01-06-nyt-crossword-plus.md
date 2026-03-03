@@ -3,6 +3,7 @@ layout: post
 date: 2022-01-06
 title: NYT Crossword Plus
 description: A stat sheet
+category: tool
 image: https://nytcrosswordplus.flanny.app/img/social.png
 github: https://github.com/pjflanagan/nyt-crossword-plus
 website: https://nytcrosswordplus.flanny.app/group/test

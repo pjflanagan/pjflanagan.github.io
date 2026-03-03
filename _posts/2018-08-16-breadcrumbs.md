@@ -4,6 +4,7 @@ layout: post
 date: 2018-08-16
 title: Breadcrumbs
 description: "A map augmentation app"
+category: web
 image: https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/header.png
 github: https://github.com/pjflanagan/breadcrumbs
 website:

@@ -3,6 +3,7 @@ layout: post
 date: 2024-06-07
 title: Julian Wittich Musician Website
 description: A based site
+category: web
 image: /assets/posts/2024/julian-wittich-music.jpg
 github: https://github.com/pjflanagan/julianwittichmusic
 website: https://julianwittich.com
