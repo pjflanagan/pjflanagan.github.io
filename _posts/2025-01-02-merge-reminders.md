@@ -3,7 +3,7 @@ layout: post
 date: 2025-01-02
 title: Merge Reminders
 description: Don't forget
-category: tool
+categories: tool
 image: https://github.com/pjflanagan/merge-reminders/raw/main/readme/comment.png?raw=true
 github: https://github.com/pjflanagan/merge-reminders
 website: https://github.com/marketplace/actions/merge-comment-reminders

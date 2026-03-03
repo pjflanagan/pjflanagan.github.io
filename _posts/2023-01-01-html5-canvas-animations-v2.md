@@ -3,7 +3,7 @@ layout: post
 date: 2023-01-01
 title: HTML5 Canvas v2
 description: Canvas animations in Svelte
-category: art
+categories: art
 image: /assets/posts/2023/html5-canvas-animations-v2.png
 github: https://github.com/pjflanagan/canvas
 website: https://canvas.flanny.app/

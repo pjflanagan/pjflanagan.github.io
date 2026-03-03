@@ -4,7 +4,7 @@ layout: post
 date: 2025-11-17
 title: Garmin Cyberpunk Watch Face
 description: Preem Cyberware
-category: garmin
+categories: garmin
 image: /assets/posts/2025/cyberpunk/promo-image.png
 github: 
 website: https://apps.garmin.com/apps/2b923217-1208-41bb-be4e-67b09f7835c3

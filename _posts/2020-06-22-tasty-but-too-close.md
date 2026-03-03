@@ -3,7 +3,7 @@ layout: post
 date: 2020-06-22
 title: Tasty But Too Close
 description: Another cooking video Instagram
-category: art
+categories: art
 image: https://raw.githubusercontent.com/pjflanagan/tasty-but-too-close/77540a90c38ca231556a54ef8943d8a798459d07/img/promo.jpg
 github: https://github.com/pjflanagan/tasty-but-too-close
 website: https://www.instagram.com/tasty_but_too_close/

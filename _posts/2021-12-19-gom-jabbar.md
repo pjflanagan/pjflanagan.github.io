@@ -3,7 +3,7 @@ layout: post
 date: 2021-12-19
 title: Gom Jabbar
 description: A Dune video game
-category: web
+categories: web
 image: https://www.flanny.app/gom-jabbar/img/social/social-fb.png
 github: 
 website: https://www.flanny.app/gom-jabbar/

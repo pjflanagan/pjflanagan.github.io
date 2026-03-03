@@ -4,7 +4,7 @@ layout: post
 date: 2020-08-05
 title: "Run Calculator - Svelte"
 description: "Another lap"
-category: web
+categories: web
 
 image: https://runcalculator.flanny.app/img/social/share-card.png
 github: https://github.com/pjflanagan/runcalculator

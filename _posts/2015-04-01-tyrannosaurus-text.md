@@ -3,7 +3,7 @@ layout: post
 date: 2015-04-01
 title: Tyrannosaurus Text
 description: A js plugin
-category: tool
+categories: tool
 image: https://github.com/pjflanagan/tyrannosaurusText/raw/gh-pages/tText.png
 github: https://github.com/pjflanagan/tyrannosaurusText
 website:

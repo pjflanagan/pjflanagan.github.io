@@ -3,7 +3,7 @@ layout: post
 date: 2025-09-27
 title: Study Mandarin
 description: Another mandarin study tool
-category: web
+categories: web
 image: https://www.flanny.app/study-mandarin/src/img/banner.png
 github: https://github.com/pjflanagan/study-mandarin
 website: https://flanny.app/study-mandarin

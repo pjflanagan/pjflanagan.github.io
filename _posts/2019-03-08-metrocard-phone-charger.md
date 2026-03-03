@@ -3,7 +3,7 @@ layout: post
 date: 2019-03-08
 title: Metrocard Wireless Charger
 description: A 3D printed wireless phone charger for standard size cards
-category: art
+categories: art
 image: /assets/posts/2019/metrocard-phone-charger/header.jpg
 github:
 website: https://cad.onshape.com/documents/fe9a14ca0d7527d5d24e40f3/w/387d63da11f34da1257b0e9e/e/014e7bec234688533692fc05?fbclid=IwAR2KqT-QdLNaNoCOsT2Mom-XuLLP4sdTq22zFEmM5aI33Dw0zU4WSYTFZCU 

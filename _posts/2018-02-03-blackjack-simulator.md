@@ -3,7 +3,7 @@ layout: post
 date: 2018-02-03
 title: Blackjack Simulator
 description: "Always split 8s"
-category: web
+categories: web
 image: /assets/posts/2018/vegas.jpg
 github: https://github.com/pjflanagan/blackjack-simulator
 website:

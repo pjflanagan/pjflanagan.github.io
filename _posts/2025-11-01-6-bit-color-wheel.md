@@ -3,7 +3,7 @@ layout: post
 date: 2025-11-01
 title: 6-Bit Color Wheel
 description: A color picker
-category: tool
+categories: tool
 image: https://github.com/pjflanagan/6-bit-color-wheel/raw/gh-pages/screenshot.png
 github: https://github.com/pjflanagan/6-bit-color-wheel
 website: https://www.flanny.app/6-bit-color-wheel/

@@ -4,7 +4,7 @@ layout: post
 date: 2009-09-12
 title: "The Site To Go To"
 description: "My first website"
-category: school
+categories: school
 image: /assets/posts/2009/thesitetogoto.png
 github:
 website:

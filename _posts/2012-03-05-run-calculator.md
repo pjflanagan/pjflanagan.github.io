@@ -3,7 +3,7 @@ layout: post
 date: 2012-03-05
 title: "Run Calculator"
 description: "A running pace calculator"
-category: web
+categories: web
 
 image: https://runcalculator.flanny.app/img/social/share-card.png
 github: https://github.com/pjflanagan/runcalculator

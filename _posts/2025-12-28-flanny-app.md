@@ -4,7 +4,7 @@ layout: post
 date: 2025-12-28
 title: Flanny App Redesign
 description: A homepage for my pages
-category: web
+categories: web
 image: 
 github: https://github.com/pjflanagan/pjflanagan.github.io/
 website: https://flanny.app

@@ -4,10 +4,10 @@ layout: post
 date: 2019-09-05
 title: ESPN College Conference
 description: "A Chrome extension"
-category: tool
+categories: tool
 image: https://github.com/pjflanagan/espn-college-conference/blob/master/img/example.png?raw=true
 github: https://github.com/pjflanagan/espn-college-conference/tree/master
-website: https://pjflanagan.me
+website: https://chromewebstore.google.com/detail/espn-college-conference/kainlkdopbhmgpdaeepjpglhnpinhfcn
 ---
 
 It's a tale as old as time in the world of college sports: the SEC (Southeastern Conference) is widely considered to be the best at college football. But are they *really* that much better than everyone else? That's the question I, along with every other fan in the Big Ten (B1G), found myself asking every single Saturday in the fall. 

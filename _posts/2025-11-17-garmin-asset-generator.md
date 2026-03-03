@@ -4,7 +4,7 @@ layout: post
 date: 2025-11-17
 title: Garmin Asset Generator
 description: Automating background generation for all Garmin screen sizes
-category: garmin
+categories: garmin
 image: /assets/posts/2025/cyberpunk/promo-image.png
 ---
 

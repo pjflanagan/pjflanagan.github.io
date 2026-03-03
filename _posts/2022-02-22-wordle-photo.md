@@ -3,7 +3,7 @@ layout: post
 date: 2022-02-22
 title: Wordle Photo
 description: A Wordle expansion pack
-category: tool
+categories: tool
 image: https://www.flanny.app/wordle-photo/img/social/fb.png
 github: 
 website: https://www.flanny.app/wordle-photo/

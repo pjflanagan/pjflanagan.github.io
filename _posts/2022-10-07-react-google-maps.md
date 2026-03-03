@@ -3,7 +3,7 @@ layout: post
 date: 2022-10-07
 title: Google Maps API and React
 description: A quick tutorial for using React with Google Maps API
-category: tutorial
+categories: tutorial
 image: /assets/posts/2022/google-maps.png
 github: https://gist.github.com/pjflanagan/ca1339f4be5432b97f4ddee5f4371642
 website: 
