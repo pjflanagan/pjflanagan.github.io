@@ -24,3 +24,5 @@ Other tools and useful things
 - Google Translate and Pinyin Conversion integration so writing flashcards is just copying characters
 - A PDF generator for printable flashcards
 - It's very easy to ask an LLM to generate flashcards for a CSV in VSCode
+
+<!-- TODO: some pictures of what the PDF looks likes -->

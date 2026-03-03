@@ -7,9 +7,13 @@ image: ""
 
 # Blog
 
+This blog is many things for me. A bit of a portfolio, a bit of a journal, a bit of "final resting place" for projects.
+
 ## Featured
 
 ### Live Apps
+
+Read about apps you can visit / download!
 
 <div class="post-link-large-holder">
 {% include post-link-large.html slug="garmin-cyberpunk-watchface" %}
@@ -17,6 +21,8 @@ image: ""
 </div>
 
 ### Past Projects
+
+Some inactive but rewarding projects.
 
 <div class="post-link-large-holder">
 {% include post-link-large.html slug="nuclear-codes" %}
@@ -28,6 +34,15 @@ image: ""
 <div class="post-link-large-holder">
 {% include post-link-large.html slug="gen-ai" %}
 {% include post-link-large.html slug="simple-socket-games" %}
+</div>
+
+### Tools
+
+Maybe you'll find something useful.
+
+<div class="post-link-large-holder">
+{% include post-link-large.html slug="merge-reminders" %}
+{% include post-link-large.html slug="nightpro-for-gopro" %}
 </div>
 
 ## All Posts

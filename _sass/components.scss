@@ -3,7 +3,7 @@
 .button-row {
   display: flex;
   gap: 16px;
-  margin: 14px 0;
+  padding: 14px 0;
 }
 
 .button-holder a {
@@ -27,6 +27,7 @@
 }
 
 .post-link-large-holder {
+  margin: 0 0 18px;
   width: 100%;
   display: flex;
   gap: 8px;
@@ -80,6 +81,7 @@ $description-height: 46px;
 
 
 .app-link-large-holder {
+  margin: 0 0 18px;
   width: 100%;
   display: flex;
   gap: 8px;
