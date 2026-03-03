@@ -2,7 +2,7 @@
 layout: home
 title: Home
 description: A collection of apps I've worked on
-image: ""
+image: https://camo.githubusercontent.com/f3d2c49012869603dbd75aa77f0f753a215fb808f5b151b543484250310d4f12/68747470733a2f2f706a666c616e6167616e2e6d652f696d672f736f6369616c2f736f6369616c2e706e67
 ---
 
 # Flanny Apps
