@@ -4,7 +4,7 @@ layout: post
 date: 2021-02-15
 title: Nuclear Codes
 description: A Socket.io game
-categories: web
+categories: web game
 image: https://raw.githubusercontent.com/pjflanagan/nuclear-codes/master/media/social.png
 github: https://github.com/pjflanagan/nuclearcodes
 website: https://nuclearcodes.flanny.app/

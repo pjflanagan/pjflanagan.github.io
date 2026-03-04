@@ -3,7 +3,7 @@ layout: post
 date: 2023-02-24
 title: Tweet Percent
 description: An honest statistic
-categories: tool
+categories: 
 image: https://raw.githubusercontent.com/pjflanagan/TweetPercent/main/img/promo_tile.png
 github: https://github.com/pjflanagan/TweetPercent
 website: https://chrome.google.com/webstore/detail/tweet-percent/dhfljnmkpcpmacaffjcplpdpggkmojhf?hl=en&authuser=0

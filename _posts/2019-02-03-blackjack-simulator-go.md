@@ -4,7 +4,7 @@ layout: post
 date: 2019-02-03
 title: Blackjack Simulator Go
 description: "Double down"
-categories: tool
+categories: 
 image: /assets/posts/2018/vegas.jpg
 github: https://github.com/pjflanagan/blackjack-simulator-go
 website:

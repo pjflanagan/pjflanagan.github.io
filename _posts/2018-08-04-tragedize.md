@@ -3,7 +3,7 @@ layout: post
 date: 2018-08-04
 title: Tragedize
 description: "For free: Chrome Extension, never installed"
-categories: tool
+categories: 
 image: https://raw.githubusercontent.com/pjflanagan/tragedize/master/img/promo_tile.png
 github: https://github.com/pjflanagan/tragedize
 website: https://chrome.google.com/webstore/detail/tragedize/indpmljpafokipipkgblbjbdmdfiboje
