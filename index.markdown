@@ -7,12 +7,6 @@ image: https://camo.githubusercontent.com/f3d2c49012869603dbd75aa77f0f753a215fb8
 
 # Flanny Apps
 
-Please enjoy a collection of websites and apps I've made over the years! If you want to know more about me check out my [portfolio](https://pjflanagan.me).
-
-## Apps
-
-### Favorites
-
 <div class="app-link-large-holder">
   {% for app in site.data.favorite_apps %}
   {% include app-link-large.html app=app %}

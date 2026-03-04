@@ -17,6 +17,8 @@ In this tutorial I'm going to explain (or link to other tutorials that explain),
 
 ### Monkey C Setup
 
+I'd recommend setting this up in VSCode. There are tutorials out there to try and set this up in Eclipse. I think that's overkill.
+
 ### Repository Guide
 
 ### Running the App

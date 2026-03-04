@@ -29,8 +29,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: left;
-    gap: 32px;
+    justify-content: space-between;
 
     .title {
       font-family: $americanCaptain;
@@ -43,6 +42,22 @@ header {
         color: inherit;
         text-decoration: none;
         box-shadow: none;
+      }
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+
+      .external-link {
+        color: $accentCyan;
+        box-shadow: inset 0 -6px 0 0 $backgroundLightTransparent;
+
+        &:hover {
+          box-shadow: inset 0 -10px 0 0 $backgroundLight;
+        }
       }
     }
   }

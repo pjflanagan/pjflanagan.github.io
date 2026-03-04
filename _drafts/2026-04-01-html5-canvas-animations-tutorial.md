@@ -1,13 +1,15 @@
 ---
 layout: post
-date: 2023-01-01
+date: 2026-01-01
 title: HTML5 Canvas Tutorial
 description: 
 categories:
 image: /assets/posts/2012/animations.png
-github: https://github.com/pjflanagan/HTML5Canvas
+github: https://gist.github.com/pjflanagan/d3ef3208b35cdc4a5f387978db61c885
 website: https://www.flanny.app/HTML5Canvas/
 ---
+
+https://gist.github.com/pjflanagan/d3ef3208b35cdc4a5f387978db61c885
 
 ## Tutorial
 
@@ -17,9 +19,11 @@ All of the code for this tutorial is in one `index.html` file.
 
 ### Step 2: Understanding the HTML and CSS
 
-This tutorial will not cover HTML
+This tutorial will not cover HTML or CSS.
 
 ### Step 3: Understanding the Javascript
+
+<!-- TODO: -->
 
 ## About
 

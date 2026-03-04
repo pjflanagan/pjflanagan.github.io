@@ -7,7 +7,9 @@ image: https://camo.githubusercontent.com/f3d2c49012869603dbd75aa77f0f753a215fb8
 
 # Blog
 
-This blog is many things for me. A bit of a portfolio, a bit of a journal, a bit of "final resting place" for projects.
+Welcome to the **Flanny Apps Blog**. This blog is many things for me: a bit of a portfolio, a bit of a journal, and a "final resting place" for projects both active and retired. 
+
+Here you will find deep dives into the technical challenges I've faced, retrospectives on past projects from my school days, and tutorials on modern web development. I believe that every project has a story to tell, whether it's a simple script or a full-scale web application.
 
 ## Featured
 
