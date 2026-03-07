@@ -77,4 +77,4 @@ The Disease was much worse than Dr. Rivera had first thought. Her next patient w
 
 At the beginning of the pandemic, I saw this tweet by a tech entrepreneur and was immediately put off. I felt like it can be dangerous for tech entrepreneurs to insert themeselves into situations they lack expertise in, public health for instance. Ideas like this prioritize work as a means to survive, which, in week two of the pandemic in the US is not where I think our minds should go.
 
-![Herd Immune Storefront](/assets/posts/2020/herd-immune/tweet.png)
+![Herd Immune Inspiration Tweet](/assets/posts/2020/herd-immune/tweet.png)
