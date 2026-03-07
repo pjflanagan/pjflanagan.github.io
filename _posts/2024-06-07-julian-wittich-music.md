@@ -29,5 +29,5 @@ An important part of this project was for Julian to be able to edit the app on h
 
 Using Blogger he can update a few different blog posts that populate the content of the page. NextJS caches this to improve load time. Using Google Calendar he can update when his events are and even include links to buy tickets.
 
-![Example Event](https://raw.githubusercontent.com/pjflanagan/julianwittichmusic/main/readme/ExampleEvent.png)
+![Example event entry in Google Calendar](https://raw.githubusercontent.com/pjflanagan/julianwittichmusic/main/readme/ExampleEvent.png)
 

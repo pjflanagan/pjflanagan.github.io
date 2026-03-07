@@ -23,7 +23,7 @@ I decided instead to build a dedicated showcase for these cabinets, using them t
 
 I want to talk about Battle Bros. In [Super Mario All-Stars](https://www.imdb.com/title/tt0221603/) (Super Mario 3) There is a game, only referred to as [Battle Game](https://www.mariowiki.com/Battle_Game_%28Super_Mario_All-Stars%29).
 
-![Super Mario All Stars](/assets/posts/2024/arcade-mario.png)
+![Super Mario All Stars start menu](/assets/posts/2024/arcade-mario.png)
 
 My friend and I are really good at Battle Game but I don't think there are professional level competitions in it. If you know of any, please contact me immediately.
 

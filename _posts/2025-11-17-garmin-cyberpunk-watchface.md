@@ -19,7 +19,7 @@ The Cyberpunk aesthetic makes data overload fun. So that's what I made.
 
 ## Garmin ConnectIQ Store Description
 
-![Promo Image](/assets/posts/2025/cyberpunk/promo-image.png)
+![Promo image featuring Cyberpunk 2077 background and a Garmin Forerunner 255](/assets/posts/2025/cyberpunk/promo-image.png)
 
 Hey choom, get a load of this preem watch face. Your cyberware'll be lookin' nova with this HUD straight from the streets of Night City.
 
@@ -36,20 +36,20 @@ Detes:
 
 Cyberpunk has a pretty informative HUD (which fits the vibe of the game). The most obvious thing to replicate from the HUD is the health bar, as you're also tracking health with a Garmin. I also wanted to replicate the mission progress / current task UI.
 
-![Gameplay Screenshot](/assets/posts/2025/cyberpunk/gameplay-screenshot-hud.jpg)
+![Gameplay screenshot with health bar, active mission, and other ui elements](/assets/posts/2025/cyberpunk/gameplay-screenshot-hud.jpg)
 
 For the health bar, I felt body battery was a good match, the yellow stamina bar would track your daily goal, and the slots that usually represent your CPU usage would be used for heart rate. The active mission would be your training status, and the current task would be whatever activity you did last.
 
 The rest of the screen I would have to come up with components of my own. But I kept with the color format, that yellow was actionable and green was complete. Red and blue kind of get used interchangeably.
 
-![Concept Art](/assets/posts/2025/cyberpunk/concept-art.png)
+![Concept art showing idealized version of the watch face](/assets/posts/2025/cyberpunk/concept-art.png)
 
 
 ## Features
 
 I ended up managing to fit a lot of information into this watch face.
 
-![Details](/assets/posts/2025/cyberpunk/screenshot-details.jpg)
+![Labeled features of the watch face](/assets/posts/2025/cyberpunk/screenshot-details.jpg)
 
 #### Weather
 - weather condition (blue or yellow)
@@ -80,12 +80,12 @@ I also made the choice to start the second hand, and hour indicators from the bo
 
 I think the watch is very rewarding when you complete your daily goals and exercise.
 
-![Complete](/assets/posts/2025/cyberpunk/screenshot-complete.jpg)
+![Completed daily training and step goal](/assets/posts/2025/cyberpunk/screenshot-complete.jpg)
 
 
 It was also important for this watch to be available for Europeans.
 
-![Settings](/assets/posts/2025/cyberpunk/screenshot-settings.jpg)
+![Settings changed to European preferences](/assets/posts/2025/cyberpunk/screenshot-settings.jpg)
 
 ## Plans
 

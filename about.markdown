@@ -20,6 +20,11 @@ Welcome to **Flanny Apps**, a collection of digital projects, experiments, and t
 
 I love making things. Sometimes they're useful, sometimes they're fun. This site serves as both a showcase of those active projects and a graveyard or write ups about inactive projects. From here you can see my journey through the world of web development, mobile apps, and hardware hacking.
 
+<!-- This blog is many things for me: a bit of a portfolio, a bit of a journal, and a "final resting place" for projects both active and retired. -->
+
+Here you will find deep dives into the technical challenges I've faced, retrospectives on past projects from my school days, and tutorials on modern web development. I believe that every project has a story to tell, whether it's a simple script or a full-scale web application.
+
+
 <!-- 
 
 
