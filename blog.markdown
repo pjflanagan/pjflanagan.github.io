@@ -7,11 +7,12 @@ image: https://camo.githubusercontent.com/f3d2c49012869603dbd75aa77f0f753a215fb8
 
 # Blog
 
-<div class="blog-carousel">
+<!-- TODO: -->
+<!-- <div class="blog-carousel">
   {% for post in site.data.blog_featured %}
   {% include blog-carousel-item.html slug=post.slug tag=post.tag %}
   {% endfor %}
-</div>
+</div> -->
 
 <h2>All Posts</h2>
 {% assign all_categories = site.posts | map: "categories" | join: "," | split: "," | uniq | sort %}
