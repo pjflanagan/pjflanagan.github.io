@@ -26,6 +26,23 @@ I built a Python-based **Garmin Asset Generator** to solve this.
 
 By using this tool, I can focus more on the design and logic of my watch faces and less on the repetitive task of exporting dozens of images.
 
+## How It Works
+
+The tool is a Python script that can execute a few commands for generating images. It reads a configuration file listing the target Garmin devices and their resolutions.
+
+The gradient backgrounds are very useful. Rather than opening Photoshop or Figma for every new device, I pass in two hex colors and the script interpolates between them based on a pattern — either radial or linear — and saves a correctly-sized PNG for each resolution. Changing the color scheme of a watch face is now a one-line config change. I intend on adding more background patterns like this as well.
+
+## Before and After
+
+Before this tool, adding support for a new Garmin device meant:
+1. Opening an image editor
+2. Resizing the background to the new dimensions
+3. Manually scaling any logos or decorative elements
+4. Saving and renaming the file
+5. Dropping it into the correct folder in the Connect IQ project
+
+Now it's one command. The folder is populated automatically.
+
 ## Future Features
 
 - **Splash logo generation**: Each device has specific sizing for the splash icon, and I want this tool to be able to handle that.
