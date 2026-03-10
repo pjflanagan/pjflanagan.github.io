@@ -24,4 +24,18 @@ After some copy pasting, frontmatter editing, and custom component building, the
 
 Now that there is a home page for all Flanny apps, it was natural to want to add a way to get to that home page. To do this I thought it would be neat to make a simple script that can be pasted into any existing app (like adding a jQuery or a Google Font). The home button is a simple html element that looks like a planet. It takes minimal configuration (if any) and only needs a `script` tag to implement.
 
-Check out the [Github repo](https://github.com/pjflanagan/flanny-app-home-button) and [examples](https://www.flanny.app/flanny-app-home-button/) 
+Check out the [Github repo](https://github.com/pjflanagan/flanny-app-home-button) and [examples](https://www.flanny.app/flanny-app-home-button/)
+
+## Why Jekyll over Gatsby
+
+My original blog used Gatsby, which is a React-based static site generator. Gatsby is powerful, but it requires a full Node.js build pipeline and a Netlify deployment to publish even a one-line change. For a personal blog that I update sporadically, that friction added up. Every post meant waiting for a build.
+
+Jekyll, on the other hand, is natively supported by GitHub Pages. Push to main and the site updates in seconds. No build step, no Netlify dashboard, no queued deployment. For a blog where I'm already managing GitHub repos for everything else, this felt much more natural.
+
+The tradeoff is that Jekyll is less flexible — no React components, no GraphQL data layer. But for a blog that's mostly Markdown and images, that flexibility wasn't something I was actually using in Gatsby anyway. The simpler tool turned out to be the better fit.
+
+## Reflections on the Migration
+
+Moving posts from Gatsby to Jekyll mostly meant reformatting frontmatter and updating image paths. The bigger task was building out the Jekyll theme from scratch to match the look I wanted. Jekyll's Liquid templating is more limited than React, but for layouts and includes it works well.
+
+The home button script ended up being one of my favorite parts of this project. The idea of a single `<script>` tag that injects a persistent, branded element into any page — no npm, no bundler, no configuration — felt like the right amount of engineering for the problem.

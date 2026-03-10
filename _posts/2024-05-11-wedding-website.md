@@ -21,6 +21,18 @@ Some of my favorite components/features are:
 
 I don't often program websites with this much information, its amazing how good a full bodied website can look.
 
+## The One-Page Scroll Layout
+
+The layout uses a fixed main content area and a scrollable sidebar (which is a common template on theknot.com). As you scroll through sections, the photo that takes up most of the screen changes. Getting that effect right was a matter of adding tags to specific elements with data about what photo to change to.
+
+## Building With Real Content
+
+Most of my projects are tools or visuals, there isn't much informative content there. Building a website for an actual event with real logistics was a fun change of pace. There were details that needed to be right, links to external resources, and tons of photos.
+
+## Going Vanilla
+
+Returning to plain CSS and jQuery after years of React and TypeScript felt refreshing. No state management, no component lifecycle, no build step. For a project with a clear scope and a hard deadline (the wedding), the simplicity was an asset.
+
 ## Google Icons
 
 I used Google Icons from Google Fonts, which are incredibly interesting. They sub in a font that looks like a section of an icon

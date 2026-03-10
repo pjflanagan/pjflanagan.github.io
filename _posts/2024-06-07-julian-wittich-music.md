@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-07
 title: Julian Wittich Musician Website
-description: A based site
+description: A bass musician website
 categories: web live
 image: /assets/posts/2024/julian-wittich-music.jpg
 github: https://github.com/pjflanagan/julianwittichmusic
@@ -23,11 +23,21 @@ This was my first time using a clear background canvas on top of a website. I lo
 
 ## Editable
 
-An important part of this project was for Julian to be able to edit the app on his own, without having to edit any HTML or Markdown files. I came up with two ways for him to do that, all through his Google account:
+An important part of this project was for Julian to be able to edit the app on his own, without having to edit any HTML or Markdown files. Most solutions to this are a CMS (like WordPress or Contentful), but setting one up and maintaining it felt like overkill. 
+
+So, I came up with two ways for him to do that, all through his Google account:
 - Blogger
 - Calendar
 
-Using Blogger he can update a few different blog posts that populate the content of the page. NextJS caches this to improve load time. Using Google Calendar he can update when his events are and even include links to buy tickets.
+Blogger is Google's free blogging platform, and it has a public API. Each section of Julian's site (bio, press quotes, upcoming info) is a separate Blogger post. He edits the post in Blogger's familiar editor and the site pulls the updated content on page load. NextJS caches it so there's no latency for visitors.
+
+Google Calendar works similarly — Julian adds events with titles, dates, times, and optional ticket URLs as calendar entries. The site fetches upcoming events from the public calendar feed. No custom admin panel required.
 
 ![Example event entry in Google Calendar](https://raw.githubusercontent.com/pjflanagan/julianwittichmusic/main/readme/ExampleEvent.png)
+
+## Reflections
+
+Building for someone else's ongoing use is different from building for yourself. I had to think about what happens when I'm unavailable, when the tools change, or when Julian wants to add something I didn't plan for. The Google-as-CMS approach holds up well because both Blogger and Google Calendar are mature, well-documented tools Julian already knows how to use.
+
+The bass string animation remains the part I'm most proud of. It's a small detail that most visitors probably interact with for about ten seconds, but those ten seconds feel like discovering something rather than just scrolling past a photo.
 

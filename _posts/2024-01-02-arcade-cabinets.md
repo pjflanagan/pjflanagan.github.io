@@ -2,7 +2,7 @@
 layout: post
 date: 2024-01-02
 title: Arcade Cabinets
-description: A showcase of my favorite games
+description: A CSS showcase of my favorite games
 categories: art web
 image: /assets/posts/2024/arcade-cabinets.png
 github: https://github.com/pjflanagan/arcade
@@ -19,6 +19,13 @@ I decided instead to build a dedicated showcase for these cabinets, using them t
 
 ![A screenshot of the arcade cabinets](/assets/posts/2024/arcade-cabinets.png)
 
+## The CSS Approach
+
+Each arcade cabinet is built entirely in CSS — no images, no SVGs. The cabinet body, screen bezel, marquee, joystick, and buttons are all `div` elements with borders, gradients, and `border-radius` properties. This was the interesting technical constraint: could I make something that looks like a cabinet using only the browser's layout engine?
+
+The answer is yes, with some patience. Some fun parts I'd like to point out are the curved screen with a shine overlay, the flickering blue light of the screen, and the dancing joystick.
+
+
 ## Battle Bros
 
 I want to talk about Battle Bros. In [Super Mario All-Stars](https://www.imdb.com/title/tt0221603/) (Super Mario 3) There is a game, only referred to as [Battle Game](https://www.mariowiki.com/Battle_Game_%28Super_Mario_All-Stars%29).
@@ -26,4 +33,3 @@ I want to talk about Battle Bros. In [Super Mario All-Stars](https://www.imdb.co
 ![Super Mario All Stars start menu](/assets/posts/2024/arcade-mario.png)
 
 My friend and I are really good at Battle Game but I don't think there are professional level competitions in it. If you know of any, please contact me immediately.
-

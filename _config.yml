@@ -20,18 +20,22 @@
 
 title: Flanny Apps
 email: pjflanagan1@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A collection of my apps and project blog posts.
+description: >-
+  A collection of apps and project blog posts by Peter Flanagan —
+  a software engineer based in New York.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flanny.app" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
 github_username: pjflanagan1
+
+author:
+  name: Peter James Flanagan
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Posts settings
 permalink: /blog/:year/:title/

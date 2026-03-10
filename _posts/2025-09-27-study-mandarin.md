@@ -2,7 +2,7 @@
 layout: post
 date: 2025-09-27
 title: Study Mandarin
-description: Another mandarin study tool
+description: A lightweight Traditional Chinese study site
 categories: web live
 image: https://www.flanny.app/study-mandarin/src/img/banner.png
 github: https://github.com/pjflanagan/study-mandarin
@@ -26,4 +26,20 @@ Other tools and useful things
 - A PDF generator for printable flashcards
 - It's very easy to ask an LLM to generate flashcards for a CSV in VSCode
 
-<!-- TODO: some pictures of what the PDF looks likes -->
+## Why Traditional Characters
+
+Most Mandarin learning resources focus on Simplified Chinese, which is used in mainland China. Taiwan uses Traditional characters, which are more complex but also more visually meaningful — many characters retain the pictographic or ideographic logic they were built from. I'm learning Traditional because I spend time in Taiwan, so most off-the-shelf tools weren't quite right for me.
+
+Writing a converter from Simplified to Traditional was one of the first things I built. It's not perfect, but for flashcard generation it works well enough. 
+
+## Zhuyin
+
+Most Western learners use Pinyin (romanization) to learn pronunciation. Taiwan uses Zhuyin, a phonetic system made of 37 symbols that map to sounds in Mandarin. Learning Zhuyin is extra work upfront, but it pays off because it's how Taiwanese dictionaries, children's books, and phone keyboards are organized.
+
+The Zhuyin trainer is a simple drill: a random character is selected and only the Zhuyin pronunciation is shown. Clicking reveal shows the character, but more importantly, the romanization.
+
+## Keeping It Simple on Purpose
+
+The deliberate choice to avoid a backend has held up well. The flashcard sets are plain CSV files. Adding new vocabulary is a matter of adding rows. There's no database to manage, no auth system to maintain, no server bills. The whole thing lives in a GitHub repo and deploys for free.
+
+The one thing I'd add eventually is offline support — a PWA cache so I can drill flashcards on the subway without a connection.

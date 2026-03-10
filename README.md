@@ -8,7 +8,6 @@ The Flanny Apps home page
 
 - https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 - https://jekyllrb.com/docs/installation/macos/
-- 
 
 ### Run
 
