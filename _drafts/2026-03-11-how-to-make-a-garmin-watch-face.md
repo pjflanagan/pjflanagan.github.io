@@ -26,10 +26,6 @@ Some guides recommend using Eclipse. I'd skip it. The VSCode extension is well-m
 
 Once installed, you can generate a new watch face project from the command palette: `Monkey C: Create a new project`. Select "Watch Face" as the app type. This scaffolds the folder structure for you.
 
-### The Developer Account
-
-To publish (and to run on a real device), you need a free Garmin developer account at [developer.garmin.com](https://developer.garmin.com). Once registered, you generate a developer key from the portal. The VSCode extension will prompt you for this key the first time you try to build.
-
 ## Project Structure
 
 A Monkey C watch face project looks like this:
@@ -184,6 +180,10 @@ If you want to display Chinese (or any non-Latin script that Garmin doesn't bund
 Garmin's official API reference is at [developer.garmin.com/connect-iq/api-docs](https://developer.garmin.com/connect-iq/api-docs/). The `Toybox.WatchUi`, `Toybox.ActivityMonitor`, and `Toybox.Weather` namespaces are the ones you'll use most for watch faces.
 
 ## Going Live
+
+### The Developer Account
+
+To publish (and to run on a real device), you need a free Garmin developer account at [developer.garmin.com](https://developer.garmin.com). Once registered, you generate a developer key from the portal. The VSCode extension will prompt you for this key the first time you try to build.
 
 ### Publishing to the Connect IQ Store
 
