@@ -10,7 +10,7 @@ github:
 website: https://apps.garmin.com/apps/2b923217-1208-41bb-be4e-67b09f7835c3
 ---
 
-This year I bought a Garmin to help me train for a half marathon (and hopefully a full marathon in the future).
+This year I bought a [Garmin](https://amzn.to/4ur8eUf) to help me train for a half marathon (and hopefully a full marathon in the future).
 I have a love/hate relationship with smart watches. I think that having notifications on my wrist is pretty annoying.
 I wouldn't want the watch to be more powerful than this (like an Apple Watch). I typically use a very minimal watch face.
 

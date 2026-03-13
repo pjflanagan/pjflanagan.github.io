@@ -44,6 +44,21 @@
             img.parentNode.insertBefore(caption, img.nextSibling);
           }
         });
+
+        const links = document.querySelectorAll('#content-holder a');
+        const hasAmazonLink = Array.from(links).some(link => 
+          link.href.includes('amazon.com') || link.href.includes('amzn.to')
+        );
+
+        if (hasAmazonLink) {
+          const disclosure = document.createElement('p');
+          disclosure.style.fontSize = '0.8em';
+          disclosure.style.fontStyle = 'italic';
+          disclosure.style.marginTop = '40px';
+          disclosure.style.opacity = '0.7';
+          disclosure.innerText = 'As an Amazon Associate, I earn from qualifying purchases.';
+          document.getElementById('content-holder').appendChild(disclosure);
+        }
       });
     </script>
   </body>

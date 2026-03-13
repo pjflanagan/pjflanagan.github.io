@@ -9,7 +9,7 @@ github:
 website: 
 ---
 
-It all started at React Conf. I put my name down with one of the several authentication service booths. I'm not sure I even realized I was entered to win anything. But later during the day they announced my name, and I had won a Keychron K2 with blue switches.
+It all started at React Conf. I put my name down with one of the several authentication service booths. I'm not sure I even realized I was entered to win anything. But later during the day they announced my name, and I had won a [Keychron K2](https://amzn.to/4bmR3ua) with blue switches.
 
 Now I've had a few coworkers with fancy mechanical keyboards, and I've met a few friends-of-friends with pretty intense collections of mechanical keyboards. But this would be the first one I've ever owned.
 
@@ -39,7 +39,7 @@ I really enjoyed the process of trying to improve the sound, but I never got it 
 
 ![Nuphy Halo](/assets/posts/2024/keyboards/2-nuphy.jpg)
 
-I bought a Nuphy Halo, and I love it basically as is. I like the soft shape of the keys, I like the weight of the keyboard, and of course, I like the sound the keyboard makes. When typing the keys sound like a bag of marbles.
+I bought a [Nuphy Halo96](https://amzn.to/4bH3BOw), and I love it basically as is. I like the soft shape of the keys, I like the weight of the keyboard, and of course, I like the sound the keyboard makes. When typing the keys sound like a bag of marbles.
 
 The 96% layout is dense, so I do mis-press sometimes. To fix that, I changed the switches on the keys I mis-press most to the white switches ones I bought for my first keyboard. These switches require a slightly higher actuation force. I also added a few key mappings, like one for changing the language quickly.
 

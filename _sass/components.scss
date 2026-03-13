@@ -26,6 +26,31 @@
   }
 }
 
+.amazon-link-holder {
+  margin: 16px 0;
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+.amazon-button {
+  cursor: pointer;
+  font-family: $ubuntu;
+  min-width: 124px;
+  width: fit-content;
+  background: $warnOrange;
+  color: $white;
+  text-align: center;
+  padding: 12px 24px;
+  clip-path: $polygonSmall;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background: lighten($warnOrange, 10%);
+  }
+}
+
 .post-link-large-holder {
   margin: 0 0 18px;
   width: 100%;

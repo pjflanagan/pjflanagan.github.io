@@ -9,9 +9,11 @@ github: https://github.com/pjflanagan/nightpro-for-gopro
 website: https://pypi.org/project/nightpro-for-gopro/
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jZyszParsmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+I originally purchased a [GoPro](https://amzn.to/47Gfvpm) to film myself rollerblading, but as I started experimenting with the camera's settings, I found that I also really enjoyed its nightlapse features. There's something incredibly satisfying about setting up a tripod, pointing it at the night sky, and letting the camera capture the subtle movements of the stars while I'm asleep. 
 
-I originally purchased a GoPro to film myself rollerblading, but as I started experimenting with the camera's settings, I found that I also really enjoyed its nightlapse features. There's something incredibly satisfying about setting up a tripod, pointing it at the night sky, and letting the camera capture the subtle movements of the stars while I'm asleep. 
+{% include amazon-link.html url="https://amzn.to/47Gfvpm" name="GoPro" %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jZyszParsmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Project Reasons
 
