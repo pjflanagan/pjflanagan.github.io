@@ -120,6 +120,10 @@ $description-height: 46px;
 .app-link-large {
   width: 220px;
   height: 120px;
+
+  @media only screen and (max-width: $md) {
+    width: 100%;
+  }
   clip-path: $polygon;
   background-size: cover;
   background-position: center;
