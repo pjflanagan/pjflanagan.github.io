@@ -107,6 +107,16 @@ a {
   }
 }
 
+.external-link {
+  color: $accentCyan;
+  box-shadow: inset 0 -6px 0 0 $backgroundLightTransparent;
+
+  &:hover {
+    color: $accentCyanHover;
+    box-shadow: inset 0 -10px 0 0 $backgroundLight;
+  }
+}
+
 ul,
 ol {
   padding: 0.2em 0 0.2em 2em;
