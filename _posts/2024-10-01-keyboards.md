@@ -37,7 +37,7 @@ I really enjoyed the process of trying to improve the sound, but I never got it 
 
 ## Nuphy Halo
 
-![Nuphy Halo](/assets/posts/2024/keyboards/2-nuphy.jpg)
+![Background: Nuphy Halo, foreground: awful sounding blue switch](/assets/posts/2024/keyboards/2-nuphy.jpg)
 
 I bought a [Nuphy Halo96](https://amzn.to/4bH3BOw), and I love it basically as is. I like the soft shape of the keys, I like the weight of the keyboard, and of course, I like the sound the keyboard makes. When typing the keys sound like a bag of marbles.
 
@@ -47,15 +47,14 @@ I think I slightly prefer the layout of of the 80% (which forgoes a keypad). I d
 
 ## TKMB
 
-I found this at a yard sale for only $5 and didn't hesitate to buy it. It's a 60% layout so it's a bit weird to use (the `/` is in the "wrong" spot), but it makes for a good keyboard to bring to work and back.
+I found this at a yard sale for only $5 and didn't hesitate to buy it. It's a [TKMB T63](https://amzn.to/4dZecWN) with a 63% layout so it's a bit weird to use (the `/` is in the "wrong" spot and backtick is hidden in the escape key). But it makes for a good keyboard to bring to work and back.
 
-![TKMB](/assets/posts/2024/keyboards/3-tmkb-og.jpg)
+![TKMB with red switches and original keys (besides letter T and letter M)](/assets/posts/2024/keyboards/3-tmkb-og.jpg)
 
 I swapped the keys to these decorative ones I picked up at [my favorite keyboard shop in Taipei](https://maps.app.goo.gl/6WiXyCWueDbZZaXV8) as a souvenir.
 
-![TKMB Zhuyin](/assets/posts/2024/keyboards/3-tmkb-zhuyin.jpg)
+![TKMB with Zhuyin keycaps](/assets/posts/2024/keyboards/3-tmkb-zhuyin.jpg)
 
 And I designed [a keyboard cover](https://cad.onshape.com/documents/cf723789cb1c0971d0af679f/w/7881b1d15e4a7234593e5f90/e/1682e204fdd70f3c0fa6ebfc?renderMode=0&uiState=6951a71289de58071706df71) for it to bring it back and forth to work. If I ever get a 3D printer, I'll print it.
 
-
-![TKMB Zhuyin](/assets/posts/2024/keyboards/3-tkmb-cover.png)
+![TKMB keyboard cover model](/assets/posts/2024/keyboards/3-tkmb-cover.png)
