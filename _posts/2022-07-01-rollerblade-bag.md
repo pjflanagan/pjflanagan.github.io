@@ -10,7 +10,7 @@ github:
 website: 
 ---
 
-I'm a big [rollerblader](https://www.instagram.com/roller.babe/). I'm also a big fan of backpack design, you can find me watching a Kickstarter video and scrolling the whole campaign page. 
+I'm a big [rollerblader](https://www.instagram.com/roller.babe/). <!-- AMAZON: FR Skates / Powerslide: High-quality urban skates --> <!-- AMAZON: Bearings: Bones Reds or Twincam bearings --> I'm also a big fan of backpack design, you can find me watching a Kickstarter video and scrolling the whole campaign page. <!-- AMAZON: Rollerblade Bags: Specialized backpacks for carrying skates -->
 
 ## The First Bag
 

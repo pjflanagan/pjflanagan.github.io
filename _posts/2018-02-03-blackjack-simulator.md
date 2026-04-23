@@ -13,11 +13,12 @@ A major project for Michigan computer science students to program is Euchre, a c
 
 After this project, I had a repo with a deck of cards. If had programmed one game, maybe I could program another. I was planning a graduation trip top Las Vegas, so naturally I wanted to improve my Blackjack skills.
 
-I programmed a Blackjack simulator that was meant to help quiz me on basic strategy, and maybe even card counting. I programmed a few players:
+I programmed a Blackjack simulator that was meant to help quiz me on basic strategy, and maybe even card counting. <!-- AMAZON: Blackjack Strategy Cards: Physical plastic cards for quick reference --> <!-- AMAZON: Books: Bringing Down the House (the MIT Blackjack story) --> I programmed a few players:
 - Random
 - Basic
 - Human
 - and Card Counter
+<!-- AMAZON: Premium Playing Cards: Theory11 or Bicycle Architectural decks --> <!-- AMAZON: Card Shufflers: Automatic 6-deck shufflers for home practice -->
 
 These players each had chips they could bet with. They would all sit at the same table and play until they lost everything or hit a threshold. It was fun to see that the card counter brain tended to outlast the basic strategy brain, and consistently outlasted the random brain. 
 

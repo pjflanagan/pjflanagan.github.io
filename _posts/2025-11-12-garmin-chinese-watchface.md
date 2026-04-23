@@ -9,8 +9,8 @@ github: https://github.com/pjflanagan/garmin-chinese-watchface
 website: https://apps.garmin.com/apps/c0748c90-06ef-4a73-94c5-4d2e51b02659
 ---
 
-This year I bought a [Garmin](https://amzn.to/4ur8eUf) to help me train for a half marathon (and hopefully a full marathon in the future).
-I like some of the watch faces available on the the Garmin store, including a [watch face](https://github.com/starryalley/garmin-mandarin-clock) I found that displays the time in Chinese. 
+This year I bought a [Garmin](https://amzn.to/4ur8eUf) to help me train for a half marathon (and hopefully a full marathon in the future). <!-- AMAZON: Garmin Forerunner 255/265: Great mid-range training watches --> <!-- AMAZON: Running Gear: Aftershokz bone-conduction headphones, running vests -->
+I like some of the watch faces available on the the Garmin store, including a [watch face](https://github.com/starryalley/garmin-mandarin-clock) I found that displays the time in Chinese. <!-- AMAZON: Garmin Fenix 7 / Epix: High-end models for "Asian art" watch faces -->
 
 Drawing with the Garmin SDK is a lot like the HTML5 Canvas, so I felt like I could add some decorations to the watch face I already liked. 
 

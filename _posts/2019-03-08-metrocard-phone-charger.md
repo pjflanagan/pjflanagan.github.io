@@ -9,62 +9,45 @@ github:
 website: https://cad.onshape.com/documents/fe9a14ca0d7527d5d24e40f3/w/387d63da11f34da1257b0e9e/e/014e7bec234688533692fc05?fbclid=IwAR2KqT-QdLNaNoCOsT2Mom-XuLLP4sdTq22zFEmM5aI33Dw0zU4WSYTFZCU 
 ---
 
-I used to have a phone with wireless charging enabled.
+I've always been fascinated by the intersection of physical design and digital utility. Back in 2019, when wireless charging was starting to become a standard feature in smartphones, I decided to build a custom charging pad that looked like a piece of New York City history: a MetroCard.
 
-## Components
+## The Components
 
-I went to a very exciting store near me called Tinkersphere and found they had the parts for a wireless charger. The circuit board and coil together were about the width and length of a MetroCard, so I bought the parts and went home to construct a wooden prototype.
+I started by sourcing the core electronics from a local shop called Tinkersphere. They carried DIY wireless charging kits that included the induction coil and the charging circuit board. Interestingly, the circuit board and coil together were almost exactly the same footprint as a standard MetroCard.
 
 ![Parts](/assets/posts/2019/metrocard-phone-charger/0-parts.jpg)
 
-## Prototype
+## Prototyping in Wood
 
-Using scrap wood, and exacto knige, and hot glue, I pieced together a working version of the charger.
+Before committing to a 3D printed design, I built a wooden prototype using scrap wood, an Exacto knife, and hot glue. This helped me figure out the stacking height required to keep the coil close enough to the phone's surface for a stable connection.
 
-![Wood prototype](/assets/posts/2019/metrocard-phone-charger/1-0-wood-prototype.jpg)
-
-I also made sure to glue the indicator light close to the hole in the MetroCard.
+I also made sure to align the status LED on the circuit board with the small hole in the corner of the MetroCard. This way, the card's own design served as the indicator light for the charger.
 
 ![Wood prototype plugged in](/assets/posts/2019/metrocard-phone-charger/1-1-wood-prototype.jpg)
 
-## Print
+## CAD Design with OnShape
 
-Using OnShape I created a <a href="https://cad.onshape.com/documents/fe9a14ca0d7527d5d24e40f3/w/387d63da11f34da1257b0e9e/e/014e7bec234688533692fc05?fbclid=IwAR2KqT-QdLNaNoCOsT2Mom-XuLLP4sdTq22zFEmM5aI33Dw0zU4WSYTFZCU" target="_blank">model of the phone charger casing</a>.
+This project was my first deep dive into **OnShape**, a browser-based CAD tool. Coming from a background in traditional AutoCAD, the parametric nature of OnShape was a learning curve, but it allowed me to precisely model the internal cavities for the electronics.
 
 ![CAD](/assets/posts/2019/metrocard-phone-charger/2-onshape.png)
 
-And I sent them off to a friend who has access to a 3D printer.
+The casing needed to be thin enough to not interfere with the induction field but strong enough to support the weight of a large phone. I designed it to be printed in two parts that would snap together around the MetroCard.
 
-![Printed part](/assets/posts/2019/metrocard-phone-charger/2-print.jpg)
+## The Final Build 
 
-## Final Build 
-
-After some glue and paint, the wireless charger came together.
+After receiving the 3D printed parts from a friend, I performed some light sanding and painted the casing with a matte black finish. This helped the plastic blend in with the black magnetic stripe of the card, giving it a much more "finished" look.
 
 ![Final build](/assets/posts/2019/metrocard-phone-charger/3-final.jpg)
 
-## Thoughts
+## Lessons Learned
 
-### What worked
+### Successes
+The final build actually worked! It successfully charged my phone every night for several months. The status LED shining through the card hole was a particularly satisfying detail that made the project feel like a cohesive product rather than a science experiment.
 
-The final build worked. It charged phones. The indicator light lined up with the hole in the MetroCard pretty well. The 3D printed casing was clean enough that it didn't look like a prototype — it looked like a thing that could exist in a store.
+### Challenges
+The primary challenge was the "sweet spot." Wireless charging in 2019 was much more sensitive to alignment than the MagSafe systems we have today. Because the MetroCard is smaller than most phones, the device had to be perfectly centered, or it wouldn't charge. 
 
-Painting the casing black to match the MetroCard stripe was a nice finishing touch. The green in the filament would have been unacceptable.
+### Version 2 and Future Improvements
+I've since updated the public model on OnShape to include a dedicated platform for the coil to prevent it from shifting over time. If I were to rebuild this today, I'd integrate magnets to help with phone alignment, effectively creating a "MetroSafe" charger.
 
-### What Didn't
-
-The wireless charging coil positioning was finicky. Wireless charging in 2019 had a fairly narrow sweet spot, so the phone had to be placed fairly precisely on the charger to actually charge. The MetroCard being smaller than the phone meant the phone was always somewhat precariously balancing on the charger. 
-
-The other issue was that I eventually got a new phone without wireless charging, which ended the useful life of the charger pretty abruptly.
-
-### Working with OnShape
-
-This was one of my first real projects with OnShape, which is a browser-based CAD tool. I had familiarity with AutoCAD but the learning curve was still steep. 
-
-## Version 2
-
-The public link in the header goes directly to a new version of the model, which anyone can view or copy. This new version features:
-
-- A platform within the circular housing to elevate the coil
-- A bottom (in the original the bottom is a second MetroCard)
-- No notch on the corner, in order to fit standard cards
+You can view the updated CAD files [here](https://cad.onshape.com/documents/fe9a14ca0d7527d5d24e40f3/w/387d63da11f34da1257b0e9e/e/014e7bec234688533692fc05).

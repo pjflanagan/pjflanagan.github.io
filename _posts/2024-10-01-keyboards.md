@@ -19,7 +19,7 @@ Now I've had a few coworkers with fancy mechanical keyboards, and I've met a few
 
 I liked the feel of the keyboard immediately and started using it all the time at home. But I started to have problems with it, more specifically, with the blue switches. It was hard to type and hear meetings, music, videos, as the sound of the keyboard was so loud. The switches are a high pitched click, and the plastic bottoming out sound is a loud slap. I went to fix it.
 
-The first thing I did was buy red switches from Keychron. Turns out there is a difference between low-rise and normal switches. I returned them.
+The first thing I did was buy red switches from Keychron. <!-- AMAZON: Keychron/Gateron Red/Brown/Blue switches --> Turns out there is a difference between low-rise and normal switches. I returned them.
 
 Then I went to a keyboard store and got some which switches I tested and liked. When I got home I went to pull out the switches of the keyboard only to find they wouldn't budge. Turns out this keyboard wasn't hot-swappable.
 
@@ -28,6 +28,7 @@ So, I had to try other mods. I tried:
 - Foam
 - Tape
 - and flipping the Space Bar upside down
+<!-- AMAZON: Modding Supplies: O-rings, Keyboard Foam, and Krytox Lubes -->
 
 ![Keychron K2 Disassembly](/assets/posts/2024/keyboards/1-keychron-disassembly.jpg)
 
@@ -55,6 +56,6 @@ I swapped the keys to these decorative ones I picked up at [my favorite keyboard
 
 ![TKMB with Zhuyin keycaps](/assets/posts/2024/keyboards/3-tmkb-zhuyin.jpg)
 
-And I designed [a keyboard cover](https://cad.onshape.com/documents/cf723789cb1c0971d0af679f/w/7881b1d15e4a7234593e5f90/e/1682e204fdd70f3c0fa6ebfc?renderMode=0&uiState=6951a71289de58071706df71) for it to bring it back and forth to work. If I ever get a 3D printer, I'll print it.
+And I designed [a keyboard cover](https://cad.onshape.com/documents/cf723789cb1c0971d0af679f/w/7881b1d15e4a7234593e5f90/e/1682e204fdd70f3c0fa6ebfc?renderMode=0&uiState=6951a71289de58071706df71) for it to bring it back and forth to work. If I ever get a 3D printer, I'll print it. <!-- AMAZON: 3D Printers: Creality Ender 3 or Bambu Lab A1 -->
 
 ![TKMB keyboard cover model](/assets/posts/2024/keyboards/3-tkmb-cover.png)

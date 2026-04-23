@@ -21,7 +21,7 @@ I decided instead to build a dedicated showcase for these cabinets, using them t
 
 ## The CSS Approach
 
-Each arcade cabinet is built entirely in CSS — no images, no SVGs. The cabinet body, screen bezel, marquee, joystick, and buttons are all `div` elements with borders, gradients, and `border-radius` properties. This was the interesting technical constraint: could I make something that looks like a cabinet using only the browser's layout engine?
+Each arcade cabinet is built entirely in CSS — no images, no SVGs. The cabinet body, screen bezel, marquee, joystick, and buttons are all `div` elements with borders, gradients, and `border-radius` properties. <!-- AMAZON: Arcade Parts: Sanwa Joysticks and Buttons --> This was the interesting technical constraint: could I make something that looks like a cabinet using only the browser's layout engine?
 
 The answer is yes, with some patience. Some fun parts I'd like to point out are the curved screen with a shine overlay, the flickering blue light of the screen, and the dancing joystick.
 

@@ -28,6 +28,6 @@ After learning more web development skills, I broke the code out into `css` and 
 
 I wanted to put advertisements on this website. In order to do that I needed to add content. Google Adsense doesn't recognize web apps as "high value content" because there is no content there. 
 
-So, I started a blog. I wrote about a bunch of different high school events, I wrote my thoughts on different shoe brands, I wrote plans for my future. I've never really kept a journal, but I liked writing these memories down.
+So, I started a blog. I wrote about a bunch of different high school events, I wrote my thoughts on different shoe brands, I wrote plans for my future. <!-- AMAZON: Shoes: Recommendations for popular brands (Brooks, Saucony, Hoka) --> <!-- AMAZON: Books: Born to Run or Finding Ultra --> I've never really kept a journal, but I liked writing these memories down. <!-- AMAZON: Massage Tools: Foam rollers, Theragun/massage guns for recovery --> <!-- AMAZON: Hydration: Handheld bottles or running belts -->
 
 Eventually I had enough content that Google recognized the website as worthwhile. Over the course of several years online, I probably only made about $100.
