@@ -13,9 +13,10 @@ I've always been fascinated by the intersection of physical design and digital u
 
 ## The Components
 
-I started by sourcing the core electronics from a local shop called Tinkersphere. They carried DIY wireless charging kits that included the induction coil and the charging circuit board. Interestingly, the circuit board and coil together were almost exactly the same footprint as a standard MetroCard.
+I started by sourcing the core electronics from a local shop called [Tinkersphere](https://tinkersphere.com/?srsltid=AfmBOor8ARWSNdzautG6-89ryuLN330dKMfUL9zv6uuKVnx3-rjUNzv_). They carried DIY wireless charging kits that included the induction coil and the charging circuit board. Interestingly, the circuit board and coil together were almost exactly the same footprint as a standard MetroCard.
 
-![Parts](/assets/posts/2019/metrocard-phone-charger/0-parts.jpg)
+<!-- CAPTION: -->
+![Wireless charging component on top of a MetroCard](/assets/posts/2019/metrocard-phone-charger/0-parts.jpg)
 
 ## Prototyping in Wood
 
@@ -23,13 +24,13 @@ Before committing to a 3D printed design, I built a wooden prototype using scrap
 
 I also made sure to align the status LED on the circuit board with the small hole in the corner of the MetroCard. This way, the card's own design served as the indicator light for the charger.
 
-![Wood prototype plugged in](/assets/posts/2019/metrocard-phone-charger/1-1-wood-prototype.jpg)
+![Wood prototype plugged in with light positioned near MetroCard hole](/assets/posts/2019/metrocard-phone-charger/1-1-wood-prototype.jpg)
 
 ## CAD Design with OnShape
 
 This project was my first deep dive into **OnShape**, a browser-based CAD tool. Coming from a background in traditional AutoCAD, the parametric nature of OnShape was a learning curve, but it allowed me to precisely model the internal cavities for the electronics.
 
-![CAD](/assets/posts/2019/metrocard-phone-charger/2-onshape.png)
+![CAD design of idealized card charger (this is not what I printed)](/assets/posts/2019/metrocard-phone-charger/2-onshape.png)
 
 The casing needed to be thin enough to not interfere with the induction field but strong enough to support the weight of a large phone. I designed it to be printed in two parts that would snap together around the MetroCard.
 
@@ -37,7 +38,7 @@ The casing needed to be thin enough to not interfere with the induction field bu
 
 After receiving the 3D printed parts from a friend, I performed some light sanding and painted the casing with a matte black finish. This helped the plastic blend in with the black magnetic stripe of the card, giving it a much more "finished" look.
 
-![Final build](/assets/posts/2019/metrocard-phone-charger/3-final.jpg)
+![Final build sitting on my desk](/assets/posts/2019/metrocard-phone-charger/3-final.jpg)
 
 ## Lessons Learned
 
