@@ -15,7 +15,6 @@ I've always been fascinated by the intersection of physical design and digital u
 
 I started by sourcing the core electronics from a local shop called [Tinkersphere](https://tinkersphere.com/?srsltid=AfmBOor8ARWSNdzautG6-89ryuLN330dKMfUL9zv6uuKVnx3-rjUNzv_). They carried DIY wireless charging kits that included the induction coil and the charging circuit board. Interestingly, the circuit board and coil together were almost exactly the same footprint as a standard MetroCard.
 
-<!-- CAPTION: -->
 ![Wireless charging component on top of a MetroCard](/assets/posts/2019/metrocard-phone-charger/0-parts.jpg)
 
 ## Prototyping in Wood

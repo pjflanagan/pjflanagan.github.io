@@ -14,11 +14,11 @@ I was once a big Twitter user, trying to get popular for being "internet funny."
 
 This was my first time using the Twitter API, and really my first time interacting with any RESTful API. I wrote a program in C++ and ran it on a noisy, old desktop computer at home. I would leave it running all day while I was at school. letting it turn me into an influencer.
 
-![Server](/assets/posts/2014/twitter-follow-bot/twitter-server.jpg)
+![Server running on an old monitor and machine](/assets/posts/2014/twitter-follow-bot/twitter-server.jpg)
 
 The logic was simple but effective: I would enter a "seed" account (usually a celebrity with a similar audience to what I wanted), fetch their list of followers, and then my bot would follow those users. A while later, it would unfollow them to keep my follow-to-follower ratio in my favor. 
 
-![Output](/assets/posts/2014/twitter-follow-bot/twitter-output.jpg)
+![Improved output to be more detailed](/assets/posts/2014/twitter-follow-bot/twitter-output.jpg)
 
 It worked surprisingly well. After a few weeks of constant uptime, I reached about 1,000 "unearned" followers. However, the success was short-lived. Twitter's automated systems eventually flagged the aggressive follow/unfollow patterns. They put an end to the bot by revoking my API keys.
 
