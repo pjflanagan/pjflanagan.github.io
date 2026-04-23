@@ -36,7 +36,7 @@ Our leaderboard would have a graph over time, superlatives, and stats chart.
 - Superlatives track who is on a win streak, who is the best on average, who did it the fastest
 - The stats chart allows you to find data about yourself
 
-![Group Leaderboard](/assets/posts/2022/nyt-crossword-plus/2-group-1.png)
+![Group Leaderboard has global stats for how that time frame looked](/assets/posts/2022/nyt-crossword-plus/2-group-1.png)
 
 The chart was great because there are many ways of viewing who is "best," giving multiple people points to pride themselves on. The Power Index was a stat of my own invention that averages a place percent and time percent. 
 
@@ -46,11 +46,11 @@ const timeScore = (slowestTime - time) / (slowestTime - fastestTime);
 return (placeScore + timeScore) / 2;
 {% endhighlight %}
 
-![Group Leaderboard Chart](/assets/posts/2022/nyt-crossword-plus/2-group-2.png)
+![Group Leaderboard Chart for more details](/assets/posts/2022/nyt-crossword-plus/2-group-2.png)
 
 The home page contains some info and links, the more interesting page is the group view. You can see a [test group online here](https://nytcrosswordplus.flanny.app/group/test).
 
-![Home Page](/assets/posts/2022/nyt-crossword-plus/1-home.png)
+![Home Page lets you look up your group](/assets/posts/2022/nyt-crossword-plus/1-home.png)
 
 As a backup for missed entries (the scraper ran a few minutes before the end of the day), I added an admin page for manual entries.
 
@@ -76,8 +76,7 @@ I also really wanted a visual element, so I went with [Rechart](https://recharts
 
 I also wanted this project to announce winners to my friend group. To make the Discord bot, I decided to use Autocode, because it is free and easy to setup (linking Discord and running daily). All I had to make was an endpoint for it to read daily stats, and the rest was just formatting.
 
-![Discord Bot](/assets/posts/2022/nyt-crossword-plus/3-discord.png)
-
+![Discord Bot would send an end of day result](/assets/posts/2022/nyt-crossword-plus/3-discord.png)
 
 ## Project Future
 

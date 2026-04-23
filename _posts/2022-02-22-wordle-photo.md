@@ -15,7 +15,7 @@ In early 2022, the world was obsessed with Wordle. I was no exception, and like 
 
 I started playing a kind of "reverse-Wordle." Since I already knew the daily word, I wanted to see if I could find a sequence of five-letter words that would generate a specific pattern of colors on my way to the final answer. For example, if the word of the day was `SMILE`, what words would I have to guess to draw a smiley face in my share results? 
 
-![A Smiley](https://www.flanny.app/wordle-photo/img/screenshots/smile.png)
+![A smiley, drawn using a Wordle](https://www.flanny.app/wordle-photo/img/screenshots/smile.png)
 
 ## Technical Implementation
 

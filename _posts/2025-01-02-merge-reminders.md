@@ -16,7 +16,7 @@ It can be helpful to leave comments behind, but those often get overlooked.
 Now comments can become more powerful. By flagging a comment with `MERGE:` I can make
 that comment appear automatically on a pull request. 
 
-![Merge Comment Reminders PR Comment](https://github.com/pjflanagan/merge-reminders/blob/main/readme/comment.png?raw=true)
+![Merge Comment Reminders PR Comment with a lot of checkboxes](https://github.com/pjflanagan/merge-reminders/blob/main/readme/comment.png?raw=true)
 
 ## Installation
 

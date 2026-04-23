@@ -15,7 +15,7 @@ Now I've had a few coworkers with fancy mechanical keyboards, and I've met a few
 
 ## Keychron K2 with Blues
 
-![Keychron K2 Full Set](/assets/posts/2024/keyboards/1-keychron-full-set.jpg)
+![Keychron K2 Full Set, this is the photo I used on Marketplace to sell it](/assets/posts/2024/keyboards/1-keychron-full-set.jpg)
 
 I liked the feel of the keyboard immediately and started using it all the time at home. But I started to have problems with it, more specifically, with the blue switches. It was hard to type and hear meetings, music, videos, as the sound of the keyboard was so loud. The switches are a high pitched click, and the plastic bottoming out sound is a loud slap. I went to fix it.
 
@@ -30,7 +30,7 @@ So, I had to try other mods. I tried:
 - and flipping the Space Bar upside down
 <!-- AMAZON: Modding Supplies: O-rings, Keyboard Foam, and Krytox Lubes -->
 
-![Keychron K2 Disassembly](/assets/posts/2024/keyboards/1-keychron-disassembly.jpg)
+![Keychron K2 with key caps removed](/assets/posts/2024/keyboards/1-keychron-disassembly.jpg)
 
 But none of these mods address the root of the problem: the switch makes an awful clicking sound. If anything, I muted the bottoming out noise (the better sound) and made the switch clicking come through more clearly. 
 
@@ -54,7 +54,7 @@ I found this at a yard sale for only $5 and didn't hesitate to buy it. It's a [T
 
 I swapped the keys to these decorative ones I picked up at [my favorite keyboard shop in Taipei](https://maps.app.goo.gl/6WiXyCWueDbZZaXV8) as a souvenir.
 
-![TKMB with Zhuyin keycaps](/assets/posts/2024/keyboards/3-tmkb-zhuyin.jpg)
+![TKMB with Zhuyin key caps, as seen on my desk at work](/assets/posts/2024/keyboards/3-tmkb-zhuyin.jpg)
 
 And I designed [a keyboard cover](https://cad.onshape.com/documents/cf723789cb1c0971d0af679f/w/7881b1d15e4a7234593e5f90/e/1682e204fdd70f3c0fa6ebfc?renderMode=0&uiState=6951a71289de58071706df71) for it to bring it back and forth to work. If I ever get a 3D printer, I'll print it. <!-- AMAZON: 3D Printers: Creality Ender 3 or Bambu Lab A1 -->
 

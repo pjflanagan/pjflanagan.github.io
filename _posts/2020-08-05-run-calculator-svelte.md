@@ -21,7 +21,7 @@ In the most up to date version of `runcalculator`, I got the app to be where I a
 - Making the website keyboard friendly, so users don't have to use the mouse 
 - The ability to share what you've entered into the calculator just by copying the URL
 
-![Version 3](/assets/posts/2020/run-calculator/v3.png)
+![Version 3, and probably the last time version](/assets/posts/2020/run-calculator/v3.png)
 
 ## Thoughts on Svelte
 

@@ -25,7 +25,7 @@ I sat on this idea for a long time and didn't act on it, but when I went to visi
 
 At the beginning of a match, a subset of players are randomly assigned to be spies. They are made aware of who the other spies are.
 
-![Mission Brief](/assets/posts/2021/nuclear-codes/mission-brief.png)
+![Mission Brief (the game's instructions)](/assets/posts/2021/nuclear-codes/mission-brief.png)
 
 ### 2. Entering Rooms
 
@@ -34,13 +34,13 @@ Each round, players enter numbered rooms to reveal letters. Players should send 
 - When a spy enters a room, they see both letters
 - When an agent enters a room, they see only true letter
 
-![Room Selection](/assets/posts/2021/nuclear-codes/room-selection.png)
+![Room Selection, users would click the room they wanted to go in and see who has chosen which room](/assets/posts/2021/nuclear-codes/room-selection.png)
 
 ### 3. Entering codes
 
 After the letters are revealed, players then share to the other players which letter they saw. Spies can now choose to lie about which letter they saw, and accuse any roommate they might have of lying about the letter they shared. The group of players then decides which letters they believe and enters the code made by putting each room's letter in order.
 
-![Code Entry](/assets/posts/2021/nuclear-codes/code-entry.png)
+![Code Entry, every user would enter what they think the code is](/assets/posts/2021/nuclear-codes/code-entry.png)
 
 ### 4. Reveal
 
@@ -67,11 +67,11 @@ I decided to hosted this project on Netlify for free frontend hosting and the ba
 
 This was a very interesting project to test. Because it requires at least five players for a game, I have to create an interface to control several players at once.
 
-![Test Interface](/assets/posts/2021/nuclear-codes/test-interface.png)
+![Test Interface, used the same socket to mock other players](/assets/posts/2021/nuclear-codes/test-interface.png)
 
 From the test page, I can create rooms, add players, choose the players actions like room selection and code entry, or even disconnect them mid game. This way, after creating a test game with test players, I can join the room myself and play using the UI. I also created modes where the players would automatically respond to the socket, so I wouldn't need to go back to the test interface at all once the game was started.
 
-![Test Game Start Screen](/assets/posts/2021/nuclear-codes/test-game.png)
+![Test Game Start Screen, could be opened automatically from the test interface](/assets/posts/2021/nuclear-codes/test-game.png)
 
 ## The End
 
@@ -83,4 +83,4 @@ Although, I did enjoy the aesthetic, and I like the feel of the scrolling game, 
 
 This is a photograph of an early UI for the game. I originally thought the room would be more "physical" feeling, and agents would have an icon on screen representing them. I'm glad I went for a more noir look.
 
-![Test Game Start Screen](/assets/posts/2021/nuclear-codes/early-ui.jpg)
+![Original mockup was less noir and more techy / heist-y](/assets/posts/2021/nuclear-codes/early-ui.jpg)

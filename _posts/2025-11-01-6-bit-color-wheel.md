@@ -29,7 +29,7 @@ To make a 3D cube readable in 2D, I render it as 4 stacked layers. Each layer is
 The cube is rendered in plain HTML and CSS — no canvas, no WebGL. Each swatch is a `div` with a background color. The layering effect uses `opacity` transitions on hover. It's simple enough that the whole project is a single HTML file.
 
 
-![6-Bit Color Cube](https://github.com/pjflanagan/6-bit-color-wheel/raw/gh-pages/screenshot.png)
+![6-Bit Color Cube with one of the middle layers hovered to focus](https://github.com/pjflanagan/6-bit-color-wheel/raw/gh-pages/screenshot.png)
 
 This project was simple and served its purpose. I had been incredibly useful for my own design work, helping me find the perfect colors for each Garmin watch face. 
 
