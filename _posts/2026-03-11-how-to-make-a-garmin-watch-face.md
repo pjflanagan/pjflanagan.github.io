@@ -3,7 +3,7 @@ slug: how-to-make-a-garmin-watch-face
 layout: post
 date: 2026-03-11
 title: How to Make a Garmin Watch Face
-description: A practical guide to building and publishing a custom Garmin watch face with Connect IQ and Monkey C
+description: A quickstart guide to building a Garmin watch face
 categories: garmin tutorial
 image: /assets/posts/2025/cyberpunk/promo-image.png
 github:
@@ -95,9 +95,13 @@ The coordinate system has (0, 0) at the top-left corner. Round watch screens are
 
 One key difference from the Canvas API: **you cannot draw incrementally**. Every call to `onUpdate` should redraw the entire screen from scratch. Don't assume anything from the previous frame is still there.
 
-## Device Sizes
+## Devices
 
-This is Garmin's biggest quirk. There are over a dozen supported screen resolutions, ranging from 240x240 on older Forerunner models to 454x454 on newer AMOLED devices like the Epix. Some screens are round, some are square.
+This is Garmin's biggest quirk. There are over a dozen supported screen resolutions and api versions. 
+
+### Device Sizes
+
+Device sizes range from 240x240 on older Forerunner models to 454x454 on newer AMOLED devices like the Epix. Some screens are round, some are square.
 
 The way to handle this is with the **`monkey.jungle` build file**. You can create a separate resource folder for each device (or group of devices with the same resolution), and the build system will use the right one automatically.
 
@@ -123,19 +127,36 @@ var cx = width / 2;
 var cy = height / 2;
 ```
 
+### Device API
+
+Different devices have access to different APIs. 
+
+Device support is a matter of how far back you are willing to go. In the `manifest.xml` file you can set an API min version that you support. In the `manifest.xml` file the editor will warn you if you are trying to set a device that doesn't support that feature. 
+
+In the code however you are on your own. You will have to add manual checks for availability of methods before calling them. That might look like this:
+
+```
+if (Weather has :getCurrentConditions == false) {
+  resetWeather();
+  return;
+}
+```
+
+In the SDK docs, and in the editor, you can see which API version a feature became available.
+
 ## Colors
 
 On non-AMOLED Garmin devices, the display is limited to **6-bit color** — that means only 4 possible values per RGB channel (0, 85, 170, 255), for a total of 64 colors. Colors you specify that fall between those values get rounded to the nearest available color, sometimes in ugly ways.
 
 The constants in `Graphics` cover the common ones: `COLOR_RED`, `COLOR_BLUE`, `COLOR_GREEN`, `COLOR_YELLOW`, `COLOR_WHITE`, `COLOR_BLACK`, and a handful of others. For custom colors, use hex values — but stay within the 6-bit palette or the result will look wrong on device.
 
-To help with color selection, I built a [6-Bit Color Wheel](/blog/2025/6-bit-color-wheel/) tool that shows all 64 available colors arranged in a 3D cube so you can see how they relate to each other spatially.
+To help with color selection, I built a [6-Bit Color Pallet](https://www.flanny.app/6-bit-color-wheel/) tool that shows all 64 available colors arranged in a 3D cube so you can see how they relate to each other spatially.
 
 AMOLED devices (like the Epix series) have full-color displays, so this limitation doesn't apply to them. If you're targeting only AMOLED devices you can use any color you like.
 
 ## Fonts
 
-Fonts are the other major constraint. You cannot use arbitrary system fonts or load a `.ttf` at runtime. Every font you use must be declared as a **bitmap font** in your resources — the font is rasterized at build time at a specific size, and that's the size you get.
+Fonts are the other major constraint. You cannot use arbitrary system fonts or load a `.ttf` at runtime. Every font you use must be declared as a **bitmap font** in your resources — the font is rasterized at build time at a specific size, and that's the size you get. [Use a tool like this one](https://garmin.watchfacebuilder.com/bitmap-font-online-generator/) to build a font bitmap.
 
 Declare fonts in `fonts.xml`:
 
@@ -157,9 +178,11 @@ dc.drawText(cx, cy, font, "12:00", Graphics.TEXT_JUSTIFY_CENTER);
 
 Because fonts are bitmapped at a fixed size, there's no way to scale them at runtime. If you need the same font at two different sizes, declare it twice in `fonts.xml` at the two sizes you need.
 
+[Another helpful article on Garmin fonts](https://jeffchen.dev/posts/Garmin-Watch-Faces-Custom-Fonts-On-MacOS/)
+
 ## Running the App
 
-The VSCode extension comes with a **simulator** that runs your watch face without needing a physical device. From the command palette, run `Monkey C: Run Current Application`. It will ask you to select a target device (pick one that matches your manifest) and launch the simulator window.
+The VSCode extension comes with a **simulator** that runs your watch face without needing a physical device. Go to `Run > Run without debugging` then select the device to run on. It will ask you to select a target device (pick one that matches your manifest) and launch the simulator window. It will only ask the first time you run in a session, ff you add a `.vscode/launch.json` file if will ask every time.
 
 The simulator is good but not perfect. Some sensors (like weather) return mock data, and the rendering can differ slightly from hardware. Before publishing, it's worth installing the `.prg` file directly on a real watch to catch any issues.
 
@@ -169,45 +192,40 @@ To sideload to a physical device: build in debug mode, connect the watch via USB
 
 #### Device List
 
-The Connect IQ SDK documentation includes a full list of supported devices with their screen sizes and shapes. I also maintain a `DEVICES.md` in the [Garmin Asset Generator repo](https://github.com/pjflanagan/garmin-asset-generator) with the devices I've targeted and their resolutions.
-
-#### Chinese Character Rendering
-
-If you want to display Chinese (or any non-Latin script that Garmin doesn't bundle on Western devices), the [garmin-tilemapper](https://github.com/sunpazed/garmin-tilemapper) library provides a sprite sheet approach. Characters are stored as a bitmap atlas and rendered by looking up coordinates. It's how I display the time in Chinese in the [Chinese Watch Face](/blog/2025/garmin-chinese-watchface/).
+The Connect IQ SDK documentation includes a [full list of supported devices with their screen sizes and shapes](https://developer.garmin.com/connect-iq/compatible-devices/). I also maintain a `DEVICES.md` in the [Garmin Asset Generator repo](https://github.com/pjflanagan/garmin-asset-generator) with the devices I've targeted and their resolutions.
 
 #### Connect IQ API Reference
 
 Garmin's official API reference is at [developer.garmin.com/connect-iq/api-docs](https://developer.garmin.com/connect-iq/api-docs/). The `Toybox.WatchUi`, `Toybox.ActivityMonitor`, and `Toybox.Weather` namespaces are the ones you'll use most for watch faces.
 
-## Going Live
+## Export the App
+
+When you are ready to test on your own device, you'll want to export the app. To do that you'll upload to Garmin's store in dev mode.
 
 ### The Developer Account
 
-To publish (and to run on a real device), you need a free Garmin developer account at [developer.garmin.com](https://developer.garmin.com). Once registered, you generate a developer key from the portal. The VSCode extension will prompt you for this key the first time you try to build.
+You need a free Garmin developer account at [developer.garmin.com](https://developer.garmin.com). Once registered, you generate a developer key from the portal. The VSCode extension will prompt you for this key the first time you try to build.
 
 ### Publishing to the Connect IQ Store
 
-When you're ready to publish, build in release mode: `Monkey C: Build Current Application (Release)`. This produces a signed `.iq` file using your developer key.
+To get your app on the store (including the dev mode version) build the app for export: `Monkey C: Export Project`. This produces a signed `.iq` file using your developer key.
 
 Go to the [Connect IQ Developer Portal](https://apps.garmin.com/developer) and create a new app listing. You'll need:
 - A name and description
-- At least one screenshot per supported device (the store is picky about dimensions)
-- A promo image (1050x400 pixels)
+- A few screenshots and promo images
 - Your `.iq` file
 
-Garmin reviews submissions manually. Turnaround for me has been 2–5 business days. They check that the app doesn't crash on launch for each supported device, that it follows their content policies, and that the metadata matches the actual functionality.
+You can publish a developer version that only you can see. Once it's online, you'll want to sync the ConnectIQ app on your phone, this will install and update the version on your device. You'll have to do this each time you make changes you want to test on your device.
 
-The most common reason for rejection is supporting a device in the manifest that you haven't actually tested. If your app crashes on a device you listed, it gets rejected. Only list devices you've verified work in the simulator.
+It's helpful to have a version number displayed somewhere on screen in your development build so you can know if you are looking at your most recent changes.
 
-### Updates
+### Publishing a Live Version
 
-Releasing an update is the same process: build a new `.iq`, go to the portal, and upload a new version to your existing listing. Users with your watch face installed will get the update automatically through the Connect IQ mobile app.
+The process is the same for the production version. New apps will go through a manual approval process that can take a few days depending on how many permissions you request.
 
 ### Error Monitoring
 
-Once your app is live, the developer portal shows crash reports from users. Each crash includes the device model, app version, and a stack trace. The stack traces reference line numbers in your compiled code rather than your source, so they take some decoding — but they're usually enough to identify the problem.
-
-A common crash source: accessing a sensor value that the specific device doesn't support. If you call `ActivityMonitor.getInfo().bodyBattery` on a device that doesn't have body battery, you get a null reference error. Always check that data fields are non-null before drawing them.
+Once your app is live, you can get crash reports. In VSCode you'll want to run the command `MonkeyC: Open ERA Viewer`. Here you'll be able to see crash reports with the device model, app version, and a stack trace. 
 
 ---
 
@@ -215,60 +233,3 @@ That's the full picture. The learning curve is front-loaded — the tooling setu
 
 
 
-
-
-----
-
-# My Own Dev Docs
-
-
-# Development
-
-## Run
-
-Go to `Run > Run without debugging` then select the device to run on.
-Note: the device selection comes up every time because we have a `.vscode/launch.json` file present.
-
-## Adding Fonts
-
-Font info: https://jeffchen.dev/posts/Garmin-Watch-Faces-Custom-Fonts-On-MacOS/
-
-Use this tool
-- https://garmin.watchfacebuilder.com/bitmap-font-online-generator/
-
-<!-- 1. Find a font
-2. Go on https://snowb.org 
-3. Set the text color to white, set the font size, and characters needed (copy from the filter in `fonts.xml`)
-4. Click "Export"
-5. Name the file using this pattern: `fontName-fontWeight-size`
-6. Copy over the `png` and corresponding `fnt` file -->
-
-## Export
-
-Exporting the project for dev and prod release follow similar steps
-
-1. Update the version and environment in `source/CyberpunkComplications.mc`
-  - Set the `ENVIRONMENT` to be either `dev` or anything else for prod (but you should use `prod`)
-  - Increment the `VERSION` number using this pattern: `<prodRelease>.<devRelease>`, this should preferably align with Garmin's internal version tracking numbers
-2. Copy and paste the correct App UUID from `ENVIRONMENTS.md` into `manifest.xml`
-  - prod: ensure that all the correct devices are enabled (check `DEVICES.md`)
-3. Run `Monkey C: Export Project`
-4. Upload to the [Developer Dashboard](https://apps.garmin.com/developer/dashboard) and paste the version number
-
-## Error Reporting
-
-Run `Monkey C: Open ERA Viewer` to see error logs.
-
-## Resources
-
-- [Custom font Making](https://snowb.org/)
-- [Custom Font Adding](https://jeffchen.dev/posts/Garmin-Watch-Faces-Custom-Fonts-On-MacOS/)
-- [Weather Icons](https://lucide.dev/icons/)
-- [Moon Icons](https://erikflowers.github.io/weather-icons/)
-- [6-Bit Color Pallet](https://www.flanny.app/6-bit-color-wheel/)
-- [SDK Guide](https://developer.garmin.com/connect-iq/api-docs/index.html)
-- [Garmin Screen Sizes](https://developer.garmin.com/connect-iq/compatible-devices/)
-
-## Free Version
-
-- This repo is being used to expand on the free version of the app found in this branch: `garmin_cyberpunk_watch_face-FREE-FINAL`
