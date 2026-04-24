@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include noise.html %}
+    {% include header.html %}
+    {% capture categoryContent %}
+      <h1>{{ page.category | capitalize }}</h1>
+      <p><a href="{{ '/blog' | relative_url }}">&laquo; All Posts</a></p>
+      {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
+      {% assign years = cat_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+      {% for year in years %}
+        <h3>{{ year.name }}</h3>
+        <ul>
+          {% for post in year.items %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.description }}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    {% endcapture %}
+    {% include content.html content=categoryContent %}
+    {% include footer.html %}
+  </body>
+</html>

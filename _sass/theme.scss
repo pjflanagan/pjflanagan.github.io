@@ -7,13 +7,14 @@
 }
 
 ::selection {
-  color: $backgroundDark2;
+  color: $backgroundDark;
   background: $accentYellow;
 }
 
 html {
   width: 100vw;
   height: 100vh;
+  background: $backgroundDarker;
 
   body {
     position: relative;
