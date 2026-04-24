@@ -9,7 +9,7 @@ github: https://github.com/pjflanagan/nightpro-for-gopro
 website: https://pypi.org/project/nightpro-for-gopro/
 ---
 
-I originally purchased a [GoPro](https://amzn.to/47Gfvpm) to film myself rollerblading, but as I started experimenting with the camera's settings, I found that I also really enjoyed its nightlapse features. <!-- AMAZON: GoPro HERO 12/11 Black: The core camera for NightPro --> There's something incredibly satisfying about setting up a tripod, pointing it at the night sky, and letting the camera capture the subtle movements of the stars while I'm asleep. <!-- AMAZON: Mini Tripods: Manfrotto PIXI or Joby GorillaPod (essential for nightlapses) --> <!-- AMAZON: High-Speed SD Cards: SanDisk Extreme Pro (required for 4K video) -->
+I originally purchased a [GoPro Hero 7 Black](https://amzn.to/47Gfvpm) to film myself rollerblading, but as I started experimenting with the camera's settings, I found that I also really enjoyed its nightlapse features. There's something incredibly satisfying about setting up a [tripod](https://amzn.to/4cteWSP), pointing it at the night sky, and letting the camera capture the subtle movements of the stars while I'm asleep. 
 
 {% include amazon-link.html url="https://amzn.to/47Gfvpm" name="GoPro" %}
 

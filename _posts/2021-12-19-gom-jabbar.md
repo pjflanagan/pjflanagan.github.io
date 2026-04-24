@@ -13,7 +13,7 @@ One of my ongoing goals as a developer is to create something that reaches a wid
 
 ## The Concept
 
-For those who haven't read Frank Herbert's novel (I liked it) or seen the film (I loved it), the "Gom Jabbar" is a high-stakes test of a person's humanity. <!-- AMAZON: The Books: Dune Deluxe Edition (hardcover) --> <!-- AMAZON: Dune: Imperium: The board game (very popular and high-rated) --> <!-- AMAZON: Movie Merch: Art and Making of Dune books --> A character must place their hand in a box that induces intense, psychological pain. If they pull their hand out, they are instantly killed by a poisoned needle. 
+For those who haven't read [Frank Herbert's novel](https://amzn.to/4ec9iWB) (I liked it) or seen [the film](https://amzn.to/4czqhPS) (I loved it), the "Gom Jabbar" is a high-stakes test of a person's humanity. A person must place their hand in a box that induces intense, psychological pain. If they pull their hand out, they are instantly killed by a poisoned needle. 
 
 I thought this was the perfect setup for a simple, browser-based "game." The premise is easy: just place your cursor inside the "box" on the screen. As long as the cursor remains inside, the background of the page will flash with distorted and surreal images representing pain and scenes from the *Dune* universe. If you can keep your hand in long enough, you "survive." If you flinch and pull your cursor out, the game ends, and you lose. 
 

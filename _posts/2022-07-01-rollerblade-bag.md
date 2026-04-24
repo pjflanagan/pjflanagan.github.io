@@ -10,7 +10,9 @@ github:
 website: 
 ---
 
-I'm a big [rollerblader](https://www.instagram.com/roller.babe/). <!-- AMAZON: FR Skates / Powerslide: High-quality urban skates --> <!-- AMAZON: Bearings: Bones Reds or Twincam bearings --> I'm also a big fan of backpack design, you can find me watching a Kickstarter video and scrolling the whole campaign page. <!-- AMAZON: Rollerblade Bags: Specialized backpacks for carrying skates -->
+I'm a big [rollerblader](https://www.instagram.com/roller.babe/). I'm also a big fan of backpack design, you can find me watching a Kickstarter video and scrolling the whole campaign page.
+
+Also, while were talking blades. The best thing you can do for your skates is to replace the bearings with [ceramic bearings](https://amzn.to/4u6QQTY) and harder wheels like these [85A wheels](https://amzn.to/4tY3Ef2).
 
 ## The First Bag
 

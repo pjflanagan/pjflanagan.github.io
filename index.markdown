@@ -40,10 +40,10 @@ My blog is primarily afterthoughts on projects I've completed with a few tutoria
 ### Highlights
 
 <div class="post-link-large-holder">
-  {% include post-link-large.html slug="how-to-make-a-garmin-watch-face" %}
   {% include post-link-large.html slug="garmin-cyberpunk-watchface" %}
   {% include post-link-large.html slug="ohword" %}
   {% include post-link-large.html slug="yes-chef" %}
+  {% include post-link-large.html slug="mta-clock" %}
 </div>
 
 ### More Posts
