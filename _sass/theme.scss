@@ -208,7 +208,8 @@ blockquote {
 }
 
 hr {
-  width: 100%;
+  width: 48%;
+  margin: 12px auto;
   border-top: 1px solid $accentCyan;
   height: 1px;
   border-bottom: none;
@@ -219,28 +220,3 @@ hr {
     font-size: 4em;
   }
 }
-
-// TODO: external link
-  // TODO: I like this but idk where I should use it
-  // a {
-  //   &:after {
-  //     content: '';
-  //     position: absolute;
-  //     margin-left: 6px;
-  //     margin-top: -5px;
-  //     width: 10px;
-  //     height: 10px;
-  //     background: $accentYellowTransparent2;
-  //     border-right: 1px solid $accentYellow;
-  //     border-top: 1px solid $accentYellow;
-  //     transition: 0.2s;
-  //     clip-path: polygon(0 0, 100% 0, 100% 100%);
-  //   }
-
-  //   &:hover {
-  //     &:after {
-  //       background: $accentYellowTransparent;
-  //       transform: translate(2px, -2px);
-  //     }
-  //   }
-  // }
