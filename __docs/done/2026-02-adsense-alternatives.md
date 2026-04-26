@@ -42,4 +42,4 @@ Less "ad-like" and more focused on the personal brand of the creator.
 ## Recommendations for flanny.app
 1.  **Phase 1 (Immediate):** Add a **Buy Me a Coffee** link to the footer of all apps and the blog.
 2.  **Phase 2 (Content):** Add **Amazon Affiliate** links to hardware posts (Keyboards, Garmin).
-3.  **Phase 3 (Application):** Apply for **Carbon Ads** for the main homepage and utility apps once content is polished (per `ADSENSE_TODO.md`).
+3.  **Phase 3 (Application):** Apply for **Carbon Ads** for the main homepage and utility apps once content is polished (per `adsense-todo.md`).

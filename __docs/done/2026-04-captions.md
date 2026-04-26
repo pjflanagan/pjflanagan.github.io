@@ -1,3 +1,8 @@
+
+# Captions
+
+Captions are full sentence now, expand on all these.
+
 _posts/2020-02-21-shodo-bot.md:18: Shodo Bot Overhead
 _posts/2020-02-21-shodo-bot.md:22: Shodo Bot Side Shot
 _posts/2020-02-21-shodo-bot.md:30: Shodo Bot UI Port Selection

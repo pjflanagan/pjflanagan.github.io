@@ -12,7 +12,7 @@ website:
 
 Breadcrumbs started in college as an entrepreneurship class project called Sticks and Stones. The pitch was: Google Maps and Yelp made it easy to find businesses and landmarks, but hard to find unnameable things like scenic overlooks, deep water cliff jumps, skateboarding spots, and the like. 
 
-![Login Screen](https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/1-login.png)
+![Breadcrumbs login screen](https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/1-login.png)
 
 My need for this came from my desire for existing tools like AllTrails to be more specific. I wished the trail map had markers for scenic points. I also wished there was an easy way to share running routes before having actually gone on the run, or share rollerblading routes with comments on good plazas to stop in and roads to avoid. 
 
@@ -22,11 +22,11 @@ We ended up going with a different project, as we realized this was too general 
 
 ## The Project
 
-![View Point](https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/2-view.png)
+![Clicking a point would open a popup](https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/2-view.png)
 
 Users can go onto Breadcrumbs to see a map with user added lines and points.
 
-![Create Point](https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/3-create.png)
+![Creating a path of points](https://raw.githubusercontent.com/pjflanagan/breadcrumbs/master/_readme/3-create.png)
 
 Logged in users can draw and add new points themselves.
 

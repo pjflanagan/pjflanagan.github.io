@@ -9,14 +9,13 @@ github: https://github.com/pjflanagan/garmin-chinese-watchface
 website: https://apps.garmin.com/apps/c0748c90-06ef-4a73-94c5-4d2e51b02659
 ---
 
-This year I bought a [Garmin](https://amzn.to/4ur8eUf) to help me train for a half marathon (and hopefully a full marathon in the future).
-I like some of the watch faces available on the the Garmin store, including a [watch face](https://github.com/starryalley/garmin-mandarin-clock) I found that displays the time in Chinese. 
+This year I bought a [Garmin Forerunner 255 Music](https://amzn.to/4ur8eUf) to help me train for a half marathon (and hopefully a full marathon in the future). I like some of the watch faces available on the the Garmin store, including a [watch face](https://github.com/starryalley/garmin-mandarin-clock) I found that displays the time in Chinese. 
 
 Drawing with the Garmin SDK is a lot like the HTML5 Canvas, so I felt like I could add some decorations to the watch face I already liked. 
 
 I added waves, in the style of how clouds are often drawn in Asian art to the background. It is reminiscent of how dive watches often have wave backgrounds too. I also added a seconds hand ring to give the watch some motion.
 
-![Garmin Chinese Watch Face](https://services.garmin.com/appsLibraryExternalServices/api/screenshots/6e5edbd8-7332-4915-aa86-fcd2d0004826)
+![Garmin Chinese Watch, blue background and yellow accent](https://services.garmin.com/appsLibraryExternalServices/api/screenshots/6e5edbd8-7332-4915-aa86-fcd2d0004826)
 
 > 現在是幾點
 

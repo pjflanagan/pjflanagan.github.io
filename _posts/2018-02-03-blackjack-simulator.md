@@ -13,7 +13,7 @@ A major project for Michigan computer science students to program is Euchre, a c
 
 After this project, I had a repo with a deck of cards. If had programmed one game, maybe I could program another. I was planning a graduation trip top Las Vegas, so naturally I wanted to improve my Blackjack skills.
 
-I programmed a Blackjack simulator that was meant to help quiz me on basic strategy, and maybe even card counting. I programmed a few players:
+I programmed a Blackjack simulator that was meant to help quiz me on [basic strategy](https://amzn.to/4cteWSP), and maybe even card counting. I programmed a few players:
 - Random
 - Basic
 - Human
@@ -22,3 +22,5 @@ I programmed a Blackjack simulator that was meant to help quiz me on basic strat
 These players each had chips they could bet with. They would all sit at the same table and play until they lost everything or hit a threshold. It was fun to see that the card counter brain tended to outlast the basic strategy brain, and consistently outlasted the random brain. 
 
 At the end of this project, I realized actually learning from my program was of no interest to me. I only enjoyed programming it. So it never fulfilled its original stated purpose as a teacher.
+
+- [Poker set, perfect for practicing blackjack](https://amzn.to/4sRoOum)

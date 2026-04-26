@@ -30,6 +30,8 @@ github_username: pjflanagan1
 author:
   name: Peter James Flanagan
 
+image: /assets/favicon-lg.png
+
 # Build settings
 theme: minima
 plugins:

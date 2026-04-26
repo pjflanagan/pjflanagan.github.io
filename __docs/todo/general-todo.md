@@ -26,5 +26,5 @@ New blog posts
   - [ ] useOpenAppOrStore
   - [ ] Split.ts
 
-March 11th
-- [ ] Resubmit for Adsense
+April 23rd
+- [ ] Resubmit for Adsense (Content expanded, placeholders removed, navigation improved)

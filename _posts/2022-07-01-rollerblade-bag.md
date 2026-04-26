@@ -10,7 +10,9 @@ github:
 website: 
 ---
 
-I'm a big [rollerblader](https://www.instagram.com/roller.babe/). I'm also a big fan of backpack design, you can find me watching a Kickstarter video and scrolling the whole campaign page. 
+I'm a big [rollerblader](https://www.instagram.com/roller.babe/). I'm also a big fan of backpack design, you can find me watching a Kickstarter video and scrolling the whole campaign page.
+
+Also, while were talking blades. The best thing you can do for your skates is to replace the bearings with [ceramic bearings](https://amzn.to/4u6QQTY) and harder wheels like these [85A wheels](https://amzn.to/4tY3Ef2).
 
 ## The First Bag
 
@@ -32,13 +34,13 @@ Even with a purpose-built bag, I felt there were some improvements to be made.
 
 For safety during night blading, I added a huge reflective panel to the back of the bag. This makes me much more visible to cars from behind.
 
-![Reflective back panel for saftey](/assets/posts/2022/blade-bag/v2-front.jpeg)
+![Reflective back panel for safety](/assets/posts/2022/blade-bag/v2-front.jpeg)
 
 #### Water Bladder
 
 Staying hydrated while blading is important, especially on long summer skates. I added a 2L water bladder to the internal compartment, with the tube routed through a small opening to the strap.
 
-![Water bladder holder](/assets/posts/2022/blade-bag/v2-water.jpeg)
+![Water bladder holder, ripped out of an old bag and sewn in here](/assets/posts/2022/blade-bag/v2-water.jpeg)
 
 ![Front tube and clip points](/assets/posts/2022/blade-bag/v2-back.jpeg)
 

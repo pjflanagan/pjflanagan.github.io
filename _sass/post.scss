@@ -41,6 +41,38 @@
           text-align: center;
           width: 100%;
         }
+
+        .post-navigation {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 3rem;
+          margin-bottom: 2rem;
+          border-top: 1px solid $accentCyan;
+          padding-top: 2rem;
+
+          a {
+            color: $accentYellow;
+            text-decoration: none;
+            font-family: $ubuntu;
+            font-size: 0.9rem;
+            max-width: 45%;
+
+            &:hover {
+              text-decoration: underline;
+            }
+
+            &.all {
+              flex-shrink: 0;
+              max-width: none;
+              text-align: center;
+              margin: 0 auto;
+            }
+
+            &.next {
+              text-align: right;
+            }
+          }
+        }
       }
     }
   }

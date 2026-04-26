@@ -28,13 +28,13 @@ Other tools and useful things
 
 ## Why Traditional Characters
 
-Most Mandarin learning resources focus on Simplified Chinese, which is used in mainland China. Taiwan uses Traditional characters, which are more complex but also more visually meaningful — many characters retain the pictographic or ideographic logic they were built from. I'm learning Traditional because I spend time in Taiwan, so most off-the-shelf tools weren't quite right for me.
+Most Mandarin learning resources focus on Simplified Chinese, which is used in mainland China. Taiwan uses Traditional characters, which are more complex but also more visually meaningful — many characters retain the pictographic or ideographic logic they were built from. I'm learning Traditional because I spend time in Taiwan, so most off-the-shelf tools weren't quite right for me. [This book was good though!](https://amzn.to/3OpRYCZ)
 
 Writing a converter from Simplified to Traditional was one of the first things I built. It's not perfect, but for flashcard generation it works well enough. 
 
 ## Zhuyin
 
-Most Western learners use Pinyin (romanization) to learn pronunciation. Taiwan uses Zhuyin, a phonetic system made of 37 symbols that map to sounds in Mandarin. Learning Zhuyin is extra work upfront, but it pays off because it's how Taiwanese dictionaries, children's books, and phone keyboards are organized.
+Most Western learners use Pinyin (romanization) to learn pronunciation. Taiwan uses Zhuyin, a phonetic system made of 37 symbols that map to sounds in Mandarin.  Learning Zhuyin is extra work upfront, but it pays off because it's how Taiwanese dictionaries, children's books, and phone keyboards are organized.
 
 The Zhuyin trainer is a simple drill: a random character is selected and only the Zhuyin pronunciation is shown. Clicking reveal shows the character, but more importantly, the romanization.
 

@@ -20,6 +20,35 @@
         {% endif %}
       </div>
       {{ content }}
+      <div class="post-navigation">
+        {% if page.previous.url %}
+          <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{ page.previous.title }}</a>
+        {% endif %}
+        <a class="all" href="{{ '/blog' | relative_url }}">All</a>
+        {% if page.next.url %}
+          <a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &raquo;</a>
+        {% endif %}
+      </div>
+      {% assign related_posts = site.posts | where_exp: "post", "post.url != page.url" %}
+      {% assign matching_posts = "" | split: "" %}
+      {% for post in related_posts %}
+        {% assign common = post.categories | concat: page.categories | uniq %}
+        {% assign total = post.categories | size | plus: page.categories.size %}
+        {% assign unique = common | size %}
+        {% if unique < total %}
+          {% assign matching_posts = matching_posts | push: post %}
+        {% endif %}
+      {% endfor %}
+      {% if matching_posts.size > 0 %}
+        <div class="related-posts">
+          <h4>Related Posts</h4>
+          <ul>
+            {% for post in matching_posts limit: 4 %}
+              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     {% endcapture %}
     <span id="post">
       <div id="background-image" style="background-image: url('{{ page.image }}');"></div>
