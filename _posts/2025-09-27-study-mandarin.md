@@ -43,3 +43,11 @@ The Zhuyin trainer is a simple drill: a random character is selected and only th
 The deliberate choice to avoid a backend has held up well. The flashcard sets are plain CSV files. Adding new vocabulary is a matter of adding rows. There's no database to manage, no auth system to maintain, no server bills. The whole thing lives in a GitHub repo and deploys for free.
 
 The one thing I'd add eventually is offline support — a PWA cache so I can drill flashcards on the subway without a connection.
+
+## Reviving the old
+
+I used to have a Chrome Extension that would show Chinese characters every time I opened a new tab. I've since revived that project and brought it into this one.
+
+The extension now sources data from the same place the rest of the flashcards are sourced. This means the extension is now fully in traditional, the way that I want to be studying.
+
+A link to install the Chrome extension can be found on the Study Mandarin site.
