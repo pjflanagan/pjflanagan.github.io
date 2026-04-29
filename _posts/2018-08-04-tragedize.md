@@ -6,7 +6,7 @@ description: "For free: Chrome Extension, never installed"
 categories: 
 image: https://raw.githubusercontent.com/pjflanagan/tragedize/master/img/promo_tile.png
 github: https://github.com/pjflanagan/tragedize
-website: https://chrome.google.com/webstore/detail/tragedize/indpmljpafokipipkgblbjbdmdfiboje
+website: 
 ---
 
 In the world of literature, there's a famous six-word story that's often attributed to Ernest Hemingway: **"For sale: baby shoes, never worn."** It's a miniature tragedy that has lost it's impact in a world that has already meme-d it thousands to times over. I found myself wondering what it would look like if I brought that intended level of gravity and poetic depth to the mundane world of online shopping. 

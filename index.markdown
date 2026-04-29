@@ -13,20 +13,30 @@ image: https://camo.githubusercontent.com/f3d2c49012869603dbd75aa77f0f753a215fb8
   {% endfor %}
 </div>
 
-### More Web Apps
+### Web Apps
 
 <ul>
-{% for app in site.data.other_apps %}
+{% for app in site.data.web_apps %}
   <li>
     <a href="{{ app.url }}" target="_blank">{{ app.name }}</a> - {{ app.description }}
   </li>
 {% endfor %}
 </ul>
 
-### Non-Web Apps
+### Chrome Extensions
 
 <ul>
-{% for app in site.data.non_web_apps %}
+{% for app in site.data.chrome_extensions %}
+  <li>
+    <a href="{{ app.url }}" target="_blank">{{ app.name }}</a> - {{ app.description }}
+  </li>
+{% endfor %}
+</ul>
+
+### Garmin Apps
+
+<ul>
+{% for app in site.data.garmin_apps %}
   <li>
     <a href="{{ app.url }}" target="_blank">{{ app.name }}</a> - {{ app.description }}
   </li>
