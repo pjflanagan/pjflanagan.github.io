@@ -3,28 +3,34 @@
   description: A daily word game
   image: https://ohword.flanny.app/img/social/card.webp
   url: https://ohword.flanny.app
+  size: 1
 
 - name: Run Calculator
   description: A running pace calculator
   image: https://runcalculator.flanny.app/img/social/share-card.png
   url: https://runcalculator.flanny.app
+  size: 2
 
 - name: Yes, Chef!
   description: A text based adventure game
   image: /assets/posts/2025/yes-chef/yes-chef.webp
   url: https://yes-chef.flanny.app/
+  size: 2
 
 - name: Drunk Weather Channel
   description: A weather app for party people
   image: https://drunkweatherchannel.flanny.app/img/social/social.png
   url: https://drunkweatherchannel.flanny.app
+  size: 3
 
 - name: Canvas
   description: HTML5 Canvas experiments
   image: /assets/posts/2023/html5-canvas-animations-v2.png
   url: https://canvas.flanny.app
+  size: 3
 
 - name: Study Mandarin
   description: 我的學校
   image: https://www.flanny.app/study-mandarin/src/img/banner.png
   url: https://flanny.app/study-mandarin/
+  size: 3

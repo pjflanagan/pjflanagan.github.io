@@ -59,7 +59,8 @@ My blog is primarily afterthoughts on projects I've completed with a few tutoria
 ### More Posts
 
 <ul>
-  {% include post-link-li.html slug="garmin-asset-generator" %}
+  {% include post-link-li.html slug="bell-revisited" %}
+  {% include post-link-li.html slug="bon-value" %}
   {% include post-link-li.html slug="simple-socket-games" %}
   {% include post-link-li.html slug="merge-reminders" %}
   {% include post-link-li.html slug="nyt-crossword-plus" %}

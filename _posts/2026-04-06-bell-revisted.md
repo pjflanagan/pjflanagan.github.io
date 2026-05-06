@@ -1,25 +1,27 @@
 ---
+slug: bell-revisited
 layout: post
 date: 2026-04-06
 title: Bell
 description: A REST scripting language
 categories: tool
-image: /assets/posts/2024/bell.png
+image: https://pjflanagan.github.io/bell/bell-card.png
 github: https://github.com/pjflanagan/bell
 website: https://flanny.app/bell
 ---
 
-I still dislike Postman. 
+I still dislike Postman. Heavy GUI tools for API testing always feel like they're fighting against the developer's workflow. You have to click through menus, manage collections in a proprietary format, and it's a nightmare to version control. 
 
-Heavy GUI tools for API testing always feel like they're fighting against the developer's workflow. You have to click through menus, manage collections in a proprietary format, and it's a nightmare to version control. 
+And now, with the ubiquity of AI chat bots, developers want their coding agents to be ble to handle all aspects of their projects.
 
-I wanted something that felt like a programming language, but was specialized for one thing: making HTTP requests and asserting on the responses.
+To achieve these goals, I wanted to make a programming language specialized for making HTTP requests. A simple scripting language can live in your codebase, alongside your project.
+For here, you and your coding assistant can easily read and edit it in your editor, run it from your terminal or VSCode extension, and collaborate on it with git.
 
 ## The Idea
 
 I first started [ideating on Bell](/blog/2024/bell-ideation/) back in 2024. The goal was to create a Domain Specific Language (DSL) that was as readable as a cURL command but as powerful as a full testing suite. 
 
-Now, with the help of AI to help me with the more complex parts of the parser and runtime, I've brought that idea to life.
+Now, with AI to help me with the more complex parts of the parser and runtime, I've brought that proof-of-concept to life.
 
 ## How it Works
 
@@ -47,4 +49,4 @@ One of the most powerful features of Bell is its environment variable handling. 
 3. **Speed**: No GUI to load. Just run `bell test login.bell` and see your results instantly.
 4. **Readability**: The syntax is designed to be understood by anyone, not just the person who wrote it.
 
-I've been using Bell to test all my recent projects, and it's already saved me hours of clicking through Postman collections. It's fast, it's light, and it just works.
+I plan to start using Bell to test all my recent projects, and it's already saved me hours of clicking through Postman collections. It's fast, it's light, and it just works.

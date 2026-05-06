@@ -4,7 +4,7 @@ date: 2026-03-28
 title: Yellowood
 description: A text based adventure game writing platform
 categories:
-image: https://github.com/pjflanagan/yellowood/blob/main/public/img/social/yellowood-social.webp?raw=true
+image: https://raw.githubusercontent.com/pjflanagan/yellowood/refs/heads/main/public/img/social/yellowood-social.webp
 github: 
 website: https://yellowood.flanny.app
 ---
@@ -25,7 +25,10 @@ After that, I asked Claude to help me with all sorts of things that needed to ha
 - Add a user page for managing stories
 - Unify the page styles into a single collection of elements
 - Add a guide page with components
+- Create onboarding features like username and how to callouts
 
 Once I got it to a place that it seemed ready, Claude's work was done, and mine was starting.
 
 I added a few different games so first time users could see what the site's aim was.
+
+And then I started sharing it around.

@@ -1,6 +1,10 @@
 {% assign app = include.app %}
-<a href="{{ app.url }}" target="_blank">
-  <div class="app-link-large" style="background-image: url({{ app.image }})">
-    <div class="overlay"></div>
+<a href="{{ app.url }}" target="_blank" data-size="{{ app.size | default: 3 }}">
+  <div class="app-link-large">
+    <div class="image" style="background-image: url({{ app.image }})"></div>
+    <div class="info">
+      <div class="title">{{ app.name }}</div>
+      <div class="description">{{ app.description }}</div>
+    </div>
   </div>
 </a>
