@@ -6,7 +6,7 @@ description: A contractor site powered by Notion
 categories: web live
 image: /assets/posts/2026/whit.jpg
 github: https://github.com/pjflanagan/whit-wood-contracting
-website: https://whit-wood-contracting.vercel.app/
+website: https://whit-wood-contracting.netlify.app/
 ---
 
 A friend of mine runs a general contracting business out of Durham, NC — kitchens, decks, bathrooms, the whole range. He needed a site that looked professional but, more importantly, one he could actually update himself without needing to call me every time he got a new testimonial or wanted to tweak his services copy.
