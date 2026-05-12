@@ -1,4 +1,5 @@
 ---
+slug: wedding-website
 layout: post
 date: 2024-05-11
 title: Wedding Website

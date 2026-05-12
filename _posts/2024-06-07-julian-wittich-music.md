@@ -1,4 +1,5 @@
 ---
+slug: julian-wittich-music
 layout: post
 date: 2024-06-07
 title: Julian Wittich Musician Website
