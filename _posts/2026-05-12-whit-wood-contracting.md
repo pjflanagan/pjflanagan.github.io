@@ -21,6 +21,12 @@ For my wedding website, a CMS was not an issue, since I can just recode anything
 
 Since this site was going to have the same constraint. I duplicated his portfolio repo and passed it to Claude. 
 
+## The Design
+
+The site itself is a straightforward static site. No heavy framework, no unnecessary moving parts. For a contractor landing page, performance and clarity matter more than interactivity—someone on a phone in a driveway should be able to find a phone number fast. The other most important things is prioritizing client contacts. Making the form ever present in the sidebar should help increase submissions.
+
+![The design has a form sidebar and services, reviews, and portfolio in the content](/assets/posts/2026/whit/website-screenshot.png)
+
 ## Choosing a CMS
 
 ### Google Calendar and Blogger
@@ -50,12 +56,13 @@ It all started to feel hacky and delicate. I realized I wanted a different solut
 
 ### Decap
 
-[Decap](https://decapcms.org) is an open source project that works great with Netlify. Decap allows users to sign in and edit content in way developers define in a `yaml` file. It uses the same git repo as the website for a CMS, so no additional service or API to configure.
+[Decap](https://decapcms.org) is an open source project that works great with Netlify. Decap allows users to sign in and edit content in way developers define in a `yaml` file. It uses the same git repo as the website for a CMS, so no additional service or API to configure. My friend can access and edit content on the `/admin` page of his website.
+
+![The Decap UI isn't the prettiest but it does exactly what it says it will](/assets/posts/2026/whit/decap-screenshot.png)
 
 I migrated hosting back to Netlify and the content to Decap and set it up on my site. The problem I found was, every change to site content would trigger a redeploy. While I don't expect there to be a lot of changes, if my friend spends an hour tweaking text and images, that could amount to a lot of build minutes used.
 
-So, I configured the `netlify.toml` so that content changes don't trigger a redeploy on Netlify, which should keep me to me free tier monthly limits. Now because the site is never re-deployed, the content won't be present in the `/content` folder. To get around this, all I had to do was make the Github repo public then change the url from the local served content to a `raw.githubusercontent.com` url.
+So, I configured the `netlify.toml` so that content changes don't trigger a redeploy on Netlify, which should keep me to me free tier monthly limits. Now because the site is never re-deployed, the latest content won't be present in the `/content` folder. To get around this, all I had to do was make the Github repo public then change the url from the local served content to a `raw.githubusercontent.com` url.
 
-## The Design
+I wrote more about how to implement this [in this blog post](/blog/2026/decap-cms/)
 
-The site itself is a straightforward static site. No heavy framework, no unnecessary moving parts. For a contractor landing page, performance and clarity matter more than interactivity—someone on a phone in a driveway should be able to find a phone number fast.
