@@ -2,7 +2,7 @@
 layout: post
 date: 2026-05-12
 title: Whit Wood Contracting
-description: A contractor site powered by Notion
+description: A contractor site powered by Decap
 categories: web live
 image: /assets/posts/2026/whit.jpg
 github: https://github.com/pjflanagan/whit-wood-contracting
