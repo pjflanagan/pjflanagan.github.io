@@ -73,11 +73,34 @@ header {
     background: $backgroundDark;
     padding: $headerHeight 0 80px;
 
-    #content-holder {
-      margin: 0 auto;
-      max-width: 820px;
-      padding: 24px;
-      overflow-x: hidden;
+    #content-layout {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 24px;
+
+      #content-holder {
+        flex: 1;
+        max-width: 820px;
+        padding: 24px;
+        overflow-x: hidden;
+      }
+
+      .content-sidebar {
+        width: 300px;
+        flex-shrink: 0;
+        align-self: stretch;
+        padding-top: 24px;
+
+        @media (max-width: 1600px) {
+          display: none;
+        }
+
+        .sidebar-ad-sticky {
+          position: sticky;
+          top: calc($headerHeight + 24px);
+        }
+      }
     }
   }
 

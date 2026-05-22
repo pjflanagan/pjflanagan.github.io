@@ -1,9 +1,21 @@
 
+- name: Yellowood
+  description: An interactive fiction platform
+  image: https://yellowood.flanny.app/img/social/yellowood-social.webp
+  url: https://yellowood.flanny.app
+  size: 2
+
+- name: Deal Busters
+  description: A daily Amazon price guessing game
+  image: https://dealbusters.flanny.app/share-card.png
+  url: https://dealbusters.flanny.app
+  size: 2
+
 - name: OhWord!?
   description: A daily word game
   image: https://ohword.flanny.app/img/social/card.webp
   url: https://ohword.flanny.app
-  size: 1
+  size: 2
 
 - name: Run Calculator
   description: A running pace calculator
@@ -15,22 +27,22 @@
   description: A text based adventure game
   image: /assets/posts/2025/yes-chef/yes-chef.webp
   url: https://yes-chef.flanny.app/
-  size: 2
+  size: 4
 
 - name: Drunk Weather Channel
   description: A weather app for party people
   image: https://drunkweatherchannel.flanny.app/img/social/social.png
   url: https://drunkweatherchannel.flanny.app
-  size: 3
+  size: 4
 
 - name: Canvas
   description: HTML5 Canvas experiments
   image: /assets/posts/2023/html5-canvas-animations-v2.png
   url: https://canvas.flanny.app
-  size: 3
+  size: 4
 
 - name: Study Mandarin
   description: 我的學校
   image: https://www.flanny.app/study-mandarin/src/img/banner.png
   url: https://flanny.app/study-mandarin/
-  size: 3
+  size: 4

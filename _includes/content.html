@@ -1,6 +1,31 @@
 <div id="content-container">
   <div id="content-sheet">
-    <div id="content-holder">{{ include.content }}</div>
+    <div id="content-layout">
+      <div id="content-sidebar-left" class="content-sidebar">
+        <div class="sidebar-ad-sticky">
+          <!-- TODO: Replace YOUR_AD_SLOT_ID_LEFT with your ad-slot value from the AdSense dashboard. -->
+          <ins class="adsbygoogle"
+               style="display:block; width:300px"
+               data-ad-client="ca-pub-8781416766784863"
+               data-ad-slot="YOUR_AD_SLOT_ID_LEFT"
+               data-ad-format="vertical"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+      <div id="content-holder">{{ include.content }}</div>
+      <div id="content-sidebar-right" class="content-sidebar">
+        <div class="sidebar-ad-sticky">
+          <!-- TODO: Replace YOUR_AD_SLOT_ID_RIGHT with your ad-slot value from the AdSense dashboard.
+               After adding both slots, disable Auto Ads in AdSense to stop the flashing injected ads. -->
+          <ins class="adsbygoogle"
+               style="display:block; width:300px"
+               data-ad-client="ca-pub-8781416766784863"
+               data-ad-slot="YOUR_AD_SLOT_ID_RIGHT"
+               data-ad-format="vertical"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="content-gap"></div>
 </div>
