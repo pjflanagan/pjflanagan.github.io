@@ -36,7 +36,7 @@ Now, with AI to help me with the more complex parts of the parser and runtime, I
 
 Bell scripts are simple `.bel` files. You define your endpoint, headers, and body using a clean, declarative syntax.
 
-```bell
+```bel
 url "https://api.example.com/v1/login"
 
 body {
@@ -57,6 +57,21 @@ In this MVP phase, it was important to build a little bit of every aspect of wha
 - a `docs` app that serves the website explaining bell
 - a `test-app` app for local testing 
 
+I also included:
+- scripts to make publishing on npm and vscode at the same time easy
+- a skill for AI to write bell files
+
 ## Plans
 
-I plan to start using Bell to test all my side projects. While there a certainly bugs and imperfections, I feel with time, and perhaps support from other devs, Bell can become a viable option for testing APIs. Maybe then, I'll try bringing with me to work.
+It was fun, but I don't plan on pursuing this further.
+
+There are plenty of other projects out there that do this same thing, like:
+- Bruno
+- Hurl
+- .http files
+
+My new favorite of which is [Bruno](https://www.usebruno.com) which also positions itself as a git-first api client. It works less like a language and more like config files, but the GUI makes exploratory testing easy.
+
+Hurl is probably the most similar to what Bell does, in that Hurl files execute sequentially and store variables like a programming language.
+
+I feel that with some support from other devs, Bell could become a viable option for testing APIs. It would come down to a matter of preference for how the language is shaped.
