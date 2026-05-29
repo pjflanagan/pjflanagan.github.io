@@ -7,7 +7,7 @@
 
 - name: Price Matchers
   description: A daily Amazon price guessing game
-  image: https://pricematchers.flanny.app/opengraph-image.png
+  image: https://pricematchers.flanny.app/share-card.png
   url: https://pricematchers.flanny.app
   size: 2
 
