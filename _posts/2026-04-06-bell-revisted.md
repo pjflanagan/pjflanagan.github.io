@@ -28,7 +28,7 @@ For here, you and your coding assistant can easily read and edit it in your edit
 
 ## The Idea
 
-I first started [ideating on Bell](/blog/2024/bell-ideation/) back in 2024. The idea was to create a Domain Specific Language (DSL) that was as readable as a cURL command but as powerful as a full testing suite. 
+I first started [ideating on Bell](/blog/2024/bell/) back in 2024. The idea was to create a Domain Specific Language (DSL) that was as readable as a cURL command but as powerful as a full testing suite. 
 
 Now, with AI to help me with the more complex parts of the parser and runtime, I've brought that proof-of-concept to life.
 

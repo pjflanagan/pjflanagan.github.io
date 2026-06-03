@@ -23,7 +23,7 @@ User's are never wrong or rewarded for obscure knowledge or quick thinking. It's
 
 I wanted to make a new game, with set puzzles (like how the NYT Crossword is curated), that had a true end state.
 
-> Main Goal: Create a fun daily game with a **solveable** puzzle
+> Main goal: create a fun daily game with a **solveable** puzzle
 
 I also wanted to see if I could generate some profit from it. With the game idea already being very product oriented, I felt there were a few opportunities to generate revenue:
 
@@ -42,7 +42,7 @@ Nothing exotic here, mostly chosen for zero cost and ease of use:
 - No user accounts — scores live in `localStorage`
 - No auth library — admin is protected by a single password in middleware
 
-This was the first project that I asked Claude to start from scratch. I noticed that Claude likes Tailwind a lot. I cannot stand Tailwind, so I had to ask for a refactor.
+This was the first project that I asked Claude to start from scratch, so it was interesting to see what choice's it defaults to. I noticed that Claude likes Tailwind a lot. I cannot stand Tailwind, so I had to ask for a refactor.
 
 Claude also recommended Neon and Drizzle, which I think is the right call for a project this size. It's typed, lightweight, and its migration system is simple enough to reason about without a runbook. The schema is around five tables: `puzzles`, `puzzle_slots`, `products`, `game_plays`, and some ancillary stuff. Drizzle configs also allow Claude to see all the db change history, which is great because I ask Claude to make all these changes anyway.
 
@@ -62,87 +62,79 @@ I also felt that advertisers wouldn't like this for a few reasons:
 - players a punished for guessing too high, wouldn't they prefer people be pleasantly surprised by a good deal?
 
 So I changed it up:
-- You get three guesses per product. After the first, you get a proximity hint ("very close!" / "way off!"). After the second, you learn whether you moved in the right direction. Score is based on accuracy across all three products.
+- 3 guesses per product. After the first, you get a proximity hint ("very close!" / "way off!"). After the second, you learn whether you moved in the right direction. Score is based on accuracy across all three products.
 - No timer, take as long as you want
 - No concept of busting, at the end you're either "Short" or "Overpaid"
 
-This game was more fun, as you have time to correct your mistakes. There's a feeling of discovery.
+![The end screen of the game, this was a very good score, but of course, I made the puzzle](/assets/posts/2026/pricematchers/game.png)
+
+This game was more fun, as you have time to correct your mistakes. There's a feeling of discovery. And there's a total score which sometimes works out to be better than each individual score.
 
 With a new core mechanic, we needed a new name. I went with PriceMatcher$, because now the game is about matching price. I went with a fire theme.
 
+```
+🔥 Price Matchers — June 2
 
-<!-- 
-A few mechanics I had to think carefully about:
+🔴🔴🟡⬇️
+🟠🟡🟢⬇️
+🟢🟢⬇️
 
-**Scoring.** Score is accuracy-based, not binary. If you guess $47 on a $50 item, that's 94% — you get green. If you guess $20, that's 60% and you get orange. The score tiers run from 95% (phenomenal) down to 14% (brutal), and each tier has its own set of result headlines chosen randomly from a pool. It makes the end screen feel less canned.
+$32.98 SHORT 💳🟡
 
-**Multiple guesses.** You get three guesses per product. The first guess gives you a proximity hint. The second tells you better/worse. The third is your last shot. Originally I had just one guess, which made the game too punishing and too fast.
+https://pricematchers.flanny.app
+```
 
-**The timer question.** There was a timer in the game at one point. I removed it. With a timer, players were anxious instead of engaged, and wrong guesses felt unfair. Without a timer, the game is about knowing prices, not about typing fast. One of those decisions that felt risky and immediately felt right.
+## The Admin Panel
 
-**Share text.** The share output uses emoji rows to represent per-item accuracy, styled like a receipt. Players can paste it into any chat app and it reads cleanly.
--->
+And now for the behind the scenes part. Out of the gate I knew I would have to have a UI to add puzzles to. What I didn't realize was how modular I would need things to be (I'll talk about this in a sec).
 
-
-## Building the Admin Panel
-
-And now for the behind the scenes part.
-
-Early on I was creating puzzles by hand — writing database inserts directly. That's fine for a proof of concept, but it's not sustainable when you want to stay two weeks ahead of the calendar.
-
-The admin is a proper internal tool. It has:
-
+The admin panel has:
 - A **dashboard** showing today's completions, the next schedule gap, a site version number, and a button to clear local storage so I can play again
 - A **calendar** with drag-and-drop to move puzzles between dates
 - A **puzzle editor** where you paste an Amazon link, click Fetch, and the app scrapes the product page for title, image, and live price
 - A **products table** with filtering by status (unused / in-puzzle / played) and affiliate link presence
 - A **stats page** with histograms of guess distributions, median delta, and per-product breakdowns
 
-One useful pattern: the dashboard computes the "next gap" — the soonest date with fewer than 3 products scheduled. It's a small quality-of-life thing, but it means I open the admin, see "next gap: June 14 (13 days)", and know exactly what I need to do.
+Drag and drop became my best friend here. I realized I needed way to move products between puzzles and puzzles between days. This allows me to quickly change the schedule and modify puzzles at a high level.
+
+![Calendar lets me move puzzles across a whole month easily](/assets/posts/2026/pricematchers/calendar.png)
+
+I also didn't have the puzzle list page initially. I started with a list of all products that I can add to. But when I realized puzzles should be themed, it became less important to see products themselves and more important to see the whole backlog of puzzles. So I added that page too. 
+
+This is all a lesson in realizing the value of versatility. Before, we had restrictions:
+- Puzzles must have a certain number of products
+- Puzzles must have dates attached
+- Only one puzzle per date
+
+While these restrictions are helpful to make sure things works, they also make it very difficult to work on the puzzle schedule. No more going to write a puzzle you only have an idea for, but being forced to create a whole puzzle. Puzzles you don't want to play don't have to be deleted or rescheduled, they can no be unscheduled.
+
+![Schedule lets you drag puzzles and products around](/assets/posts/2026/pricematchers/schedule.png)
+
+I also made sure I had access to stats.
+
+![Check out that play count](/assets/posts/2026/pricematchers/stats.png)
 
 ## Using AI to Generate Puzzle Content
 
-<!-- TODO: talk about how I'm either curating scheduled posts or just reviewing a backlog of undated puzzles -->
-
 Now for OhWord!? I auto generated puzzles randomly, like spilling tiles out of a Scrabble bag, and that was enough. But for this, a little more has to go into each. Puzzles need a theme and three different products. Puzzles themes should be relevant to the season and coming holidays. Products should be unique and reasonably priced. Since more thought has to go into these puzzles, I figured I should have AI make a backlog of them.
 
-The product pool is built by scraping Amazon. But to scrape usefully, you need search queries — something like "stainless steel kitchen timer" or "outdoor motion sensor light". Coming up with 200+ of those by hand is tedious. So I didn't.
+I came up with 3 ways to do this curation.
+1. Go one day at a time, approve AI's theme, then approve 3 different products
+2. Have AI backfill a bunch of unscheduled puzzles for me to schedule manually
+3. Suggest a title and 3 products, AI only does the product search and DB entry.
 
-There's a prompt in `scripts/categories-prompt.txt` that asks Claude to generate 100 new product search queries, avoiding duplicates already in `scripts/categories.txt`. The prompt has two modes baked in: if you're running it in Claude Code (the CLI), it reads the existing file, avoids duplicates, and appends directly. If you're running it in claude.ai, it prints the queries for manual paste. The result is that growing the product pool is a one-command operation.
-
-The seeder then takes those queries, fetches two products per query from Amazon, and inserts them into the database. A `--dry-run` flag lets you preview without writing anything. After seeding, the admin product page shows everything in a table where I can delete the weaker of each pair and mark affiliate links.
-
-The pipeline looks like:
-
-1. prompt
-2. categories file
-3. seeder script
-4. admin curation
-5. puzzle scheduling.
-
-Each step is manual enough that I stay in control of quality, but automated enough that the bottleneck is curation time, not generation time.
+I found that the first one has enough manual input that I might as well make the puzzles myself. I'm very fond of 2 and 3. With 2 I'm just adding content that I can choose to use or not. With 3, I'm making a puzzle and just not going through the tedious work of data entry.
 
 ## Monetization Plan
 
-Here's the business model I'm building toward:
+And of course, I would love for this game to turn a little profit. I have Amazon Affiliate links on all the products, but I could be doing more.
 
-**Sponsored puzzle slots.** Amazon shop owners can pay to have their product featured in a daily puzzle. Every player that day sees the product — guaranteed views, no algorithms. After the puzzle airs, the advertiser gets an email with total views and a guess distribution (what did people *think* your product cost?). That guess data is genuinely valuable market research, not just vanity reach.
+Here's what a sponsored puzzle slot can get an advertiser:
+- Product shown to all players that day 
+- Data about player guesses for cost estimates.
 
-**Pricing model.** A flat processing fee plus a per-player rate based on recent daily active players. So if yesterday had 200 completions, an advertiser can see their estimated cost before submitting. The price is transparent and predictable, unlike CPM ad networks.
+The second thing is arguably more valuable. If players are guessing low, maybe you need to improve your product images. If players are guessing high, maybe you could charge a little more.
 
-**Self-serve flow (planned).** Advertisers visit `/advertisers`, fill out a submission form with their Amazon URL and preferred air date, and put a card on file via Stripe (authorized but not captured). I review the submission in the admin, accept or reject, and the card is captured on the day the puzzle airs. If I reject it, the hold is released with no charge.
+![Histogram of guesses for a cheap sleeping bag that looks high end](/assets/posts/2026/pricematchers/histogram.png)
 
-**Why this model and not banner ads?** Banner ads on a game like this would ruin it. The whole appeal is that you're looking at a product and thinking about its price. A sponsored product slot *is* the game mechanic — it's not a distraction, it's the content. That's a much cleaner value proposition for an advertiser than a leaderboard banner.
-
-## What's Next
-
-A few things I'm actively thinking about:
-
-**Affiliate revenue.** Every product has an Amazon affiliate link. Right now those links appear on the end screen. The click-through rate is low because players are done with the game by the time they see them. Better placement might help.
-
-**User stats persistence.** Scores are in localStorage, which means they vanish when you clear your browser. A lightweight account system — maybe just email + magic link — would let players see their streak and lifetime accuracy. I'm holding off until there's traffic worth retaining.
-
-**Auto-fill from the affiliate API.** Right now I scrape Amazon product pages manually. The Amazon Product Advertising API would give structured data (title, image, price) without scraping. It requires a qualifying affiliate account gated on minimum traffic — a nice problem to have eventually.
-
-**Data aggregation.** Storing anonymized guess data across all players builds an interesting dataset over time: what does the median person think a cast iron skillet costs? That's either a fun public stats page or, for advertisers, a compelling data product.
-
+I put up a page for [Advertisers](https://pricematchers.flanny.app/advertisers) to find out more, and eventually buy ad slots.
