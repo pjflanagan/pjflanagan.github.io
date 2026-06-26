@@ -7,7 +7,7 @@ description: A bass musician website
 categories: web live
 image: /assets/posts/2024/julian-wittich-music.jpg
 github: https://github.com/pjflanagan/julianwittichmusic
-website: https://julianwittich.com
+website: https://julianwittichmusic.netlify.app
 ---
 
 My brother-in-law needed a musician website to be more findable. Rather than him paying for Squarespace I built him a website myself. 
