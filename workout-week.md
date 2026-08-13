@@ -11,6 +11,6 @@ permalink: /workout-week/
   <meta http-equiv="refresh" content="0; url=/7-train">
 </head>
 <body>
-  <p>Redirecting to <a href="/7-train">/7-train</a>...</p>
+  <p>Redirecting to <a href="https://7train.flanny.app">/7-train</a>...</p>
 </body>
 </html>
