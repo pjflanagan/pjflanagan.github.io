@@ -12,13 +12,57 @@ website:
 
 Websites are fundamentally about text. But dynamic websites can have very dynamic text. Managing an entire website worth of copy can be an undertaking. Catching a grammatical error isn't always as simple as `CMD+F`-ing it.
 
+Consider this situation:
+
+```tsx
+export function Action({ isWhimsical, isPaypal, isPremium, isNow }) {
+    const desireWord = isWhimsical ? "wish" : "want";
+    const method = isPaypal ? 'your Paypal' : 'your card';
+
+    const start = `If you do not ${desireWord} to pay`;
+
+    return (
+        <>
+            <Button text={"Pay" + isNow ? 'now' : 'sometime later'} />
+            <Asterisk>
+                {start}
+                {isPremium
+                    ? `, close the window!`
+                    : `, call ${isPaypal ? 'Paypal' : 'us'} to prevent charges to ${method}`
+                }
+            <Asterisk>
+        </>
+    );
+}
+```
+
+There are things to go off of here, but this isn't good code. Imagine trying to change for a new situation.
+
 > When strings live in the JSX, they become difficult to find, read, and edit.
 
-It is usually better to have website copy live in one place, to make it easily trackable and changeable. This tutorial is an example of how to implement that place and make it typesafe.
+It is usually better to have website copy live in one place, to make it easily trackable and changeable. We could make something like this:
+
+```ts
+export const Copy: Record<string, string> {
+    'action.cta.pay_now': "Pay now",
+    'action.cta.pay_later': "Pay sometime later",
+    'action.asterisk.premium': "If you do not [[desire]] to pay, close the window!",
+    'action.asterisk.basic.paypal': "If you do not [[desire]] to pay, call Paypal to prevent charges to your {aypal.",
+    'action.asterisk.basic.card': "If you do not [[desire]] to pay, call us to prevent charges to your card.",
+}
+```
+
+This allows us to easily read what each sentence says and check for grammar errors. There is more text to `CMD+F` here when we need to track down text. It also forces us to think about each situation we have unique text as a deliberate instance, rather than an amorphous sentence that can change shape. We can also still take advantage of interpolation if we would like to.
+
+This is a good start, but it could be made better with typesafety. 
+
+This tutorial will show you how to implement that.
+
+---
 
 #### 1. Create a map
 
-Creating a map of keys to strings can be very useful. Let's make a map of keys to interpolated strings. We will be using `{{}}` for our interpolation.
+Creating a map of keys to strings can be very useful. Let's make a map of keys to interpolated strings. We will be using `[[value]]` for our interpolation. (Note: The Github Gist uses curly brackets, but square cooperated better with Jekyll, this blog's framework).
 
 ```ts
 // Copy.const.ts
@@ -26,8 +70,8 @@ Creating a map of keys to strings can be very useful. Let's make a map of keys t
 
 export const CopyMap = {
   'page.title': 'Your Cart',
-  'page.subTitle': 'Welcome to your cart {{name}}',
-  'recept.line': '{{itemName}}: ${{itemPriceInRoundDollars}}'
+  'page.subTitle': 'Welcome to your cart [[name]]',
+  'recept.line': '[[itemName]]: $[[itemPriceInRoundDollars]]'
 } as const;
 // CopyMap must be `as const` so the keys can become a type
 ```
@@ -41,8 +85,7 @@ It can be even more useful if it is interpolated and typesafe. Let's make a util
 import { CopyMap } from './Copy.const';
 import { CopyArgs, CopyKey, InterpolationValue } from './Copy.types';
 
-// This regex was too hard for my code formatter to process so, checkout the Github to see it
-const PLACEHOLDER_PATTERN = Regex;
+const PLACEHOLDER_PATTERN = /\[\[\s*([^}]+?)\s*\]\]/g;
 
 // This is our util function that we will use to locate and interpolate website copy
 export function getCopy<K extends CopyKey>(key: K, ...args: CopyArgs<K>): string {
@@ -78,7 +121,7 @@ type TrimLeft<S extends string> = S extends ` ${infer Rest}` ? TrimLeft<Rest> : 
 type TrimRight<S extends string> = S extends `${infer Rest} ` ? TrimRight<Rest> : S;
 type Trim<S extends string> = TrimRight<TrimLeft<S>>;
 
-type Placeholders<S extends string> = S extends `${string}{{${infer Name}}}${infer Rest}`
+type Placeholders<S extends string> = S extends `${string}[[${infer Name]]}${infer Rest}`
     ? Trim<Name> | Placeholders<Rest>
     : never;
 
