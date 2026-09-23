@@ -58,9 +58,9 @@ This is a good start, but it could be made better with typesafety.
 
 This tutorial will show you how to implement that.
 
----
+## How to make a Typesafe Interpolated String Map
 
-#### 1. Create a map
+### 1. Create a map
 
 Creating a map of keys to strings can be very useful. Let's make a map of keys to interpolated strings. We will be using `[[value]]` for our interpolation. (Note: The Github Gist uses curly brackets, but square cooperated better with Jekyll, this blog's framework).
 
@@ -76,7 +76,7 @@ export const CopyMap = {
 // CopyMap must be `as const` so the keys can become a type
 ```
 
-#### 2. Create a util function
+### 2. Create a util function
 
 It can be even more useful if it is interpolated and typesafe. Let's make a util function for accessing our data.
 
@@ -104,9 +104,9 @@ export function getCopy<K extends CopyKey>(key: K, ...args: CopyArgs<K>): string
 }
 ```
 
-#### 3. Make types
+### 3. Make types
 
-Now, let's make it typesafe by creating a type for `CopyKey` and `CopyArgs`
+Now, let's make it typesafe by creating a type for `CopyKey` and `CopyArgs`. This is the complicated part.
 
 ```ts
 import { CopyMap } from './Copy.const';
@@ -154,10 +154,18 @@ export type CopyArgs<K extends CopyKey> = IsSingleKey<K> extends true
     : [interpolationData?: LooseInterpolations];
 ```
 
-#### 4. Call it
+### 4. Call it
 
 Now let's see it in action. Call `getCopy` and see that it has type safety.
 
 ![Suggestions when calling getCopy for keys](/assets/posts/2026/typesafe-website-copy/key.png)
 
 ![Errors when calling getCopy with missing interpolations](/assets/posts/2026/typesafe-website-copy/interpolation.png)
+
+### You're Done!
+
+Now you can have typesafe interpolated strings across your site. 
+
+On your own you'll have to decide how to name the keys. Usually something descending like `page.component.element.text.option` is good.
+
+You might also want to consider making `getCopy` a per page util if `CopyMap` is getting too large. As for how you implement that, that's up to you.
