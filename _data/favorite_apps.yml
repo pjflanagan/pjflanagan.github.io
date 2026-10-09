@@ -5,34 +5,34 @@
   url: https://yellowood.flanny.app
   size: 2
 
-- name: Price Matchers
-  description: A daily Amazon price guessing game
-  image: https://pricematchers.flanny.app/share-card.png
-  url: https://pricematchers.flanny.app
-  size: 2
-
 - name: OhWord!?
   description: A daily word game
   image: https://ohword.flanny.app/img/social/card.webp
   url: https://ohword.flanny.app
   size: 2
 
+- name: Bamboo
+  description: A collection of Mandarin learning tools
+  image: https://bamboo.flanny.app/opengraph-image.png
+  url: https://bamboo.flanny.app
+  size: 3
+
 - name: Run Calculator
   description: A running pace calculator
   image: https://runcalculator.flanny.app/img/social/share-card.png
   url: https://runcalculator.flanny.app
-  size: 2
-
-- name: Yes, Chef!
-  description: A text based adventure game
-  image: /assets/posts/2025/yes-chef/yes-chef.webp
-  url: https://yes-chef.flanny.app/
-  size: 4
+  size: 3
 
 - name: Drunk Weather Channel
   description: A weather app for party people
   image: https://drunkweatherchannel.flanny.app/img/social/social.png
   url: https://drunkweatherchannel.flanny.app
+  size: 3
+
+- name: Yes, Chef!
+  description: A text based adventure game
+  image: /assets/posts/2025/yes-chef/yes-chef.webp
+  url: https://yes-chef.flanny.app/
   size: 4
 
 - name: Canvas
@@ -45,4 +45,10 @@
   description: 我的學校
   image: https://www.flanny.app/study-mandarin/src/img/banner.png
   url: https://flanny.app/study-mandarin/
+  size: 4
+
+- name: Price Matchers
+  description: A daily Amazon price guessing game
+  image: https://pricematchers.flanny.app/share-card.png
+  url: https://pricematchers.flanny.app
   size: 4
