@@ -38,3 +38,8 @@
   description: My ID from the 5th Element
   image: 
   url: https://www.flanny.app/multipass/
+
+- name: Study Mandarin
+  description: An old plain HTML study guide
+  image: https://www.flanny.app/study-mandarin/src/img/banner.png
+  url: https://flanny.app/study-mandarin/
